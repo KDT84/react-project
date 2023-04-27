@@ -13,7 +13,7 @@ function CuisineTile ({cuisine}) {
     <>
       <div key={cuisine.id} className="cuisine-container">
         <h5 className="cuisine-name">{cuisine.name}</h5>
-        <img src={cuisine.image} /> <br />
+        <img className="cuisine-image" src={cuisine.image} /> <br />
         <button className="ingredients-button" onClick={backButton}>Ingredients</button>
       </div>
       

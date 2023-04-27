@@ -13,8 +13,8 @@ function Cuisine ({foods}) {
       <h1 className="cuisine-ingredients-header">{cuisine.name} Recipe</h1>
 
       <div className="required-ingredients-container">
-        <span className="ingredients-and-steps-title">Ingredients:</span>
-        <ul>
+        <h1 className="ingredients-and-steps-title">Ingredients:</h1>
+        <ul className="ul-list-ingredients">
           {cuisine.ingredients.map(ingredient => 
             <li key={ingredient.name}>
               {ingredient.name} - {ingredient.amount}
@@ -22,8 +22,8 @@ function Cuisine ({foods}) {
           )}
         </ul>
       
-        <span className="ingredients-and-steps-title">Steps to Cook:</span>
-        <ul>
+        <h1 className="ingredients-and-steps-title">Steps to Cook:</h1>
+        <ul className="ul-list-steps">
           {cuisine.stepsToCook.map(step => 
             <li key={step.title} >
               <span>{step.title}</span>
@@ -33,8 +33,9 @@ function Cuisine ({foods}) {
             </li>
           )}
         </ul>
+        <h1 className="prepCookTime"> Prep Time: {cuisine.prepTime} / Cook Time: {cuisine.cookTime} </h1>
       </div>
-      <button className="cuisine-buttons" onClick={() => navigate(-1) }>Back</button>
+      <button className="cuisine-back-button" onClick={() => navigate(-1) }>Back</button>
       <button className="cuisine-home-button" onClick={() => navigate("/") }>Home</button>
     </div>
   );
