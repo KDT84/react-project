@@ -1,12 +1,12 @@
 import React from "react";
-import { useHistory } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import NavButtons from "./NavButtons";
 
 const Cuisine = ({cuisine}) => {
-  const history = useHistory()
+  const navigate = useNavigate()
   
   function backButton() {
-    history.push(`/foods/${cuisine.id}`)
+    navigate(`/foods/${cuisine.id}`)
   }
 
   return (
@@ -14,7 +14,7 @@ const Cuisine = ({cuisine}) => {
       <h1>{cuisine.name}</h1>
       <img src={cuisine.image} /> <br />
       <button onClick={backButton}>Ingredients</button>
-      <button type="button" onClick={() => history.go(-1) } >back</button>
+      <button type="button" onClick={() => navigate(-1) } >back</button>
     </div>
   );
 }

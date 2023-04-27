@@ -5,6 +5,7 @@ import CuisineTile from "./CuisineTile";
 function FoodCategory ({ foods }) {
   
   const { category } = useParams() //destructure category. useParamas gets the Id of the 
+
   const cuisines = foods.filter(food => food.category === category)
 
   return (
