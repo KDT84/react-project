@@ -1,47 +1,57 @@
 
 
-/* .App {
-  text-align: center;
-} */
 html {
   background-color:rgba(128, 128, 128, 0.842);
 }
 
 body {
   width: 90%;
-  height: 90vh;
+  height: 93vh;
   margin: auto;
   background-color: rgba(255, 68, 0, 0.872);
-}
-.recipe-title-containter {
-  margin-top: 20px;
+  border-radius: 10px;
 }
 
-.recipe-title {
-  color: orangered;
+.header {
+  color: greenyellow;
   font-family:cursive;
-  font-weight: bold;
-  background-color: rgba(172, 255, 47, 0.884);
-  border: 1px solid black;
+  font-weight:bolder;
+  font-size: 45px;
   text-align: center;
   width: 300px;
   margin: auto;
-  margin-top: 30px;
-  margin-bottom: 80px;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
-.main-categories {
+
+.main-categories-container {
+  border: 1px solid black;
+  border-radius: 10px;
   width: 80%;
   margin: auto;
-  border: 1px solid black;
+  background-color: rgba(153, 205, 50, 0.921);
 }
+
 .home-categories {
-  list-style: none;
-  border: 1px solid black;
   display: inline-block;
-  width: 100px;
-  margin-right: 20px;
+  list-style: none;
+  overflow: hidden;
+  border: 4px solid yellow;
+  border-radius: 5px;
+  width: 200px;
+  height: 200px;
+  margin: 20px 20px 20px 40px;
   text-align: center;
-  background-color: rgba(172, 255, 47, 0.767);
+  background-color: rgb(244, 178, 12);
+}
+
+.category-main-image {
+  width: 200px;
+  height: 200px
+}
+
+.category-name {
+  text-decoration: none;
 }
 
 .category-title {
@@ -51,43 +61,11 @@ body {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-/* -------------------------- */
 img {
   width: 100px;
   height: 100px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+/* -------------------------- */
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

@@ -8,31 +8,31 @@ import CategoryError from './components/CategoryError';
 const categoryImages = [
   {
     "name": "French",
-    "image": "/img/french.jpeg"
+    "image": "/img/french.jpg"
+  },
+  {
+    "name": "Spanish",
+    "image": "/img/spain.jpg"
+  },
+  {
+    "name": "Italian",
+    "image": "/img/italian.jpg"
   },
   {
     "name": "Korean",
     "image": "/img/korean.jpg"
   },
   {
-    "name": "Lebanese",
-    "image": "/img/lebanese.jpg"
+    "name": "Japanese",
+    "image": "/img/japanese.jpg"
   },
   {
     "name": "Chinese",
     "image": "/img/chinese.jpg"
   },
   {
-    "name": "Japanese",
-    "image": "/img/japanese.jpeg"
-  },
-  {
     "name": "Filipino",
     "image": "/img/filipino.jpeg"
-  },
-  {
-    "name": "Italian",
-    "image": "/img/italian.jpg"
   },
   {
     "name": "Thai",
@@ -174,7 +174,7 @@ const foods = [
 function App() {
   return (
     <> 
-      <h1 className='recipe-title'>Recipe Book</h1>
+      <h1 className='header'>Recipe Book</h1>
       <Routes>
         <Route exact path="/" element={<Home categoryImages={ categoryImages }/>} /> 
         <Route path="/foodCategory/:category" element={<FoodCategory foods={ foods }/>} errorElement={<CategoryError />}/>

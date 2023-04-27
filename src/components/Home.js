@@ -8,11 +8,13 @@ const Home = ({ categoryImages }) => {
 
   return (
     <>
-      <ul className='main-categories'>
+      <ul className='main-categories-container'>
         { categoryImages.map(categoryImage => 
           <li key={ categoryImage.name } className='home-categories'>
-            <Link to={ `/foodCategory/${ categoryImage.name }`}>{ categoryImage.name }</Link>
-            <img src={categoryImage.image} /> <br />
+            <Link className='category-name' to={ `/foodCategory/${ categoryImage.name }`}>
+              { categoryImage.name }
+              <img className="category-main-image" src={categoryImage.image} />
+            </Link>
           </li>
         )}
       </ul>
