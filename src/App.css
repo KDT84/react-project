@@ -1,11 +1,57 @@
-.App {
+
+
+/* .App {
   text-align: center;
+} */
+html {
+  background-color:rgba(128, 128, 128, 0.842);
 }
 
 body {
-  width: 80%;
+  width: 90%;
+  height: 90vh;
+  margin: auto;
+  background-color: rgba(255, 68, 0, 0.872);
+}
+.recipe-title-containter {
+  margin-top: 20px;
 }
 
+.recipe-title {
+  color: orangered;
+  font-family:cursive;
+  font-weight: bold;
+  background-color: rgba(172, 255, 47, 0.884);
+  border: 1px solid black;
+  text-align: center;
+  width: 300px;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+.main-categories {
+  width: 80%;
+  margin: auto;
+  border: 1px solid black;
+}
+.home-categories {
+  list-style: none;
+  border: 1px solid black;
+  display: inline-block;
+  width: 100px;
+  margin-right: 20px;
+  text-align: center;
+  background-color: rgba(172, 255, 47, 0.767);
+}
+
+.category-title {
+  color: whitesmoke;
+  border: 1px solid black;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* -------------------------- */
 img {
   width: 100px;
   height: 100px;

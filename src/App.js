@@ -9,7 +9,7 @@ const foods = [
   {
     "id": 1,
     "category": "French",
-    "name": "escargot",
+    "name": "Escargot",
     "image": "/img/coffe.jpg",
     "ingredients": [
       {"name": "snail", "amount": "10 pcs"},
@@ -37,9 +37,8 @@ const foods = [
     ]
   },
   {
-    
     "id": 3,
-    "category": "Korean",
+    "category": "Chinese",
     "name": "Samguypsal",
     "image": "/img/coffe.jpg",
     "ingredients": [
@@ -53,7 +52,6 @@ const foods = [
     ]
   },
   {
-    
     "id": 4,
     "category": "Korean",
     "name": "Korean bbq",
@@ -69,9 +67,8 @@ const foods = [
     ]
   },
   {
-    
     "id": 5,
-    "category": "Korean",
+    "category": "Italian",
     "name": "Korean bbq 2",
     "image": "/img/coffe.jpg",
     "ingredients": [
@@ -83,16 +80,61 @@ const foods = [
       {"title": 'Prepare the snails', "description": "Melt 1 tbsp butter in a pan, then add shallot and saute until they soften. Lastly add snails for about 2 minutes."},
       {"title": "make the garlic butter", "description": "In a food processor or blender, add 5 tbsp butter, garlic, parsley, and white wine. Pulse under it all comes together to make a garlic butter."}
     ]
-  }
+  },
+  {
+    "id": 5,
+    "category": "Thai",
+    "name": "Korean bbq 2",
+    "image": "/img/coffe.jpg",
+    "ingredients": [
+      {"name": "ingredient 1", "amount": "10 pcs"},
+      {"name": "ingredient 2", "amount": "1 gram"},
+      {"name": "ingredient 3", "amount": "1 teaspoon"}
+    ],
+    stepsToCook: [
+      {"title": 'Prepare the snails', "description": "Melt 1 tbsp butter in a pan, then add shallot and saute until they soften. Lastly add snails for about 2 minutes."},
+      {"title": "make the garlic butter", "description": "In a food processor or blender, add 5 tbsp butter, garlic, parsley, and white wine. Pulse under it all comes together to make a garlic butter."}
+    ]
+  },
+  {
+    "id": 5,
+    "category": "Filipino",
+    "name": "Korean bbq 2",
+    "image": "/img/coffe.jpg",
+    "ingredients": [
+      {"name": "ingredient 1", "amount": "10 pcs"},
+      {"name": "ingredient 2", "amount": "1 gram"},
+      {"name": "ingredient 3", "amount": "1 teaspoon"}
+    ],
+    stepsToCook: [
+      {"title": 'Prepare the snails', "description": "Melt 1 tbsp butter in a pan, then add shallot and saute until they soften. Lastly add snails for about 2 minutes."},
+      {"title": "make the garlic butter", "description": "In a food processor or blender, add 5 tbsp butter, garlic, parsley, and white wine. Pulse under it all comes together to make a garlic butter."}
+    ]
+  },
+  {
+  "id": 5,
+  "category": "Lebanese",
+  "name": "Korean bbq 2",
+  "image": "/img/coffe.jpg",
+  "ingredients": [
+    {"name": "ingredient 1", "amount": "10 pcs"},
+    {"name": "ingredient 2", "amount": "1 gram"},
+    {"name": "ingredient 3", "amount": "1 teaspoon"}
+  ],
+  stepsToCook: [
+    {"title": 'Prepare the snails', "description": "Melt 1 tbsp butter in a pan, then add shallot and saute until they soften. Lastly add snails for about 2 minutes."},
+    {"title": "make the garlic butter", "description": "In a food processor or blender, add 5 tbsp butter, garlic, parsley, and white wine. Pulse under it all comes together to make a garlic butter."}
+  ]
+},
 ]
 
 function App() {
   return (
-    <>    
-      <h1>Recipe</h1>
-
-      <Route exact path="/">
+    <> 
+      <h1 className='recipe-title'>Recipe Book</h1>
+      <Route exact path="/"> 
         <Home foods={ foods }/>
+        <img src='./public/logo192.png' />
       </Route>
 
       <Route path="/foodCategory/:category">
@@ -108,3 +150,4 @@ function App() {
 }
 
 export default App;
+

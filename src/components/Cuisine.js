@@ -11,17 +11,17 @@ const Cuisine = ({foods}) => {
     <div>
       <h1>{cuisine.name}</h1>
       <div>
-        Required Ingredients
-        <ol>
+        <span>Required Ingredients:</span>
+        <ul>
           {cuisine.ingredients.map(ingredient => 
             <li key={ingredient.name}>
               {ingredient.name} - {ingredient.amount}
             </li>
           )}
-        </ol>
+        </ul>
       </div>
       <div>
-        Steps to Cook
+        <span>Steps to Cook:</span>
         <ol>
           {cuisine.stepsToCook.map(step => 
             <li key={step.title} >
@@ -36,7 +36,6 @@ const Cuisine = ({foods}) => {
       <NavButtons />
     </div>
   );
-
 }
  
 export default Cuisine;

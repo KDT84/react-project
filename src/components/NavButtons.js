@@ -6,16 +6,16 @@ function NavButtons() {
 
   return (
     <>
-    <button type="button" onClick={() => history.go(-1) }>
+    <button onClick={() => history.go(-1) }>
       Go back
     </button>
     
-    <button type="button" onClick={() => history.go(1) }>
+    {/* <button type="button" onClick={() => history.go(1) }>
       Go forward
     </button>
-    <br />
-    
-    <button type="button" onClick={() => history.push("/") }> 
+    <br /> */}
+
+    <button onClick={() => history.push("/") }> 
       Go Home
     </button>
     </>

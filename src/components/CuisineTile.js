@@ -5,15 +5,16 @@ import NavButtons from "./NavButtons";
 const Cuisine = ({cuisine}) => {
   const history = useHistory()
   
-  function onClick() {
+  function backButton() {
     history.push(`/foods/${cuisine.id}`)
   }
 
   return (
     <div key={cuisine.id}>
       <h1>{cuisine.name}</h1>
-      <img src={cuisine.image} />
-      <button onClick={onClick}>Ingredients</button>
+      <img src={cuisine.image} /> <br />
+      <button onClick={backButton}>Ingredients</button>
+      <button type="button" onClick={() => history.go(-1) } >back</button>
     </div>
   );
 }
