@@ -8,6 +8,8 @@ function FoodCategory ({ foods }) {
 
   const cuisines = foods.filter(food => food.category === category)
 
+  
+
   return (
     <>
       <h1 className="category-title">{category} Cuisines</h1>

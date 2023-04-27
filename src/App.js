@@ -3,39 +3,40 @@ import { Routes, Route, useHistory } from 'react-router-dom';
 import Home from './components/Home';
 import FoodCategory from './components/FoodCategory';
 import Cuisine from './components/Cuisine';
+import CategoryError from './components/CategoryError';
 
 const categoryImages = [
   {
     "name": "French",
-    "image": "/img/coffe.jpg"
+    "image": "/img/french.jpeg"
   },
   {
     "name": "Korean",
-    "image": "/img/coffe.jpg"
+    "image": "/img/korean.jpg"
   },
   {
     "name": "Lebanese",
-    "image": "/img/coffe.jpg"
+    "image": "/img/lebanese.jpg"
   },
   {
     "name": "Chinese",
-    "image": "/img/coffe.jpg"
+    "image": "/img/chinese.jpg"
   },
   {
     "name": "Japanese",
-    "image": "/img/coffe.jpg"
+    "image": "/img/japanese.jpeg"
   },
   {
     "name": "Filipino",
-    "image": "/img/coffe.jpg"
+    "image": "/img/filipino.jpeg"
   },
   {
     "name": "Italian",
-    "image": "/img/coffe.jpg"
+    "image": "/img/italian.jpg"
   },
   {
     "name": "Thai",
-    "image": "/img/coffe.jpg"
+    "image": "/img/thai.jpg"
   }
 ];
 
@@ -176,7 +177,7 @@ function App() {
       <h1 className='recipe-title'>Recipe Book</h1>
       <Routes>
         <Route exact path="/" element={<Home categoryImages={ categoryImages }/>} /> 
-        <Route path="/foodCategory/:category" element={<FoodCategory foods={ foods }/>} />
+        <Route path="/foodCategory/:category" element={<FoodCategory foods={ foods }/>} errorElement={<CategoryError />}/>
         <Route path="/foods/:id" element={<Cuisine foods={ foods }/>} />
       </Routes>
     </>
