@@ -8,6 +8,8 @@ const Home = ({ categoryImages }) => {
 
   return (
     <>
+      <h1 className='header'>Recipe Book</h1>
+
       <ul className='main-categories-container'>
         { categoryImages.map(categoryImage => 
           <li key={ categoryImage.name } className='home-categories'>

@@ -2,7 +2,7 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import NavButtons from "./NavButtons";
 
-const Cuisine = ({cuisine}) => {
+function CuisineTile ({cuisine}) {
   const navigate = useNavigate()
   
   function backButton() {
@@ -10,13 +10,15 @@ const Cuisine = ({cuisine}) => {
   }
 
   return (
-    <div key={cuisine.id}>
-      <h1>{cuisine.name}</h1>
-      <img src={cuisine.image} /> <br />
-      <button onClick={backButton}>Ingredients</button>
-      <button type="button" onClick={() => navigate(-1) } >back</button>
-    </div>
+    <>
+      <div key={cuisine.id} className="cuisine-container">
+        <h5 className="cuisine-name">{cuisine.name}</h5>
+        <img src={cuisine.image} /> <br />
+        <button className="ingredients-button" onClick={backButton}>Ingredients</button>
+      </div>
+      
+    </>
   );
 }
  
-export default Cuisine;
+export default CuisineTile;
