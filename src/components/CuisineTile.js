@@ -1,6 +1,5 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import NavButtons from "./NavButtons";
 
 function CuisineTile ({cuisine}) {
   const navigate = useNavigate()

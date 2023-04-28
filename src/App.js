@@ -697,15 +697,15 @@ const foods = [
   "cookTime": "30 minutes",
   "prepTime": "10 minutes",
   "ingredients": [
-    {"name": "snail", "amount": "12 to 16 pcs"},
-    {"name": "unsalted butter", "amount": "1 stick(1/2 cup)"},
-    {"name": "table salt", "amount": "3/8 teaspoon"},
-    {"name": "finely minced shallot", "amount": "1 1/2 teaspoons"},
-    {"name": "finely chopped fresh flat-leaf parseley", "amount": "1 tablespoon"},
-    {"name": "black pepper", "amount": "1/4 teaspoon black pepper"},
-    {"name": "dry white wine", "amount": "1 tablespoon"},
-    {"name": "kosher salt(for stabilizing snail shells)", "amount": "2 cups"},
-    {"name": "Accompaniment", "amount": " 6 pcs french bread"}
+  {"name": "snail", "amount": "12 to 16 pcs"},
+  {"name": "unsalted butter", "amount": "1 stick(1/2 cup)"},
+  {"name": "table salt", "amount": "3/8 teaspoon"},
+  {"name": "finely minced shallot", "amount": "1 1/2 teaspoons"},
+  {"name": "finely chopped fresh flat-leaf parseley", "amount": "1 tablespoon"},
+  {"name": "black pepper", "amount": "1/4 teaspoon black pepper"},
+  {"name": "dry white wine", "amount": "1 tablespoon"},
+  {"name": "kosher salt(for stabilizing snail shells)", "amount": "2 cups"},
+  {"name": "Accompaniment", "amount": " 6 pcs french bread"}
   ],
   stepsToCook: [
     {"title": 'Step 1:', "description": "Put oven rack in middle position and preheat oven to 450°F."},
@@ -718,9 +718,62 @@ const foods = [
 {
   "id": 26,
   "category": "Chinese",
-  "name": "Escargot",
-  "image": "/img/french/escargo.jpg",
+  "name": "Dumplings",
+  "image": "/img/chinese/dumplings.jpg",
   "cookTime": "30 minutes",
+  "prepTime": "10 minutes",
+  "ingredients": [
+  {"name": "snail", "amount": "12 to 16 pcs"},
+  {"name": "unsalted butter", "amount": "1 stick(1/2 cup)"},
+  {"name": "table salt", "amount": "3/8 teaspoon"},
+  {"name": "finely minced shallot", "amount": "1 1/2 teaspoons"},
+  {"name": "finely chopped fresh flat-leaf parseley", "amount": "1 tablespoon"},
+  {"name": "black pepper", "amount": "1/4 teaspoon black pepper"},
+  {"name": "dry white wine", "amount": "1 tablespoon"},
+  {"name": "kosher salt(for stabilizing snail shells)", "amount": "2 cups"},
+  {"name": "Accompaniment", "amount": " 6 pcs french bread"}
+  ],
+  stepsToCook: [
+    {"title": 'Step 1:', "description": "Put oven rack in middle position and preheat oven to 450°F."},
+    {"title": "Step 2:", "description": "Using a heavy knife, mince and mash garlic to a paste with 1/8 teaspoon table salt."},
+    {"title": "Step 3:", "description": "Beat together butter, shallot, garlic paste, parsley, remaining 1/4 teaspoon table salt, and pepper in a small bowl with an electric mixer until combined well. Beat in wine until combined well."},
+    {"title": "Step 4:", "description": "Divide half of garlic butter among snail shells. Stuff 1 snail into each shell and top snails with remaining butter. Spread kosher salt in a shallow baking dish and nestle shells, butter sides up, in salt."},
+    {"title": "Step 5:", "description": "Bake snails until butter is melted and sizzling, 4 to 6 minutes. Serve immediately."},
+  ]
+},
+{
+  "id": 27,
+  "category": "Chinese",
+  "name": "Beef Stir Fry",
+  "image": "/img/chinese/beefstirfry.jpg",
+  "cookTime": "30 minutes",
+  "prepTime": "10 minutes",
+  "ingredients": [
+  {"name": "snail", "amount": "12 to 16 pcs"},
+  {"name": "unsalted butter", "amount": "1 stick(1/2 cup)"},
+  {"name": "table salt", "amount": "3/8 teaspoon"},
+  {"name": "finely minced shallot", "amount": "1 1/2 teaspoons"},
+  {"name": "finely chopped fresh flat-leaf parseley", "amount": "1 tablespoon"},
+  {"name": "black pepper", "amount": "1/4 teaspoon black pepper"},
+  {"name": "dry white wine", "amount": "1 tablespoon"},
+  {"name": "kosher salt(for stabilizing snail shells)", "amount": "2 cups"},
+  {"name": "Accompaniment", "amount": " 6 pcs french bread"}
+],
+stepsToCook: [
+  {"title": 'Step 1:', "description": "Put oven rack in middle position and preheat oven to 450°F."},
+  {"title": "Step 2:", "description": "Using a heavy knife, mince and mash garlic to a paste with 1/8 teaspoon table salt."},
+  {"title": "Step 3:", "description": "Beat together butter, shallot, garlic paste, parsley, remaining 1/4 teaspoon table salt, and pepper in a small bowl with an electric mixer until combined well. Beat in wine until combined well."},
+  {"title": "Step 4:", "description": "Divide half of garlic butter among snail shells. Stuff 1 snail into each shell and top snails with remaining butter. Spread kosher salt in a shallow baking dish and nestle shells, butter sides up, in salt."},
+  {"title": "Step 5:", "description": "Bake snails until butter is melted and sizzling, 4 to 6 minutes. Serve immediately."},
+]
+},
+
+{
+  "id": 28,
+  "category": "Chinese",
+  "name": "Beef Stir Fry",
+  "image": "/img/chinese/chinesenoodles.jpeg",
+    "cookTime": "30 minutes",
   "prepTime": "10 minutes",
   "ingredients": [
     {"name": "snail", "amount": "12 to 16 pcs"},
@@ -740,12 +793,65 @@ const foods = [
     {"title": "Step 4:", "description": "Divide half of garlic butter among snail shells. Stuff 1 snail into each shell and top snails with remaining butter. Spread kosher salt in a shallow baking dish and nestle shells, butter sides up, in salt."},
     {"title": "Step 5:", "description": "Bake snails until butter is melted and sizzling, 4 to 6 minutes. Serve immediately."},
   ]
+  },
+{
+  "id": 29,
+  "category": "Chinese",
+  "name": "Sweet n Sour Pork",
+  "image": "/img/chinese/sweetnsour.jpeg",
+  "cookTime": "30 minutes",
+  "prepTime": "10 minutes",
+  "ingredients": [
+  {"name": "snail", "amount": "12 to 16 pcs"},
+  {"name": "unsalted butter", "amount": "1 stick(1/2 cup)"},
+  {"name": "table salt", "amount": "3/8 teaspoon"},
+  {"name": "finely minced shallot", "amount": "1 1/2 teaspoons"},
+  {"name": "finely chopped fresh flat-leaf parseley", "amount": "1 tablespoon"},
+  {"name": "black pepper", "amount": "1/4 teaspoon black pepper"},
+  {"name": "dry white wine", "amount": "1 tablespoon"},
+  {"name": "kosher salt(for stabilizing snail shells)", "amount": "2 cups"},
+  {"name": "Accompaniment", "amount": " 6 pcs french bread"}
+  ],
+  stepsToCook: [
+  {"title": 'Step 1:', "description": "Put oven rack in middle position and preheat oven to 450°F."},
+  {"title": "Step 2:", "description": "Using a heavy knife, mince and mash garlic to a paste with 1/8 teaspoon table salt."},
+  {"title": "Step 3:", "description": "Beat together butter, shallot, garlic paste, parsley, remaining 1/4 teaspoon table salt, and pepper in a small bowl with an electric mixer until combined well. Beat in wine until combined well."},
+  {"title": "Step 4:", "description": "Divide half of garlic butter among snail shells. Stuff 1 snail into each shell and top snails with remaining butter. Spread kosher salt in a shallow baking dish and nestle shells, butter sides up, in salt."},
+  {"title": "Step 5:", "description": "Bake snails until butter is melted and sizzling, 4 to 6 minutes. Serve immediately."},
+  ]
 },
 {
-"id": 27,
-"category": "Chinese",
-"name": "Escargot",
-"image": "/img/french/escargo.jpg",
+  "id": 30,
+  "category": "Chinese",
+  "name": "Vegetable Stir Fry",
+  "image": "/img/chinese/vegetable.jpg",
+  "cookTime": "30 minutes",
+  "prepTime": "10 minutes",
+  "ingredients": [
+  {"name": "snail", "amount": "12 to 16 pcs"},
+  {"name": "unsalted butter", "amount": "1 stick(1/2 cup)"},
+  {"name": "table salt", "amount": "3/8 teaspoon"},
+  {"name": "finely minced shallot", "amount": "1 1/2 teaspoons"},
+  {"name": "finely chopped fresh flat-leaf parseley", "amount": "1 tablespoon"},
+  {"name": "black pepper", "amount": "1/4 teaspoon black pepper"},
+  {"name": "dry white wine", "amount": "1 tablespoon"},
+  {"name": "kosher salt(for stabilizing snail shells)", "amount": "2 cups"},
+  {"name": "Accompaniment", "amount": " 6 pcs french bread"}
+  ],
+  stepsToCook: [
+  {"title": 'Step 1:', "description": "Put oven rack in middle position and preheat oven to 450°F."},
+  {"title": "Step 2:", "description": "Using a heavy knife, mince and mash garlic to a paste with 1/8 teaspoon table salt."},
+  {"title": "Step 3:", "description": "Beat together butter, shallot, garlic paste, parsley, remaining 1/4 teaspoon table salt, and pepper in a small bowl with an electric mixer until combined well. Beat in wine until combined well."},
+  {"title": "Step 4:", "description": "Divide half of garlic butter among snail shells. Stuff 1 snail into each shell and top snails with remaining butter. Spread kosher salt in a shallow baking dish and nestle shells, butter sides up, in salt."},
+  {"title": "Step 5:", "description": "Bake snails until butter is melted and sizzling, 4 to 6 minutes. Serve immediately."},
+  ]
+},
+
+{
+"id": 31,
+"category": "Filipino",
+"name": "Lechon",
+"image": "/img/filipino/lechon.jpeg",
 "cookTime": "30 minutes",
 "prepTime": "10 minutes",
 "ingredients": [
@@ -769,11 +875,11 @@ stepsToCook: [
 },
 
 {
-  "id": 28,
+  "id": 32,
   "category": "Filipino",
-  "name": "Escargot",
-  "image": "/img/french/escargo.jpg",
-  "cookTime": "30 minutes",
+  "name": "Pochero",
+  "image": "/img/filipino/pochero.jpg",
+    "cookTime": "30 minutes",
   "prepTime": "10 minutes",
   "ingredients": [
     {"name": "snail", "amount": "12 to 16 pcs"},
@@ -792,25 +898,53 @@ stepsToCook: [
     {"title": "Step 3:", "description": "Beat together butter, shallot, garlic paste, parsley, remaining 1/4 teaspoon table salt, and pepper in a small bowl with an electric mixer until combined well. Beat in wine until combined well."},
     {"title": "Step 4:", "description": "Divide half of garlic butter among snail shells. Stuff 1 snail into each shell and top snails with remaining butter. Spread kosher salt in a shallow baking dish and nestle shells, butter sides up, in salt."},
     {"title": "Step 5:", "description": "Bake snails until butter is melted and sizzling, 4 to 6 minutes. Serve immediately."},
-  ]
-  },
-  {
-  "id": 29,
+]
+},
+
+{
+  "id": 33,
   "category": "Filipino",
-  "name": "Escargot",
-  "image": "/img/french/escargo.jpg",
+  "name": "Caldereta",
+  "image": "/img/filipino/caldereta.jpg",
+    "cookTime": "30 minutes",
+  "prepTime": "10 minutes",
+  "ingredients": [
+  {"name": "snail", "amount": "12 to 16 pcs"},
+  {"name": "unsalted butter", "amount": "1 stick(1/2 cup)"},
+  {"name": "table salt", "amount": "3/8 teaspoon"},
+  {"name": "finely minced shallot", "amount": "1 1/2 teaspoons"},
+  {"name": "finely chopped fresh flat-leaf parseley", "amount": "1 tablespoon"},
+  {"name": "black pepper", "amount": "1/4 teaspoon black pepper"},
+  {"name": "dry white wine", "amount": "1 tablespoon"},
+  {"name": "kosher salt(for stabilizing snail shells)", "amount": "2 cups"},
+  {"name": "Accompaniment", "amount": " 6 pcs french bread"}
+  ],
+  stepsToCook: [
+    {"title": 'Step 1:', "description": "Put oven rack in middle position and preheat oven to 450°F."},
+    {"title": "Step 2:", "description": "Using a heavy knife, mince and mash garlic to a paste with 1/8 teaspoon table salt."},
+    {"title": "Step 3:", "description": "Beat together butter, shallot, garlic paste, parsley, remaining 1/4 teaspoon table salt, and pepper in a small bowl with an electric mixer until combined well. Beat in wine until combined well."},
+    {"title": "Step 4:", "description": "Divide half of garlic butter among snail shells. Stuff 1 snail into each shell and top snails with remaining butter. Spread kosher salt in a shallow baking dish and nestle shells, butter sides up, in salt."},
+    {"title": "Step 5:", "description": "Bake snails until butter is melted and sizzling, 4 to 6 minutes. Serve immediately."},
+  ]
+},
+
+{
+  "id": 34,
+  "category": "Filipino",
+  "name": "Humba",
+  "image": "/img/filipino/humba.jpg",
   "cookTime": "30 minutes",
   "prepTime": "10 minutes",
   "ingredients": [
-    {"name": "snail", "amount": "12 to 16 pcs"},
-    {"name": "unsalted butter", "amount": "1 stick(1/2 cup)"},
-    {"name": "table salt", "amount": "3/8 teaspoon"},
-    {"name": "finely minced shallot", "amount": "1 1/2 teaspoons"},
-    {"name": "finely chopped fresh flat-leaf parseley", "amount": "1 tablespoon"},
-    {"name": "black pepper", "amount": "1/4 teaspoon black pepper"},
-    {"name": "dry white wine", "amount": "1 tablespoon"},
-    {"name": "kosher salt(for stabilizing snail shells)", "amount": "2 cups"},
-    {"name": "Accompaniment", "amount": " 6 pcs french bread"}
+  {"name": "snail", "amount": "12 to 16 pcs"},
+  {"name": "unsalted butter", "amount": "1 stick(1/2 cup)"},
+  {"name": "table salt", "amount": "3/8 teaspoon"},
+  {"name": "finely minced shallot", "amount": "1 1/2 teaspoons"},
+  {"name": "finely chopped fresh flat-leaf parseley", "amount": "1 tablespoon"},
+  {"name": "black pepper", "amount": "1/4 teaspoon black pepper"},
+  {"name": "dry white wine", "amount": "1 tablespoon"},
+  {"name": "kosher salt(for stabilizing snail shells)", "amount": "2 cups"},
+  {"name": "Accompaniment", "amount": " 6 pcs french bread"}
   ],
   stepsToCook: [
     {"title": 'Step 1:', "description": "Put oven rack in middle position and preheat oven to 450°F."},
@@ -820,11 +954,12 @@ stepsToCook: [
     {"title": "Step 5:", "description": "Bake snails until butter is melted and sizzling, 4 to 6 minutes. Serve immediately."},
   ]
   },
- {
-  "id": 30,
+
+{
+  "id": 35,
   "category": "Filipino",
-  "name": "Escargot",
-  "image": "/img/french/escargo.jpg",
+  "name": "Fish Kinilaw",
+  "image": "/img/filipino/kinilaw.jpg",
   "cookTime": "30 minutes",
   "prepTime": "10 minutes",
   "ingredients": [
@@ -848,10 +983,37 @@ stepsToCook: [
   },
 
   {
-    "id": 31,
+  "id": 36,
+  "category": "Thai",
+  "name": "Pad Thai",
+  "image": "/img/thai/padthai.jpeg",
+  "cookTime": "30 minutes",
+  "prepTime": "10 minutes",
+  "ingredients": [
+    {"name": "snail", "amount": "12 to 16 pcs"},
+    {"name": "unsalted butter", "amount": "1 stick(1/2 cup)"},
+    {"name": "table salt", "amount": "3/8 teaspoon"},
+    {"name": "finely minced shallot", "amount": "1 1/2 teaspoons"},
+    {"name": "finely chopped fresh flat-leaf parseley", "amount": "1 tablespoon"},
+    {"name": "black pepper", "amount": "1/4 teaspoon black pepper"},
+    {"name": "dry white wine", "amount": "1 tablespoon"},
+    {"name": "kosher salt(for stabilizing snail shells)", "amount": "2 cups"},
+    {"name": "Accompaniment", "amount": " 6 pcs french bread"}
+  ],
+  stepsToCook: [
+    {"title": 'Step 1:', "description": "Put oven rack in middle position and preheat oven to 450°F."},
+    {"title": "Step 2:", "description": "Using a heavy knife, mince and mash garlic to a paste with 1/8 teaspoon table salt."},
+    {"title": "Step 3:", "description": "Beat together butter, shallot, garlic paste, parsley, remaining 1/4 teaspoon table salt, and pepper in a small bowl with an electric mixer until combined well. Beat in wine until combined well."},
+    {"title": "Step 4:", "description": "Divide half of garlic butter among snail shells. Stuff 1 snail into each shell and top snails with remaining butter. Spread kosher salt in a shallow baking dish and nestle shells, butter sides up, in salt."},
+    {"title": "Step 5:", "description": "Bake snails until butter is melted and sizzling, 4 to 6 minutes. Serve immediately."},
+  ]
+  },
+
+  {
+    "id": 37,
     "category": "Thai",
-    "name": "Escargot",
-    "image": "/img/french/escargo.jpg",
+    "name": "Curry Chicken",
+    "image": "/img/thai/curry.jpg",
     "cookTime": "30 minutes",
     "prepTime": "10 minutes",
     "ingredients": [
@@ -872,13 +1034,13 @@ stepsToCook: [
       {"title": "Step 4:", "description": "Divide half of garlic butter among snail shells. Stuff 1 snail into each shell and top snails with remaining butter. Spread kosher salt in a shallow baking dish and nestle shells, butter sides up, in salt."},
       {"title": "Step 5:", "description": "Bake snails until butter is melted and sizzling, 4 to 6 minutes. Serve immediately."},
     ]
-    },
+  },
 
-    {
-      "id": 32,
+  {
+      "id": 38,
       "category": "Thai",
-      "name": "Escargot",
-      "image": "/img/french/escargo.jpg",
+      "name": "Tom Yum",
+      "image": "/img/thai/tomyum.jpeg",
       "cookTime": "30 minutes",
       "prepTime": "10 minutes",
       "ingredients": [
@@ -900,245 +1062,579 @@ stepsToCook: [
         {"title": "Step 5:", "description": "Bake snails until butter is melted and sizzling, 4 to 6 minutes. Serve immediately."},
       ]
       },
+  {
+      "id": 39,
+      "category": "Thai",
+      "name": "Spring Roll",
+      "image": "/img/thai/springroll.jpg",
+      "cookTime": "30 minutes",
+      "prepTime": "10 minutes",
+      "ingredients": [
+        {"name": "snail", "amount": "12 to 16 pcs"},
+        {"name": "unsalted butter", "amount": "1 stick(1/2 cup)"},
+        {"name": "table salt", "amount": "3/8 teaspoon"},
+        {"name": "finely minced shallot", "amount": "1 1/2 teaspoons"},
+        {"name": "finely chopped fresh flat-leaf parseley", "amount": "1 tablespoon"},
+        {"name": "black pepper", "amount": "1/4 teaspoon black pepper"},
+        {"name": "dry white wine", "amount": "1 tablespoon"},
+        {"name": "kosher salt(for stabilizing snail shells)", "amount": "2 cups"},
+        {"name": "Accompaniment", "amount": " 6 pcs french bread"}
+      ],
+      stepsToCook: [
+        {"title": 'Step 1:', "description": "Put oven rack in middle position and preheat oven to 450°F."},
+        {"title": "Step 2:", "description": "Using a heavy knife, mince and mash garlic to a paste with 1/8 teaspoon table salt."},
+        {"title": "Step 3:", "description": "Beat together butter, shallot, garlic paste, parsley, remaining 1/4 teaspoon table salt, and pepper in a small bowl with an electric mixer until combined well. Beat in wine until combined well."},
+        {"title": "Step 4:", "description": "Divide half of garlic butter among snail shells. Stuff 1 snail into each shell and top snails with remaining butter. Spread kosher salt in a shallow baking dish and nestle shells, butter sides up, in salt."},
+        {"title": "Step 5:", "description": "Bake snails until butter is melted and sizzling, 4 to 6 minutes. Serve immediately."},
+      ]
+  },
+  {
+      "id": 40,
+      "category": "Thai",
+      "name": "Chicken Wings",
+      "image": "/img/thai/chicken.jpg",
+      "cookTime": "30 minutes",
+      "prepTime": "10 minutes",
+      "ingredients": [
+        {"name": "snail", "amount": "12 to 16 pcs"},
+        {"name": "unsalted butter", "amount": "1 stick(1/2 cup)"},
+        {"name": "table salt", "amount": "3/8 teaspoon"},
+        {"name": "finely minced shallot", "amount": "1 1/2 teaspoons"},
+        {"name": "finely chopped fresh flat-leaf parseley", "amount": "1 tablespoon"},
+        {"name": "black pepper", "amount": "1/4 teaspoon black pepper"},
+        {"name": "dry white wine", "amount": "1 tablespoon"},
+        {"name": "kosher salt(for stabilizing snail shells)", "amount": "2 cups"},
+        {"name": "Accompaniment", "amount": " 6 pcs french bread"}
+      ],
+      stepsToCook: [
+        {"title": 'Step 1:', "description": "Put oven rack in middle position and preheat oven to 450°F."},
+        {"title": "Step 2:", "description": "Using a heavy knife, mince and mash garlic to a paste with 1/8 teaspoon table salt."},
+        {"title": "Step 3:", "description": "Beat together butter, shallot, garlic paste, parsley, remaining 1/4 teaspoon table salt, and pepper in a small bowl with an electric mixer until combined well. Beat in wine until combined well."},
+        {"title": "Step 4:", "description": "Divide half of garlic butter among snail shells. Stuff 1 snail into each shell and top snails with remaining butter. Spread kosher salt in a shallow baking dish and nestle shells, butter sides up, in salt."},
+        {"title": "Step 5:", "description": "Bake snails until butter is melted and sizzling, 4 to 6 minutes. Serve immediately."},
+     ]
+  },
+  {
+      "id": 41,
+      "category": "Lebanese",
+      "name": "Chicken & Chickpeas",
+      "image": "/img/lebanese/lebchick.jpg",
+      "cookTime": "30 minutes",
+      "prepTime": "10 minutes",
+      "ingredients": [
+        {"name": "snail", "amount": "12 to 16 pcs"},
+        {"name": "unsalted butter", "amount": "1 stick(1/2 cup)"},
+        {"name": "table salt", "amount": "3/8 teaspoon"},
+        {"name": "finely minced shallot", "amount": "1 1/2 teaspoons"},
+        {"name": "finely chopped fresh flat-leaf parseley", "amount": "1 tablespoon"},
+        {"name": "black pepper", "amount": "1/4 teaspoon black pepper"},
+        {"name": "dry white wine", "amount": "1 tablespoon"},
+        {"name": "kosher salt(for stabilizing snail shells)", "amount": "2 cups"},
+        {"name": "Accompaniment", "amount": " 6 pcs french bread"}
+      ],
+      stepsToCook: [
+        {"title": 'Step 1:', "description": "Put oven rack in middle position and preheat oven to 450°F."},
+        {"title": "Step 2:", "description": "Using a heavy knife, mince and mash garlic to a paste with 1/8 teaspoon table salt."},
+        {"title": "Step 3:", "description": "Beat together butter, shallot, garlic paste, parsley, remaining 1/4 teaspoon table salt, and pepper in a small bowl with an electric mixer until combined well. Beat in wine until combined well."},
+        {"title": "Step 4:", "description": "Divide half of garlic butter among snail shells. Stuff 1 snail into each shell and top snails with remaining butter. Spread kosher salt in a shallow baking dish and nestle shells, butter sides up, in salt."},
+        {"title": "Step 5:", "description": "Bake snails until butter is melted and sizzling, 4 to 6 minutes. Serve immediately."},
+     ]
+  },
+  {
+      "id": 42,
+      "category": "Lebanese",
+      "name": "Eggplant Fatteh",
+      "image": "/img/lebanese/fatteh.jpeg",
+      "cookTime": "30 minutes",
+      "prepTime": "10 minutes",
+      "ingredients": [
+        {"name": "snail", "amount": "12 to 16 pcs"},
+        {"name": "unsalted butter", "amount": "1 stick(1/2 cup)"},
+        {"name": "table salt", "amount": "3/8 teaspoon"},
+        {"name": "finely minced shallot", "amount": "1 1/2 teaspoons"},
+        {"name": "finely chopped fresh flat-leaf parseley", "amount": "1 tablespoon"},
+        {"name": "black pepper", "amount": "1/4 teaspoon black pepper"},
+        {"name": "dry white wine", "amount": "1 tablespoon"},
+        {"name": "kosher salt(for stabilizing snail shells)", "amount": "2 cups"},
+        {"name": "Accompaniment", "amount": " 6 pcs french bread"}
+      ],
+      stepsToCook: [
+        {"title": 'Step 1:', "description": "Put oven rack in middle position and preheat oven to 450°F."},
+        {"title": "Step 2:", "description": "Using a heavy knife, mince and mash garlic to a paste with 1/8 teaspoon table salt."},
+        {"title": "Step 3:", "description": "Beat together butter, shallot, garlic paste, parsley, remaining 1/4 teaspoon table salt, and pepper in a small bowl with an electric mixer until combined well. Beat in wine until combined well."},
+        {"title": "Step 4:", "description": "Divide half of garlic butter among snail shells. Stuff 1 snail into each shell and top snails with remaining butter. Spread kosher salt in a shallow baking dish and nestle shells, butter sides up, in salt."},
+        {"title": "Step 5:", "description": "Bake snails until butter is melted and sizzling, 4 to 6 minutes. Serve immediately."},
+     ]
+  },
+  {
+      "id": 43,
+      "category": "Lebanese",
+      "name": "Sausage",
+      "image": "/img/lebanese/sausage.jpg",
+      "cookTime": "30 minutes",
+      "prepTime": "10 minutes",
+      "ingredients": [
+        {"name": "snail", "amount": "12 to 16 pcs"},
+        {"name": "unsalted butter", "amount": "1 stick(1/2 cup)"},
+        {"name": "table salt", "amount": "3/8 teaspoon"},
+        {"name": "finely minced shallot", "amount": "1 1/2 teaspoons"},
+        {"name": "finely chopped fresh flat-leaf parseley", "amount": "1 tablespoon"},
+        {"name": "black pepper", "amount": "1/4 teaspoon black pepper"},
+        {"name": "dry white wine", "amount": "1 tablespoon"},
+        {"name": "kosher salt(for stabilizing snail shells)", "amount": "2 cups"},
+        {"name": "Accompaniment", "amount": " 6 pcs french bread"}
+      ],
+      stepsToCook: [
+        {"title": 'Step 1:', "description": "Put oven rack in middle position and preheat oven to 450°F."},
+        {"title": "Step 2:", "description": "Using a heavy knife, mince and mash garlic to a paste with 1/8 teaspoon table salt."},
+        {"title": "Step 3:", "description": "Beat together butter, shallot, garlic paste, parsley, remaining 1/4 teaspoon table salt, and pepper in a small bowl with an electric mixer until combined well. Beat in wine until combined well."},
+        {"title": "Step 4:", "description": "Divide half of garlic butter among snail shells. Stuff 1 snail into each shell and top snails with remaining butter. Spread kosher salt in a shallow baking dish and nestle shells, butter sides up, in salt."},
+        {"title": "Step 5:", "description": "Bake snails until butter is melted and sizzling, 4 to 6 minutes. Serve immediately."},
+     ]
+  },
+  {
+      "id": 44,
+      "category": "Lebanese",
+      "name": "Beef Skewer",
+      "image": "/img/lebanese/beefskewer.jpg",
+      "cookTime": "30 minutes",
+      "prepTime": "10 minutes",
+      "ingredients": [
+        {"name": "snail", "amount": "12 to 16 pcs"},
+        {"name": "unsalted butter", "amount": "1 stick(1/2 cup)"},
+        {"name": "table salt", "amount": "3/8 teaspoon"},
+        {"name": "finely minced shallot", "amount": "1 1/2 teaspoons"},
+        {"name": "finely chopped fresh flat-leaf parseley", "amount": "1 tablespoon"},
+        {"name": "black pepper", "amount": "1/4 teaspoon black pepper"},
+        {"name": "dry white wine", "amount": "1 tablespoon"},
+        {"name": "kosher salt(for stabilizing snail shells)", "amount": "2 cups"},
+        {"name": "Accompaniment", "amount": " 6 pcs french bread"}
+      ],
+      stepsToCook: [
+        {"title": 'Step 1:', "description": "Put oven rack in middle position and preheat oven to 450°F."},
+        {"title": "Step 2:", "description": "Using a heavy knife, mince and mash garlic to a paste with 1/8 teaspoon table salt."},
+        {"title": "Step 3:", "description": "Beat together butter, shallot, garlic paste, parsley, remaining 1/4 teaspoon table salt, and pepper in a small bowl with an electric mixer until combined well. Beat in wine until combined well."},
+        {"title": "Step 4:", "description": "Divide half of garlic butter among snail shells. Stuff 1 snail into each shell and top snails with remaining butter. Spread kosher salt in a shallow baking dish and nestle shells, butter sides up, in salt."},
+        {"title": "Step 5:", "description": "Bake snails until butter is melted and sizzling, 4 to 6 minutes. Serve immediately."},
+     ]
+  },
+  {
+      "id": 45,
+      "category": "Lebanese",
+      "name": "Chicken Salad",
+      "image": "/img/lebanese/.jpg",
+      "cookTime": "30 minutes",
+      "prepTime": "10 minutes",
+      "ingredients": [
+        {"name": "snail", "amount": "12 to 16 pcs"},
+        {"name": "unsalted butter", "amount": "1 stick(1/2 cup)"},
+        {"name": "table salt", "amount": "3/8 teaspoon"},
+        {"name": "finely minced shallot", "amount": "1 1/2 teaspoons"},
+        {"name": "finely chopped fresh flat-leaf parseley", "amount": "1 tablespoon"},
+        {"name": "black pepper", "amount": "1/4 teaspoon black pepper"},
+        {"name": "dry white wine", "amount": "1 tablespoon"},
+        {"name": "kosher salt(for stabilizing snail shells)", "amount": "2 cups"},
+        {"name": "Accompaniment", "amount": " 6 pcs french bread"}
+      ],
+      stepsToCook: [
+        {"title": 'Step 1:', "description": "Put oven rack in middle position and preheat oven to 450°F."},
+        {"title": "Step 2:", "description": "Using a heavy knife, mince and mash garlic to a paste with 1/8 teaspoon table salt."},
+        {"title": "Step 3:", "description": "Beat together butter, shallot, garlic paste, parsley, remaining 1/4 teaspoon table salt, and pepper in a small bowl with an electric mixer until combined well. Beat in wine until combined well."},
+        {"title": "Step 4:", "description": "Divide half of garlic butter among snail shells. Stuff 1 snail into each shell and top snails with remaining butter. Spread kosher salt in a shallow baking dish and nestle shells, butter sides up, in salt."},
+        {"title": "Step 5:", "description": "Bake snails until butter is melted and sizzling, 4 to 6 minutes. Serve immediately."},
+     ]
+  },
+  {
+      "id": 46,
+      "category": "Indian",
+      "name": "Egg Curry Rice",
+      "image": "/img/indian/eggcurry.jpg",
+      "cookTime": "30 minutes",
+      "prepTime": "10 minutes",
+      "ingredients": [
+        {"name": "snail", "amount": "12 to 16 pcs"},
+        {"name": "unsalted butter", "amount": "1 stick(1/2 cup)"},
+        {"name": "table salt", "amount": "3/8 teaspoon"},
+        {"name": "finely minced shallot", "amount": "1 1/2 teaspoons"},
+        {"name": "finely chopped fresh flat-leaf parseley", "amount": "1 tablespoon"},
+        {"name": "black pepper", "amount": "1/4 teaspoon black pepper"},
+        {"name": "dry white wine", "amount": "1 tablespoon"},
+        {"name": "kosher salt(for stabilizing snail shells)", "amount": "2 cups"},
+        {"name": "Accompaniment", "amount": " 6 pcs french bread"}
+      ],
+      stepsToCook: [
+        {"title": 'Step 1:', "description": "Put oven rack in middle position and preheat oven to 450°F."},
+        {"title": "Step 2:", "description": "Using a heavy knife, mince and mash garlic to a paste with 1/8 teaspoon table salt."},
+        {"title": "Step 3:", "description": "Beat together butter, shallot, garlic paste, parsley, remaining 1/4 teaspoon table salt, and pepper in a small bowl with an electric mixer until combined well. Beat in wine until combined well."},
+        {"title": "Step 4:", "description": "Divide half of garlic butter among snail shells. Stuff 1 snail into each shell and top snails with remaining butter. Spread kosher salt in a shallow baking dish and nestle shells, butter sides up, in salt."},
+        {"title": "Step 5:", "description": "Bake snails until butter is melted and sizzling, 4 to 6 minutes. Serve immediately."},
+     ]
+  },
+  {
+      "id": 47,
+      "category": "Indian",
+      "name": "Chicken Saagwala",
+      "image": "/img/indian/saagwala.jpg",
+      "cookTime": "30 minutes",
+      "prepTime": "10 minutes",
+      "ingredients": [
+        {"name": "snail", "amount": "12 to 16 pcs"},
+        {"name": "unsalted butter", "amount": "1 stick(1/2 cup)"},
+        {"name": "table salt", "amount": "3/8 teaspoon"},
+        {"name": "finely minced shallot", "amount": "1 1/2 teaspoons"},
+        {"name": "finely chopped fresh flat-leaf parseley", "amount": "1 tablespoon"},
+        {"name": "black pepper", "amount": "1/4 teaspoon black pepper"},
+        {"name": "dry white wine", "amount": "1 tablespoon"},
+        {"name": "kosher salt(for stabilizing snail shells)", "amount": "2 cups"},
+        {"name": "Accompaniment", "amount": " 6 pcs french bread"}
+      ],
+      stepsToCook: [
+        {"title": 'Step 1:', "description": "Put oven rack in middle position and preheat oven to 450°F."},
+        {"title": "Step 2:", "description": "Using a heavy knife, mince and mash garlic to a paste with 1/8 teaspoon table salt."},
+        {"title": "Step 3:", "description": "Beat together butter, shallot, garlic paste, parsley, remaining 1/4 teaspoon table salt, and pepper in a small bowl with an electric mixer until combined well. Beat in wine until combined well."},
+        {"title": "Step 4:", "description": "Divide half of garlic butter among snail shells. Stuff 1 snail into each shell and top snails with remaining butter. Spread kosher salt in a shallow baking dish and nestle shells, butter sides up, in salt."},
+        {"title": "Step 5:", "description": "Bake snails until butter is melted and sizzling, 4 to 6 minutes. Serve immediately."},
+     ]
+  },
+  {
+      "id": 48,
+      "category": "Indian",
+      "name": "Egg Curry Rice",
+      "image": "/img/indian/eggcurry.jpg",
+      "cookTime": "30 minutes",
+      "prepTime": "10 minutes",
+      "ingredients": [
+        {"name": "snail", "amount": "12 to 16 pcs"},
+        {"name": "unsalted butter", "amount": "1 stick(1/2 cup)"},
+        {"name": "table salt", "amount": "3/8 teaspoon"},
+        {"name": "finely minced shallot", "amount": "1 1/2 teaspoons"},
+        {"name": "finely chopped fresh flat-leaf parseley", "amount": "1 tablespoon"},
+        {"name": "black pepper", "amount": "1/4 teaspoon black pepper"},
+        {"name": "dry white wine", "amount": "1 tablespoon"},
+        {"name": "kosher salt(for stabilizing snail shells)", "amount": "2 cups"},
+        {"name": "Accompaniment", "amount": " 6 pcs french bread"}
+      ],
+      stepsToCook: [
+        {"title": 'Step 1:', "description": "Put oven rack in middle position and preheat oven to 450°F."},
+        {"title": "Step 2:", "description": "Using a heavy knife, mince and mash garlic to a paste with 1/8 teaspoon table salt."},
+        {"title": "Step 3:", "description": "Beat together butter, shallot, garlic paste, parsley, remaining 1/4 teaspoon table salt, and pepper in a small bowl with an electric mixer until combined well. Beat in wine until combined well."},
+        {"title": "Step 4:", "description": "Divide half of garlic butter among snail shells. Stuff 1 snail into each shell and top snails with remaining butter. Spread kosher salt in a shallow baking dish and nestle shells, butter sides up, in salt."},
+        {"title": "Step 5:", "description": "Bake snails until butter is melted and sizzling, 4 to 6 minutes. Serve immediately."},
+     ]
+  },
+  {
+      "id": 49,
+      "category": "Indian",
+      "name": "Green Curry",
+      "image": "/img/indian/indiancurry.jpg",
+      "cookTime": "30 minutes",
+      "prepTime": "10 minutes",
+      "ingredients": [
+        {"name": "snail", "amount": "12 to 16 pcs"},
+        {"name": "unsalted butter", "amount": "1 stick(1/2 cup)"},
+        {"name": "table salt", "amount": "3/8 teaspoon"},
+        {"name": "finely minced shallot", "amount": "1 1/2 teaspoons"},
+        {"name": "finely chopped fresh flat-leaf parseley", "amount": "1 tablespoon"},
+        {"name": "black pepper", "amount": "1/4 teaspoon black pepper"},
+        {"name": "dry white wine", "amount": "1 tablespoon"},
+        {"name": "kosher salt(for stabilizing snail shells)", "amount": "2 cups"},
+        {"name": "Accompaniment", "amount": " 6 pcs french bread"}
+      ],
+      stepsToCook: [
+        {"title": 'Step 1:', "description": "Put oven rack in middle position and preheat oven to 450°F."},
+        {"title": "Step 2:", "description": "Using a heavy knife, mince and mash garlic to a paste with 1/8 teaspoon table salt."},
+        {"title": "Step 3:", "description": "Beat together butter, shallot, garlic paste, parsley, remaining 1/4 teaspoon table salt, and pepper in a small bowl with an electric mixer until combined well. Beat in wine until combined well."},
+        {"title": "Step 4:", "description": "Divide half of garlic butter among snail shells. Stuff 1 snail into each shell and top snails with remaining butter. Spread kosher salt in a shallow baking dish and nestle shells, butter sides up, in salt."},
+        {"title": "Step 5:", "description": "Bake snails until butter is melted and sizzling, 4 to 6 minutes. Serve immediately."},
+     ]
+  },
+  {
+      "id": 50,
+      "category": "Indian",
+      "name": "Butternut Squash Curry",
+      "image": "/img/indian/eggcurry.jpg",
+      "cookTime": "30 minutes",
+      "prepTime": "10 minutes",
+      "ingredients": [
+        {"name": "snail", "amount": "12 to 16 pcs"},
+        {"name": "unsalted butter", "amount": "1 stick(1/2 cup)"},
+        {"name": "table salt", "amount": "3/8 teaspoon"},
+        {"name": "finely minced shallot", "amount": "1 1/2 teaspoons"},
+        {"name": "finely chopped fresh flat-leaf parseley", "amount": "1 tablespoon"},
+        {"name": "black pepper", "amount": "1/4 teaspoon black pepper"},
+        {"name": "dry white wine", "amount": "1 tablespoon"},
+        {"name": "kosher salt(for stabilizing snail shells)", "amount": "2 cups"},
+        {"name": "Accompaniment", "amount": " 6 pcs french bread"}
+      ],
+      stepsToCook: [
+        {"title": 'Step 1:', "description": "Put oven rack in middle position and preheat oven to 450°F."},
+        {"title": "Step 2:", "description": "Using a heavy knife, mince and mash garlic to a paste with 1/8 teaspoon table salt."},
+        {"title": "Step 3:", "description": "Beat together butter, shallot, garlic paste, parsley, remaining 1/4 teaspoon table salt, and pepper in a small bowl with an electric mixer until combined well. Beat in wine until combined well."},
+        {"title": "Step 4:", "description": "Divide half of garlic butter among snail shells. Stuff 1 snail into each shell and top snails with remaining butter. Spread kosher salt in a shallow baking dish and nestle shells, butter sides up, in salt."},
+        {"title": "Step 5:", "description": "Bake snails until butter is melted and sizzling, 4 to 6 minutes. Serve immediately."},
+     ]
+  },
 
-      {
-        "id": 32,
-        "category": "Lebanese",
-        "name": "Escargot",
-        "image": "/img/french/escargo.jpg",
-        "cookTime": "30 minutes",
-        "prepTime": "10 minutes",
-        "ingredients": [
-          {"name": "snail", "amount": "12 to 16 pcs"},
-          {"name": "unsalted butter", "amount": "1 stick(1/2 cup)"},
-          {"name": "table salt", "amount": "3/8 teaspoon"},
-          {"name": "finely minced shallot", "amount": "1 1/2 teaspoons"},
-          {"name": "finely chopped fresh flat-leaf parseley", "amount": "1 tablespoon"},
-          {"name": "black pepper", "amount": "1/4 teaspoon black pepper"},
-          {"name": "dry white wine", "amount": "1 tablespoon"},
-          {"name": "kosher salt(for stabilizing snail shells)", "amount": "2 cups"},
-          {"name": "Accompaniment", "amount": " 6 pcs french bread"}
-        ],
-        stepsToCook: [
-          {"title": 'Step 1:', "description": "Put oven rack in middle position and preheat oven to 450°F."},
-          {"title": "Step 2:", "description": "Using a heavy knife, mince and mash garlic to a paste with 1/8 teaspoon table salt."},
-          {"title": "Step 3:", "description": "Beat together butter, shallot, garlic paste, parsley, remaining 1/4 teaspoon table salt, and pepper in a small bowl with an electric mixer until combined well. Beat in wine until combined well."},
-          {"title": "Step 4:", "description": "Divide half of garlic butter among snail shells. Stuff 1 snail into each shell and top snails with remaining butter. Spread kosher salt in a shallow baking dish and nestle shells, butter sides up, in salt."},
-          {"title": "Step 5:", "description": "Bake snails until butter is melted and sizzling, 4 to 6 minutes. Serve immediately."},
-        ]
-        },
-
-        {
-        "id": 33,
-        "category": "Lebanese",
-        "name": "Escargot",
-        "image": "/img/french/escargo.jpg",
-        "cookTime": "30 minutes",
-        "prepTime": "10 minutes",
-        "ingredients": [
-          {"name": "snail", "amount": "12 to 16 pcs"},
-          {"name": "unsalted butter", "amount": "1 stick(1/2 cup)"},
-          {"name": "table salt", "amount": "3/8 teaspoon"},
-          {"name": "finely minced shallot", "amount": "1 1/2 teaspoons"},
-          {"name": "finely chopped fresh flat-leaf parseley", "amount": "1 tablespoon"},
-          {"name": "black pepper", "amount": "1/4 teaspoon black pepper"},
-          {"name": "dry white wine", "amount": "1 tablespoon"},
-          {"name": "kosher salt(for stabilizing snail shells)", "amount": "2 cups"},
-          {"name": "Accompaniment", "amount": " 6 pcs french bread"}
-        ],
-        stepsToCook: [
-          {"title": 'Step 1:', "description": "Put oven rack in middle position and preheat oven to 450°F."},
-          {"title": "Step 2:", "description": "Using a heavy knife, mince and mash garlic to a paste with 1/8 teaspoon table salt."},
-          {"title": "Step 3:", "description": "Beat together butter, shallot, garlic paste, parsley, remaining 1/4 teaspoon table salt, and pepper in a small bowl with an electric mixer until combined well. Beat in wine until combined well."},
-          {"title": "Step 4:", "description": "Divide half of garlic butter among snail shells. Stuff 1 snail into each shell and top snails with remaining butter. Spread kosher salt in a shallow baking dish and nestle shells, butter sides up, in salt."},
-          {"title": "Step 5:", "description": "Bake snails until butter is melted and sizzling, 4 to 6 minutes. Serve immediately."},
-        ]
-        },
-        {
-        "id": 34,
-        "category": "Indian",
-        "name": "Escargot",
-        "image": "/img/french/escargo.jpg",
-        "cookTime": "30 minutes",
-        "prepTime": "10 minutes",
-        "ingredients": [
-          {"name": "snail", "amount": "12 to 16 pcs"},
-          {"name": "unsalted butter", "amount": "1 stick(1/2 cup)"},
-          {"name": "table salt", "amount": "3/8 teaspoon"},
-          {"name": "finely minced shallot", "amount": "1 1/2 teaspoons"},
-          {"name": "finely chopped fresh flat-leaf parseley", "amount": "1 tablespoon"},
-          {"name": "black pepper", "amount": "1/4 teaspoon black pepper"},
-          {"name": "dry white wine", "amount": "1 tablespoon"},
-          {"name": "kosher salt(for stabilizing snail shells)", "amount": "2 cups"},
-          {"name": "Accompaniment", "amount": " 6 pcs french bread"}
-        ],
-        stepsToCook: [
-          {"title": 'Step 1:', "description": "Put oven rack in middle position and preheat oven to 450°F."},
-          {"title": "Step 2:", "description": "Using a heavy knife, mince and mash garlic to a paste with 1/8 teaspoon table salt."},
-          {"title": "Step 3:", "description": "Beat together butter, shallot, garlic paste, parsley, remaining 1/4 teaspoon table salt, and pepper in a small bowl with an electric mixer until combined well. Beat in wine until combined well."},
-          {"title": "Step 4:", "description": "Divide half of garlic butter among snail shells. Stuff 1 snail into each shell and top snails with remaining butter. Spread kosher salt in a shallow baking dish and nestle shells, butter sides up, in salt."},
-          {"title": "Step 5:", "description": "Bake snails until butter is melted and sizzling, 4 to 6 minutes. Serve immediately."},
-        ]
-        },
-
-        {
-          "id": 35,
-          "category": "Indian",
-          "name": "Escargot",
-          "image": "/img/french/escargo.jpg",
-          "cookTime": "30 minutes",
-          "prepTime": "10 minutes",
-          "ingredients": [
-            {"name": "snail", "amount": "12 to 16 pcs"},
-            {"name": "unsalted butter", "amount": "1 stick(1/2 cup)"},
-            {"name": "table salt", "amount": "3/8 teaspoon"},
-            {"name": "finely minced shallot", "amount": "1 1/2 teaspoons"},
-            {"name": "finely chopped fresh flat-leaf parseley", "amount": "1 tablespoon"},
-            {"name": "black pepper", "amount": "1/4 teaspoon black pepper"},
-            {"name": "dry white wine", "amount": "1 tablespoon"},
-            {"name": "kosher salt(for stabilizing snail shells)", "amount": "2 cups"},
-            {"name": "Accompaniment", "amount": " 6 pcs french bread"}
-          ],
-          stepsToCook: [
-            {"title": 'Step 1:', "description": "Put oven rack in middle position and preheat oven to 450°F."},
-            {"title": "Step 2:", "description": "Using a heavy knife, mince and mash garlic to a paste with 1/8 teaspoon table salt."},
-            {"title": "Step 3:", "description": "Beat together butter, shallot, garlic paste, parsley, remaining 1/4 teaspoon table salt, and pepper in a small bowl with an electric mixer until combined well. Beat in wine until combined well."},
-            {"title": "Step 4:", "description": "Divide half of garlic butter among snail shells. Stuff 1 snail into each shell and top snails with remaining butter. Spread kosher salt in a shallow baking dish and nestle shells, butter sides up, in salt."},
-            {"title": "Step 5:", "description": "Bake snails until butter is melted and sizzling, 4 to 6 minutes. Serve immediately."},
-          ]
-          },
-
-          {
-            "id": 36,
-            "category": "Vietnamese",
-            "name": "Escargot",
-            "image": "/img/french/escargo.jpg",
-            "cookTime": "30 minutes",
-            "prepTime": "10 minutes",
-            "ingredients": [
-              {"name": "snail", "amount": "12 to 16 pcs"},
-              {"name": "unsalted butter", "amount": "1 stick(1/2 cup)"},
-              {"name": "table salt", "amount": "3/8 teaspoon"},
-              {"name": "finely minced shallot", "amount": "1 1/2 teaspoons"},
-              {"name": "finely chopped fresh flat-leaf parseley", "amount": "1 tablespoon"},
-              {"name": "black pepper", "amount": "1/4 teaspoon black pepper"},
-              {"name": "dry white wine", "amount": "1 tablespoon"},
-              {"name": "kosher salt(for stabilizing snail shells)", "amount": "2 cups"},
-              {"name": "Accompaniment", "amount": " 6 pcs french bread"}
-            ],
-            stepsToCook: [
-              {"title": 'Step 1:', "description": "Put oven rack in middle position and preheat oven to 450°F."},
-              {"title": "Step 2:", "description": "Using a heavy knife, mince and mash garlic to a paste with 1/8 teaspoon table salt."},
-              {"title": "Step 3:", "description": "Beat together butter, shallot, garlic paste, parsley, remaining 1/4 teaspoon table salt, and pepper in a small bowl with an electric mixer until combined well. Beat in wine until combined well."},
-              {"title": "Step 4:", "description": "Divide half of garlic butter among snail shells. Stuff 1 snail into each shell and top snails with remaining butter. Spread kosher salt in a shallow baking dish and nestle shells, butter sides up, in salt."},
-              {"title": "Step 5:", "description": "Bake snails until butter is melted and sizzling, 4 to 6 minutes. Serve immediately."},
-            ]
-            },
-
-            {
-              "id": 37,
-              "category": "Vietnamese",
-              "name": "Escargot",
-              "image": "/img/french/escargo.jpg",
-              "cookTime": "30 minutes",
-              "prepTime": "10 minutes",
-              "ingredients": [
-                {"name": "snail", "amount": "12 to 16 pcs"},
-                {"name": "unsalted butter", "amount": "1 stick(1/2 cup)"},
-                {"name": "table salt", "amount": "3/8 teaspoon"},
-                {"name": "finely minced shallot", "amount": "1 1/2 teaspoons"},
-                {"name": "finely chopped fresh flat-leaf parseley", "amount": "1 tablespoon"},
-                {"name": "black pepper", "amount": "1/4 teaspoon black pepper"},
-                {"name": "dry white wine", "amount": "1 tablespoon"},
-                {"name": "kosher salt(for stabilizing snail shells)", "amount": "2 cups"},
-                {"name": "Accompaniment", "amount": " 6 pcs french bread"}
-              ],
-              stepsToCook: [
-                {"title": 'Step 1:', "description": "Put oven rack in middle position and preheat oven to 450°F."},
-                {"title": "Step 2:", "description": "Using a heavy knife, mince and mash garlic to a paste with 1/8 teaspoon table salt."},
-                {"title": "Step 3:", "description": "Beat together butter, shallot, garlic paste, parsley, remaining 1/4 teaspoon table salt, and pepper in a small bowl with an electric mixer until combined well. Beat in wine until combined well."},
-                {"title": "Step 4:", "description": "Divide half of garlic butter among snail shells. Stuff 1 snail into each shell and top snails with remaining butter. Spread kosher salt in a shallow baking dish and nestle shells, butter sides up, in salt."},
-                {"title": "Step 5:", "description": "Bake snails until butter is melted and sizzling, 4 to 6 minutes. Serve immediately."},
-              ]
-              },
-
-              {
-              "id": 38,
-              "category": "Portuguese",
-              "name": "Escargot",
-              "image": "/img/french/escargo.jpg",
-              "cookTime": "30 minutes",
-              "prepTime": "10 minutes",
-              "ingredients": [
-                {"name": "snail", "amount": "12 to 16 pcs"},
-                {"name": "unsalted butter", "amount": "1 stick(1/2 cup)"},
-                {"name": "table salt", "amount": "3/8 teaspoon"},
-                {"name": "finely minced shallot", "amount": "1 1/2 teaspoons"},
-                {"name": "finely chopped fresh flat-leaf parseley", "amount": "1 tablespoon"},
-                {"name": "black pepper", "amount": "1/4 teaspoon black pepper"},
-                {"name": "dry white wine", "amount": "1 tablespoon"},
-                {"name": "kosher salt(for stabilizing snail shells)", "amount": "2 cups"},
-                {"name": "Accompaniment", "amount": " 6 pcs french bread"}
-              ],
-              stepsToCook: [
-                {"title": 'Step 1:', "description": "Put oven rack in middle position and preheat oven to 450°F."},
-                {"title": "Step 2:", "description": "Using a heavy knife, mince and mash garlic to a paste with 1/8 teaspoon table salt."},
-                {"title": "Step 3:", "description": "Beat together butter, shallot, garlic paste, parsley, remaining 1/4 teaspoon table salt, and pepper in a small bowl with an electric mixer until combined well. Beat in wine until combined well."},
-                {"title": "Step 4:", "description": "Divide half of garlic butter among snail shells. Stuff 1 snail into each shell and top snails with remaining butter. Spread kosher salt in a shallow baking dish and nestle shells, butter sides up, in salt."},
-                {"title": "Step 5:", "description": "Bake snails until butter is melted and sizzling, 4 to 6 minutes. Serve immediately."},
-              ]
-              },
-
-              {
-                "id": 39,
-                "category": "Portuguese",
-                "name": "Escargot",
-                "image": "/img/french/escargo.jpg",
-                "cookTime": "30 minutes",
-                "prepTime": "10 minutes",
-                "ingredients": [
-                  {"name": "snail", "amount": "12 to 16 pcs"},
-                  {"name": "unsalted butter", "amount": "1 stick(1/2 cup)"},
-                  {"name": "table salt", "amount": "3/8 teaspoon"},
-                  {"name": "finely minced shallot", "amount": "1 1/2 teaspoons"},
-                  {"name": "finely chopped fresh flat-leaf parseley", "amount": "1 tablespoon"},
-                  {"name": "black pepper", "amount": "1/4 teaspoon black pepper"},
-                  {"name": "dry white wine", "amount": "1 tablespoon"},
-                  {"name": "kosher salt(for stabilizing snail shells)", "amount": "2 cups"},
-                  {"name": "Accompaniment", "amount": " 6 pcs french bread"}
-                ],
-                stepsToCook: [
-                  {"title": 'Step 1:', "description": "Put oven rack in middle position and preheat oven to 450°F."},
-                  {"title": "Step 2:", "description": "Using a heavy knife, mince and mash garlic to a paste with 1/8 teaspoon table salt."},
-                  {"title": "Step 3:", "description": "Beat together butter, shallot, garlic paste, parsley, remaining 1/4 teaspoon table salt, and pepper in a small bowl with an electric mixer until combined well. Beat in wine until combined well."},
-                  {"title": "Step 4:", "description": "Divide half of garlic butter among snail shells. Stuff 1 snail into each shell and top snails with remaining butter. Spread kosher salt in a shallow baking dish and nestle shells, butter sides up, in salt."},
-                  {"title": "Step 5:", "description": "Bake snails until butter is melted and sizzling, 4 to 6 minutes. Serve immediately."},
-                ]
-                },
-  
-
-  
-  
-  
-    
-
-    
-
-  
-  
-  
-
-
-
-
-
-
-
-
-
-
-
-
+  {
+      "id": 51,
+      "category": "Vietnamese",
+      "name": "Beef Pho",
+      "image": "/img/vietnamese/beefpho.jpg",
+      "cookTime": "30 minutes",
+      "prepTime": "10 minutes",
+      "ingredients": [
+        {"name": "snail", "amount": "12 to 16 pcs"},
+        {"name": "unsalted butter", "amount": "1 stick(1/2 cup)"},
+        {"name": "table salt", "amount": "3/8 teaspoon"},
+        {"name": "finely minced shallot", "amount": "1 1/2 teaspoons"},
+        {"name": "finely chopped fresh flat-leaf parseley", "amount": "1 tablespoon"},
+        {"name": "black pepper", "amount": "1/4 teaspoon black pepper"},
+        {"name": "dry white wine", "amount": "1 tablespoon"},
+        {"name": "kosher salt(for stabilizing snail shells)", "amount": "2 cups"},
+        {"name": "Accompaniment", "amount": " 6 pcs french bread"}
+      ],
+      stepsToCook: [
+        {"title": 'Step 1:', "description": "Put oven rack in middle position and preheat oven to 450°F."},
+        {"title": "Step 2:", "description": "Using a heavy knife, mince and mash garlic to a paste with 1/8 teaspoon table salt."},
+        {"title": "Step 3:", "description": "Beat together butter, shallot, garlic paste, parsley, remaining 1/4 teaspoon table salt, and pepper in a small bowl with an electric mixer until combined well. Beat in wine until combined well."},
+        {"title": "Step 4:", "description": "Divide half of garlic butter among snail shells. Stuff 1 snail into each shell and top snails with remaining butter. Spread kosher salt in a shallow baking dish and nestle shells, butter sides up, in salt."},
+        {"title": "Step 5:", "description": "Bake snails until butter is melted and sizzling, 4 to 6 minutes. Serve immediately."},
+     ]
+  },
+  {
+      "id": 52,
+      "category": "Vietnamese",
+      "name": "Chicken Lemon Grass",
+      "image": "/img/vietnamese/lemonchicken.jpeg",
+      "cookTime": "30 minutes",
+      "prepTime": "10 minutes",
+      "ingredients": [
+        {"name": "snail", "amount": "12 to 16 pcs"},
+        {"name": "unsalted butter", "amount": "1 stick(1/2 cup)"},
+        {"name": "table salt", "amount": "3/8 teaspoon"},
+        {"name": "finely minced shallot", "amount": "1 1/2 teaspoons"},
+        {"name": "finely chopped fresh flat-leaf parseley", "amount": "1 tablespoon"},
+        {"name": "black pepper", "amount": "1/4 teaspoon black pepper"},
+        {"name": "dry white wine", "amount": "1 tablespoon"},
+        {"name": "kosher salt(for stabilizing snail shells)", "amount": "2 cups"},
+        {"name": "Accompaniment", "amount": " 6 pcs french bread"}
+      ],
+      stepsToCook: [
+        {"title": 'Step 1:', "description": "Put oven rack in middle position and preheat oven to 450°F."},
+        {"title": "Step 2:", "description": "Using a heavy knife, mince and mash garlic to a paste with 1/8 teaspoon table salt."},
+        {"title": "Step 3:", "description": "Beat together butter, shallot, garlic paste, parsley, remaining 1/4 teaspoon table salt, and pepper in a small bowl with an electric mixer until combined well. Beat in wine until combined well."},
+        {"title": "Step 4:", "description": "Divide half of garlic butter among snail shells. Stuff 1 snail into each shell and top snails with remaining butter. Spread kosher salt in a shallow baking dish and nestle shells, butter sides up, in salt."},
+        {"title": "Step 5:", "description": "Bake snails until butter is melted and sizzling, 4 to 6 minutes. Serve immediately."},
+     ]
+  },
+  {
+      "id": 53,
+      "category": "Vietnamese",
+      "name": "Caramel Chicken",
+      "image": "/img/vietnamese/caramelchicken.jpg",
+      "cookTime": "30 minutes",
+      "prepTime": "10 minutes",
+      "ingredients": [
+        {"name": "snail", "amount": "12 to 16 pcs"},
+        {"name": "unsalted butter", "amount": "1 stick(1/2 cup)"},
+        {"name": "table salt", "amount": "3/8 teaspoon"},
+        {"name": "finely minced shallot", "amount": "1 1/2 teaspoons"},
+        {"name": "finely chopped fresh flat-leaf parseley", "amount": "1 tablespoon"},
+        {"name": "black pepper", "amount": "1/4 teaspoon black pepper"},
+        {"name": "dry white wine", "amount": "1 tablespoon"},
+        {"name": "kosher salt(for stabilizing snail shells)", "amount": "2 cups"},
+        {"name": "Accompaniment", "amount": " 6 pcs french bread"}
+      ],
+      stepsToCook: [
+        {"title": 'Step 1:', "description": "Put oven rack in middle position and preheat oven to 450°F."},
+        {"title": "Step 2:", "description": "Using a heavy knife, mince and mash garlic to a paste with 1/8 teaspoon table salt."},
+        {"title": "Step 3:", "description": "Beat together butter, shallot, garlic paste, parsley, remaining 1/4 teaspoon table salt, and pepper in a small bowl with an electric mixer until combined well. Beat in wine until combined well."},
+        {"title": "Step 4:", "description": "Divide half of garlic butter among snail shells. Stuff 1 snail into each shell and top snails with remaining butter. Spread kosher salt in a shallow baking dish and nestle shells, butter sides up, in salt."},
+        {"title": "Step 5:", "description": "Bake snails until butter is melted and sizzling, 4 to 6 minutes. Serve immediately."},
+     ]
+  },
+  {
+      "id": 54,
+      "category": "Vietnamese",
+      "name": "Grilled Pork",
+      "image": "/img/vietnamese/grilledpork.jpg",
+      "cookTime": "30 minutes",
+      "prepTime": "10 minutes",
+      "ingredients": [
+        {"name": "snail", "amount": "12 to 16 pcs"},
+        {"name": "unsalted butter", "amount": "1 stick(1/2 cup)"},
+        {"name": "table salt", "amount": "3/8 teaspoon"},
+        {"name": "finely minced shallot", "amount": "1 1/2 teaspoons"},
+        {"name": "finely chopped fresh flat-leaf parseley", "amount": "1 tablespoon"},
+        {"name": "black pepper", "amount": "1/4 teaspoon black pepper"},
+        {"name": "dry white wine", "amount": "1 tablespoon"},
+        {"name": "kosher salt(for stabilizing snail shells)", "amount": "2 cups"},
+        {"name": "Accompaniment", "amount": " 6 pcs french bread"}
+      ],
+      stepsToCook: [
+        {"title": 'Step 1:', "description": "Put oven rack in middle position and preheat oven to 450°F."},
+        {"title": "Step 2:", "description": "Using a heavy knife, mince and mash garlic to a paste with 1/8 teaspoon table salt."},
+        {"title": "Step 3:", "description": "Beat together butter, shallot, garlic paste, parsley, remaining 1/4 teaspoon table salt, and pepper in a small bowl with an electric mixer until combined well. Beat in wine until combined well."},
+        {"title": "Step 4:", "description": "Divide half of garlic butter among snail shells. Stuff 1 snail into each shell and top snails with remaining butter. Spread kosher salt in a shallow baking dish and nestle shells, butter sides up, in salt."},
+        {"title": "Step 5:", "description": "Bake snails until butter is melted and sizzling, 4 to 6 minutes. Serve immediately."},
+     ]
+  },
+  {
+      "id": 55,
+      "category": "Vietnamese",
+      "name": "Egg Rolls",
+      "image": "/img/vietnamese/eggrolls.jpeg",
+      "cookTime": "30 minutes",
+      "prepTime": "10 minutes",
+      "ingredients": [
+        {"name": "snail", "amount": "12 to 16 pcs"},
+        {"name": "unsalted butter", "amount": "1 stick(1/2 cup)"},
+        {"name": "table salt", "amount": "3/8 teaspoon"},
+        {"name": "finely minced shallot", "amount": "1 1/2 teaspoons"},
+        {"name": "finely chopped fresh flat-leaf parseley", "amount": "1 tablespoon"},
+        {"name": "black pepper", "amount": "1/4 teaspoon black pepper"},
+        {"name": "dry white wine", "amount": "1 tablespoon"},
+        {"name": "kosher salt(for stabilizing snail shells)", "amount": "2 cups"},
+        {"name": "Accompaniment", "amount": " 6 pcs french bread"}
+      ],
+      stepsToCook: [
+        {"title": 'Step 1:', "description": "Put oven rack in middle position and preheat oven to 450°F."},
+        {"title": "Step 2:", "description": "Using a heavy knife, mince and mash garlic to a paste with 1/8 teaspoon table salt."},
+        {"title": "Step 3:", "description": "Beat together butter, shallot, garlic paste, parsley, remaining 1/4 teaspoon table salt, and pepper in a small bowl with an electric mixer until combined well. Beat in wine until combined well."},
+        {"title": "Step 4:", "description": "Divide half of garlic butter among snail shells. Stuff 1 snail into each shell and top snails with remaining butter. Spread kosher salt in a shallow baking dish and nestle shells, butter sides up, in salt."},
+        {"title": "Step 5:", "description": "Bake snails until butter is melted and sizzling, 4 to 6 minutes. Serve immediately."},
+     ]
+  },
+  {
+      "id": 56,
+      "category": "Portuguese",
+      "name": "Baked Octopus",
+      "image": "/img/portuguese/bakedoctopus.jpg",
+      "cookTime": "30 minutes",
+      "prepTime": "10 minutes",
+      "ingredients": [
+        {"name": "snail", "amount": "12 to 16 pcs"},
+        {"name": "unsalted butter", "amount": "1 stick(1/2 cup)"},
+        {"name": "table salt", "amount": "3/8 teaspoon"},
+        {"name": "finely minced shallot", "amount": "1 1/2 teaspoons"},
+        {"name": "finely chopped fresh flat-leaf parseley", "amount": "1 tablespoon"},
+        {"name": "black pepper", "amount": "1/4 teaspoon black pepper"},
+        {"name": "dry white wine", "amount": "1 tablespoon"},
+        {"name": "kosher salt(for stabilizing snail shells)", "amount": "2 cups"},
+        {"name": "Accompaniment", "amount": " 6 pcs french bread"}
+      ],
+      stepsToCook: [
+        {"title": 'Step 1:', "description": "Put oven rack in middle position and preheat oven to 450°F."},
+        {"title": "Step 2:", "description": "Using a heavy knife, mince and mash garlic to a paste with 1/8 teaspoon table salt."},
+        {"title": "Step 3:", "description": "Beat together butter, shallot, garlic paste, parsley, remaining 1/4 teaspoon table salt, and pepper in a small bowl with an electric mixer until combined well. Beat in wine until combined well."},
+        {"title": "Step 4:", "description": "Divide half of garlic butter among snail shells. Stuff 1 snail into each shell and top snails with remaining butter. Spread kosher salt in a shallow baking dish and nestle shells, butter sides up, in salt."},
+        {"title": "Step 5:", "description": "Bake snails until butter is melted and sizzling, 4 to 6 minutes. Serve immediately."},
+     ]
+  },
+  {
+      "id": 57,
+      "category": "Portuguese",
+      "name": "Chicken Salad",
+      "image": "/img/portuguese/caramelisedsalad.jpg",
+      "cookTime": "30 minutes",
+      "prepTime": "10 minutes",
+      "ingredients": [
+        {"name": "snail", "amount": "12 to 16 pcs"},
+        {"name": "unsalted butter", "amount": "1 stick(1/2 cup)"},
+        {"name": "table salt", "amount": "3/8 teaspoon"},
+        {"name": "finely minced shallot", "amount": "1 1/2 teaspoons"},
+        {"name": "finely chopped fresh flat-leaf parseley", "amount": "1 tablespoon"},
+        {"name": "black pepper", "amount": "1/4 teaspoon black pepper"},
+        {"name": "dry white wine", "amount": "1 tablespoon"},
+        {"name": "kosher salt(for stabilizing snail shells)", "amount": "2 cups"},
+        {"name": "Accompaniment", "amount": " 6 pcs french bread"}
+      ],
+      stepsToCook: [
+        {"title": 'Step 1:', "description": "Put oven rack in middle position and preheat oven to 450°F."},
+        {"title": "Step 2:", "description": "Using a heavy knife, mince and mash garlic to a paste with 1/8 teaspoon table salt."},
+        {"title": "Step 3:", "description": "Beat together butter, shallot, garlic paste, parsley, remaining 1/4 teaspoon table salt, and pepper in a small bowl with an electric mixer until combined well. Beat in wine until combined well."},
+        {"title": "Step 4:", "description": "Divide half of garlic butter among snail shells. Stuff 1 snail into each shell and top snails with remaining butter. Spread kosher salt in a shallow baking dish and nestle shells, butter sides up, in salt."},
+        {"title": "Step 5:", "description": "Bake snails until butter is melted and sizzling, 4 to 6 minutes. Serve immediately."},
+     ]
+  },
+  {
+      "id": 58,
+      "category": "Portuguese",
+      "name": "Grilled Chicken",
+      "image": "/img/portuguese/grilledcxn.jpg",
+      "cookTime": "30 minutes",
+      "prepTime": "10 minutes",
+      "ingredients": [
+        {"name": "snail", "amount": "12 to 16 pcs"},
+        {"name": "unsalted butter", "amount": "1 stick(1/2 cup)"},
+        {"name": "table salt", "amount": "3/8 teaspoon"},
+        {"name": "finely minced shallot", "amount": "1 1/2 teaspoons"},
+        {"name": "finely chopped fresh flat-leaf parseley", "amount": "1 tablespoon"},
+        {"name": "black pepper", "amount": "1/4 teaspoon black pepper"},
+        {"name": "dry white wine", "amount": "1 tablespoon"},
+        {"name": "kosher salt(for stabilizing snail shells)", "amount": "2 cups"},
+        {"name": "Accompaniment", "amount": " 6 pcs french bread"}
+      ],
+      stepsToCook: [
+        {"title": 'Step 1:', "description": "Put oven rack in middle position and preheat oven to 450°F."},
+        {"title": "Step 2:", "description": "Using a heavy knife, mince and mash garlic to a paste with 1/8 teaspoon table salt."},
+        {"title": "Step 3:", "description": "Beat together butter, shallot, garlic paste, parsley, remaining 1/4 teaspoon table salt, and pepper in a small bowl with an electric mixer until combined well. Beat in wine until combined well."},
+        {"title": "Step 4:", "description": "Divide half of garlic butter among snail shells. Stuff 1 snail into each shell and top snails with remaining butter. Spread kosher salt in a shallow baking dish and nestle shells, butter sides up, in salt."},
+        {"title": "Step 5:", "description": "Bake snails until butter is melted and sizzling, 4 to 6 minutes. Serve immediately."},
+     ]
+  },
+  {
+      "id": 59,
+      "category": "Portuguese",
+      "name": "Seafood Stew",
+      "image": "/img/portuguese/seafoodstew.jpeg",
+      "cookTime": "30 minutes",
+      "prepTime": "10 minutes",
+      "ingredients": [
+        {"name": "snail", "amount": "12 to 16 pcs"},
+        {"name": "unsalted butter", "amount": "1 stick(1/2 cup)"},
+        {"name": "table salt", "amount": "3/8 teaspoon"},
+        {"name": "finely minced shallot", "amount": "1 1/2 teaspoons"},
+        {"name": "finely chopped fresh flat-leaf parseley", "amount": "1 tablespoon"},
+        {"name": "black pepper", "amount": "1/4 teaspoon black pepper"},
+        {"name": "dry white wine", "amount": "1 tablespoon"},
+        {"name": "kosher salt(for stabilizing snail shells)", "amount": "2 cups"},
+        {"name": "Accompaniment", "amount": " 6 pcs french bread"}
+      ],
+      stepsToCook: [
+        {"title": 'Step 1:', "description": "Put oven rack in middle position and preheat oven to 450°F."},
+        {"title": "Step 2:", "description": "Using a heavy knife, mince and mash garlic to a paste with 1/8 teaspoon table salt."},
+        {"title": "Step 3:", "description": "Beat together butter, shallot, garlic paste, parsley, remaining 1/4 teaspoon table salt, and pepper in a small bowl with an electric mixer until combined well. Beat in wine until combined well."},
+        {"title": "Step 4:", "description": "Divide half of garlic butter among snail shells. Stuff 1 snail into each shell and top snails with remaining butter. Spread kosher salt in a shallow baking dish and nestle shells, butter sides up, in salt."},
+        {"title": "Step 5:", "description": "Bake snails until butter is melted and sizzling, 4 to 6 minutes. Serve immediately."},
+     ]
+  },
+  {
+      "id": 60,
+      "category": "Portuguese",
+      "name": "Braised Beef",
+      "image": "/img/portuguese/braisedbeef.jpg",
+      "cookTime": "30 minutes",
+      "prepTime": "10 minutes",
+      "ingredients": [
+        {"name": "snail", "amount": "12 to 16 pcs"},
+        {"name": "unsalted butter", "amount": "1 stick(1/2 cup)"},
+        {"name": "table salt", "amount": "3/8 teaspoon"},
+        {"name": "finely minced shallot", "amount": "1 1/2 teaspoons"},
+        {"name": "finely chopped fresh flat-leaf parseley", "amount": "1 tablespoon"},
+        {"name": "black pepper", "amount": "1/4 teaspoon black pepper"},
+        {"name": "dry white wine", "amount": "1 tablespoon"},
+        {"name": "kosher salt(for stabilizing snail shells)", "amount": "2 cups"},
+        {"name": "Accompaniment", "amount": " 6 pcs french bread"}
+      ],
+      stepsToCook: [
+        {"title": 'Step 1:', "description": "Put oven rack in middle position and preheat oven to 450°F."},
+        {"title": "Step 2:", "description": "Using a heavy knife, mince and mash garlic to a paste with 1/8 teaspoon table salt."},
+        {"title": "Step 3:", "description": "Beat together butter, shallot, garlic paste, parsley, remaining 1/4 teaspoon table salt, and pepper in a small bowl with an electric mixer until combined well. Beat in wine until combined well."},
+        {"title": "Step 4:", "description": "Divide half of garlic butter among snail shells. Stuff 1 snail into each shell and top snails with remaining butter. Spread kosher salt in a shallow baking dish and nestle shells, butter sides up, in salt."},
+        {"title": "Step 5:", "description": "Bake snails until butter is melted and sizzling, 4 to 6 minutes. Serve immediately."},
+     ]
+  },
 ]
 
 function App() {

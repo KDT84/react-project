@@ -1,5 +1,4 @@
 import React from "react";
-import NavButtons from "./NavButtons";
 import { useParams, useNavigate } from "react-router-dom";
 
 function Cuisine ({foods}) {
