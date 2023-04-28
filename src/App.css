@@ -14,7 +14,7 @@ body {
 }
 
 .header {
-  color: greenyellow;
+  color:bisque;
   font-family:cursive;
   font-weight:bolder;
   font-size: 45px;
@@ -34,7 +34,9 @@ body {
   height: 200px;
   margin: 20px 10px 10px 10px;
   text-align: center;
-  background-color: rgba(0, 128, 0, 0.649);
+  /* background-color: rgba(0, 128, 0, 0.649); */
+  background-color: rgba(128, 0, 128, 0.541);
+
 }
 
 .category-main-image {
@@ -77,7 +79,7 @@ body {
   margin: 30px 0 40px 62px;
   display: inline-block;
   border-radius: 5px;
-  background-color: rgba(172, 255, 47, 0.421);
+  background-color: rgba(255, 99, 71, 0.84);
 }
 
 .cuisine-name {
@@ -86,14 +88,15 @@ body {
   font-weight: bold;
   margin: 0px;
   font-size: 18px;
-  color: yellow;
+  color: white;
 }
 
 .ingredients-button {
   background-color: rgba(128, 128, 128, 0.684);
   font-family: cursive;
-  color: black;
-  background-color: beige;
+  color: white;
+  font-weight: bold;
+  background-color: rgba(0, 128, 0, 0.408);
   margin: 0px 10px 10px 45px;
   width: 120px;
 }
@@ -102,8 +105,9 @@ body {
   width: 130px;
   background-color: rgba(128, 128, 128, 0.684);
   font-family: cursive;
-  color: black;
-  background-color: beige;
+  color: white;
+  font-weight: bold;
+  background-color: rgba(255, 99, 71, 0.84);
   margin: 20px 0px 20px 38%;
 }
 /* -----------------------end of cuisine category---------------------- */

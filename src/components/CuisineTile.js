@@ -14,6 +14,10 @@ function CuisineTile ({cuisine}) {
         <p className="cuisine-name">{cuisine.name}</p>
         <img className="cuisine-image" src={cuisine.image} /> <br />
         <button className="ingredients-button" onClick={backButton}>Ingredients</button>
+        <div>
+          <button>{cuisine.upvotes} 👍</button>
+          <button>{cuisine.downvotes} 👎 </button>
+        </div>
       </div>
       
     </>
