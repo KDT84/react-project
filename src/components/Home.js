@@ -1,22 +1,29 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Loading from './Loading';
 
-const Home = ({ categoryImages }) => {
+const Home = ({ categories, isLoading }) => {
 
   return (
     <>
-      <h1 className='header'>Recipe Book</h1>
+    { !isLoading ? 
+      <>
+        <h1 className='header'>Recipe Book</h1>
 
-      <ul className='main-categories-container'>
-        { categoryImages.map(categoryImage => 
-          <li key={ categoryImage.name } className='list-home-categories'>
-            <Link className='category-name' to={ `/foodCategory/${ categoryImage.name }`}>
-              { categoryImage.name }
-              <img className="category-main-image" src={categoryImage.image} />
-            </Link>
-          </li>
-        )}
-      </ul>
+        <ul className='main-categories-container'>
+          { categories.map(category => 
+            <li key={ category.name } className='list-home-categories'>
+              <Link className='category-name' to={ `/foodCategory/${ category.name }`}>
+                { category.name }
+                <img className="category-main-image" src={category.image} alt={category.name + " food image"}/>
+              </Link>
+            </li>
+          )}
+        </ul>
+      </>
+      : 
+      <Loading />}
+      
     </>
   );
 }

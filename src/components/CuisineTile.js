@@ -11,7 +11,7 @@ function CuisineTile ({cuisine}) {
   return (
     <>
       <div key={cuisine.id} className="cuisine-container">
-        <h5 className="cuisine-name">{cuisine.name}</h5>
+        <p className="cuisine-name">{cuisine.name}</p>
         <img className="cuisine-image" src={cuisine.image} /> <br />
         <button className="ingredients-button" onClick={backButton}>Ingredients</button>
       </div>
