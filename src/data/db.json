@@ -49,7 +49,6 @@
       "image": "/img/portuguese/portuguese.jpg"
     }
   ],
-  
   "foods": [
     {
       "id": 1,
@@ -58,8 +57,8 @@
       "image": "/img/french/escargo.jpg",
       "cookTime": "30 minutes",
       "prepTime": "10 minutes",
-      "upvotes": 0,
-      "downvotes": 0,
+      "upVotes": 9,
+      "downVotes": 8,
       "ingredients": [
         {
           "name": "snail",
@@ -128,8 +127,8 @@
       "image": "/img/french/bakedLamb.jpg",
       "cookTime": "2 hours",
       "prepTime": "15 minutes",
-      "upvotes": 0,
-      "downvotes": 0,
+      "upVotes": 3,
+      "downVotes": 1,
       "ingredients": [
         {
           "name": "potatoes",
@@ -194,8 +193,8 @@
       "image": "/img/french/tartiflette.jpg",
       "cookTime": "1.5 hours",
       "prepTime": "15 minutes",
-      "upvotes": 0,
-      "downvotes": 0,
+      "upVotes": 2,
+      "downVotes": 2,
       "ingredients": [
         {
           "name": "potatoes",
@@ -256,8 +255,8 @@
       "image": "/img/french/duckConfit.jpeg",
       "cookTime": "45 minutes",
       "prepTime": "25 minutes",
-      "upvotes": 0,
-      "downvotes": 0,
+      "upVotes": 7,
+      "downVotes": 1,
       "ingredients": [
         {
           "name": "potatoes",
@@ -322,8 +321,8 @@
       "image": "/img/french/salmon.jpg",
       "cookTime": "12 minutes",
       "prepTime": "40 minutes",
-      "upvotes": 0,
-      "downvotes": 0,
+      "upVotes": 11,
+      "downVotes": 4,
       "ingredients": [
         {
           "name": "garlic cloves",
@@ -396,8 +395,8 @@
       "image": "/img/spanish/paella.jpeg",
       "cookTime": "30 minutes",
       "prepTime": "10 minutes",
-      "upvotes": 0,
-      "downvotes": 0,
+      "upVotes": 3,
+      "downVotes": 2,
       "ingredients": [
         {
           "name": "snail",
@@ -466,8 +465,8 @@
       "image": "/img/spanish/tortilla.jpeg",
       "cookTime": "30 minutes",
       "prepTime": "10 minutes",
-      "upvotes": 0,
-      "downvotes": 0,
+      "upVotes": 2,
+      "downVotes": 1,
       "ingredients": [
         {
           "name": "snail",
@@ -536,8 +535,8 @@
       "image": "/img/spanish/arrozAlHorno.jpeg",
       "cookTime": "30 minutes",
       "prepTime": "10 minutes",
-      "upvotes": 0,
-      "downvotes": 0,
+      "upVotes": 1,
+      "downVotes": 1,
       "ingredients": [
         {
           "name": "snail",
@@ -606,8 +605,8 @@
       "image": "/img/spanish/spanishChicken.jpeg",
       "cookTime": "30 minutes",
       "prepTime": "10 minutes",
-      "upvotes": 0,
-      "downvotes": 0,
+      "upVotes": 1,
+      "downVotes": 1,
       "ingredients": [
         {
           "name": "snail",
@@ -676,8 +675,8 @@
       "image": "/img/spanish/chorizo.jpeg",
       "cookTime": "30 minutes",
       "prepTime": "10 minutes",
-      "upvotes": 0,
-      "downvotes": 0,
+      "upVotes": 1,
+      "downVotes": 1,
       "ingredients": [
         {
           "name": "snail",
@@ -746,8 +745,8 @@
       "image": "/img/italian/papardelle.jpeg",
       "cookTime": "30 minutes",
       "prepTime": "10 minutes",
-      "upvotes": 0,
-      "downvotes": 0,
+      "upVotes": 0,
+      "downVotes": 0,
       "ingredients": [
         {
           "name": "snail",
@@ -816,8 +815,8 @@
       "image": "/img/italian/spinach.jpeg",
       "cookTime": "30 minutes",
       "prepTime": "10 minutes",
-      "upvotes": 0,
-      "downvotes": 0,
+      "upVotes": 0,
+      "downVotes": 0,
       "ingredients": [
         {
           "name": "snail",
@@ -886,8 +885,8 @@
       "image": "/img/italian/polenta.jpeg",
       "cookTime": "30 minutes",
       "prepTime": "10 minutes",
-      "upvotes": 0,
-      "downvotes": 0,
+      "upVotes": 0,
+      "downVotes": 0,
       "ingredients": [
         {
           "name": "snail",
@@ -956,8 +955,8 @@
       "image": "/img/italian/traybake.jpeg",
       "cookTime": "30 minutes",
       "prepTime": "10 minutes",
-      "upvotes": 0,
-      "downvotes": 0,
+      "upVotes": 0,
+      "downVotes": 0,
       "ingredients": [
         {
           "name": "snail",
@@ -1026,8 +1025,8 @@
       "image": "/img/italian/pizza.jpeg",
       "cookTime": "30 minutes",
       "prepTime": "10 minutes",
-      "upvotes": 0,
-      "downvotes": 0,
+      "upVotes": 0,
+      "downVotes": 0,
       "ingredients": [
         {
           "name": "snail",
@@ -1096,8 +1095,8 @@
       "image": "/img/korean/bibimbap.jpeg",
       "cookTime": "30 minutes",
       "prepTime": "10 minutes",
-      "upvotes": 0,
-      "downvotes": 0,
+      "upVotes": 0,
+      "downVotes": 0,
       "ingredients": [
         {
           "name": "snail",
@@ -1166,8 +1165,8 @@
       "image": "/img/korean/koreanchicken.jpeg",
       "cookTime": "30 minutes",
       "prepTime": "10 minutes",
-      "upvotes": 0,
-      "downvotes": 0,
+      "upVotes": 0,
+      "downVotes": 0,
       "ingredients": [
         {
           "name": "snail",
@@ -1236,8 +1235,8 @@
       "image": "/img/korean/koreanbeef.jpeg",
       "cookTime": "30 minutes",
       "prepTime": "10 minutes",
-      "upvotes": 0,
-      "downvotes": 0,
+      "upVotes": 0,
+      "downVotes": 0,
       "ingredients": [
         {
           "name": "snail",
@@ -1306,8 +1305,8 @@
       "image": "/img/korean/vegan-tteokbokki.jpeg",
       "cookTime": "30 minutes",
       "prepTime": "10 minutes",
-      "upvotes": 0,
-      "downvotes": 0,
+      "upVotes": 0,
+      "downVotes": 0,
       "ingredients": [
         {
           "name": "snail",
@@ -1376,8 +1375,8 @@
       "image": "/img/korean/eggplant.jpeg",
       "cookTime": "30 minutes",
       "prepTime": "10 minutes",
-      "upvotes": 0,
-      "downvotes": 0,
+      "upVotes": 0,
+      "downVotes": 0,
       "ingredients": [
         {
           "name": "snail",
@@ -1446,8 +1445,8 @@
       "image": "/img/japanese/teriyaki.jpg",
       "cookTime": "30 minutes",
       "prepTime": "10 minutes",
-      "upvotes": 0,
-      "downvotes": 0,
+      "upVotes": 0,
+      "downVotes": 0,
       "ingredients": [
         {
           "name": "snail",
@@ -1516,8 +1515,8 @@
       "image": "/img/japanese/karage.jpg",
       "cookTime": "30 minutes",
       "prepTime": "10 minutes",
-      "upvotes": 0,
-      "downvotes": 0,
+      "upVotes": 0,
+      "downVotes": 0,
       "ingredients": [
         {
           "name": "snail",
@@ -1586,8 +1585,8 @@
       "image": "/img/japanese/oyakdon.jpeg",
       "cookTime": "30 minutes",
       "prepTime": "10 minutes",
-      "upvotes": 0,
-      "downvotes": 0,
+      "upVotes": 0,
+      "downVotes": 0,
       "ingredients": [
         {
           "name": "snail",
@@ -1656,8 +1655,8 @@
       "image": "/img/japanese/katsu.jpg",
       "cookTime": "30 minutes",
       "prepTime": "10 minutes",
-      "upvotes": 0,
-      "downvotes": 0,
+      "upVotes": 0,
+      "downVotes": 0,
       "ingredients": [
         {
           "name": "snail",
@@ -1726,8 +1725,8 @@
       "image": "/img/japanese/eel.jpeg",
       "cookTime": "30 minutes",
       "prepTime": "10 minutes",
-      "upvotes": 0,
-      "downvotes": 0,
+      "upVotes": 0,
+      "downVotes": 0,
       "ingredients": [
         {
           "name": "snail",
@@ -1796,8 +1795,8 @@
       "image": "/img/chinese/dumplings.jpg",
       "cookTime": "30 minutes",
       "prepTime": "10 minutes",
-      "upvotes": 0,
-      "downvotes": 0,
+      "upVotes": 0,
+      "downVotes": 0,
       "ingredients": [
         {
           "name": "snail",
@@ -1866,8 +1865,8 @@
       "image": "/img/chinese/beefstirfry.jpg",
       "cookTime": "30 minutes",
       "prepTime": "10 minutes",
-      "upvotes": 0,
-      "downvotes": 0,
+      "upVotes": 0,
+      "downVotes": 0,
       "ingredients": [
         {
           "name": "snail",
@@ -1936,8 +1935,8 @@
       "image": "/img/chinese/chinesenoodles.jpeg",
       "cookTime": "30 minutes",
       "prepTime": "10 minutes",
-      "upvotes": 0,
-      "downvotes": 0,
+      "upVotes": 0,
+      "downVotes": 0,
       "ingredients": [
         {
           "name": "snail",
@@ -2006,8 +2005,8 @@
       "image": "/img/chinese/sweetnsour.jpeg",
       "cookTime": "30 minutes",
       "prepTime": "10 minutes",
-      "upvotes": 0,
-      "downvotes": 0,
+      "upVotes": 0,
+      "downVotes": 0,
       "ingredients": [
         {
           "name": "snail",
@@ -2076,8 +2075,8 @@
       "image": "/img/chinese/vegetable.jpg",
       "cookTime": "30 minutes",
       "prepTime": "10 minutes",
-      "upvotes": 0,
-      "downvotes": 0,
+      "upVotes": 0,
+      "downVotes": 0,
       "ingredients": [
         {
           "name": "snail",
@@ -2146,8 +2145,8 @@
       "image": "/img/filipino/lechon.jpeg",
       "cookTime": "30 minutes",
       "prepTime": "10 minutes",
-      "upvotes": 0,
-      "downvotes": 0,
+      "upVotes": 0,
+      "downVotes": 0,
       "ingredients": [
         {
           "name": "snail",
@@ -2216,8 +2215,8 @@
       "image": "/img/filipino/pochero.jpg",
       "cookTime": "30 minutes",
       "prepTime": "10 minutes",
-      "upvotes": 0,
-      "downvotes": 0,
+      "upVotes": 0,
+      "downVotes": 0,
       "ingredients": [
         {
           "name": "snail",
@@ -2286,8 +2285,8 @@
       "image": "/img/filipino/caldereta.jpg",
       "cookTime": "30 minutes",
       "prepTime": "10 minutes",
-      "upvotes": 0,
-      "downvotes": 0,
+      "upVotes": 0,
+      "downVotes": 0,
       "ingredients": [
         {
           "name": "snail",
@@ -2356,8 +2355,8 @@
       "image": "/img/filipino/humba.jpg",
       "cookTime": "30 minutes",
       "prepTime": "10 minutes",
-      "upvotes": 0,
-      "downvotes": 0,
+      "upVotes": 0,
+      "downVotes": 0,
       "ingredients": [
         {
           "name": "snail",
@@ -2426,8 +2425,8 @@
       "image": "/img/filipino/kinilaw.jpg",
       "cookTime": "30 minutes",
       "prepTime": "10 minutes",
-      "upvotes": 0,
-      "downvotes": 0,
+      "upVotes": 0,
+      "downVotes": 0,
       "ingredients": [
         {
           "name": "snail",
@@ -2496,8 +2495,8 @@
       "image": "/img/thai/padthai.jpeg",
       "cookTime": "30 minutes",
       "prepTime": "10 minutes",
-      "upvotes": 0,
-      "downvotes": 0,
+      "upVotes": 0,
+      "downVotes": 0,
       "ingredients": [
         {
           "name": "snail",
@@ -2566,8 +2565,8 @@
       "image": "/img/thai/curry.jpg",
       "cookTime": "30 minutes",
       "prepTime": "10 minutes",
-      "upvotes": 0,
-      "downvotes": 0,
+      "upVotes": 0,
+      "downVotes": 0,
       "ingredients": [
         {
           "name": "snail",
@@ -2636,8 +2635,8 @@
       "image": "/img/thai/tomyum.jpeg",
       "cookTime": "30 minutes",
       "prepTime": "10 minutes",
-      "upvotes": 0,
-      "downvotes": 0,
+      "upVotes": 0,
+      "downVotes": 0,
       "ingredients": [
         {
           "name": "snail",
@@ -2706,8 +2705,8 @@
       "image": "/img/thai/springroll.jpg",
       "cookTime": "30 minutes",
       "prepTime": "10 minutes",
-      "upvotes": 0,
-      "downvotes": 0,
+      "upVotes": 0,
+      "downVotes": 0,
       "ingredients": [
         {
           "name": "snail",
@@ -2776,8 +2775,8 @@
       "image": "/img/thai/chicken.jpg",
       "cookTime": "30 minutes",
       "prepTime": "10 minutes",
-      "upvotes": 0,
-      "downvotes": 0,
+      "upVotes": 0,
+      "downVotes": 0,
       "ingredients": [
         {
           "name": "snail",
@@ -2846,8 +2845,8 @@
       "image": "/img/lebanese/lebchick.jpg",
       "cookTime": "30 minutes",
       "prepTime": "10 minutes",
-      "upvotes": 0,
-      "downvotes": 0,
+      "upVotes": 0,
+      "downVotes": 0,
       "ingredients": [
         {
           "name": "snail",
@@ -2916,8 +2915,8 @@
       "image": "/img/lebanese/fatteh.jpeg",
       "cookTime": "30 minutes",
       "prepTime": "10 minutes",
-      "upvotes": 0,
-      "downvotes": 0,
+      "upVotes": 0,
+      "downVotes": 0,
       "ingredients": [
         {
           "name": "snail",
@@ -2986,8 +2985,8 @@
       "image": "/img/lebanese/sausage.jpg",
       "cookTime": "30 minutes",
       "prepTime": "10 minutes",
-      "upvotes": 0,
-      "downvotes": 0,
+      "upVotes": 0,
+      "downVotes": 0,
       "ingredients": [
         {
           "name": "snail",
@@ -3056,8 +3055,8 @@
       "image": "/img/lebanese/beefskewer.jpg",
       "cookTime": "30 minutes",
       "prepTime": "10 minutes",
-      "upvotes": 0,
-      "downvotes": 0,
+      "upVotes": 0,
+      "downVotes": 0,
       "ingredients": [
         {
           "name": "snail",
@@ -3126,8 +3125,8 @@
       "image": "/img/lebanese/.jpg",
       "cookTime": "30 minutes",
       "prepTime": "10 minutes",
-      "upvotes": 0,
-      "downvotes": 0,
+      "upVotes": 0,
+      "downVotes": 0,
       "ingredients": [
         {
           "name": "snail",
@@ -3196,8 +3195,8 @@
       "image": "/img/indian/eggcurry.jpg",
       "cookTime": "30 minutes",
       "prepTime": "10 minutes",
-      "upvotes": 0,
-      "downvotes": 0,
+      "upVotes": 0,
+      "downVotes": 0,
       "ingredients": [
         {
           "name": "snail",
@@ -3266,8 +3265,8 @@
       "image": "/img/indian/saagwala.jpg",
       "cookTime": "30 minutes",
       "prepTime": "10 minutes",
-      "upvotes": 0,
-      "downvotes": 0,
+      "upVotes": 0,
+      "downVotes": 0,
       "ingredients": [
         {
           "name": "snail",
@@ -3336,8 +3335,8 @@
       "image": "/img/indian/eggcurry.jpg",
       "cookTime": "30 minutes",
       "prepTime": "10 minutes",
-      "upvotes": 0,
-      "downvotes": 0,
+      "upVotes": 0,
+      "downVotes": 0,
       "ingredients": [
         {
           "name": "snail",
@@ -3406,8 +3405,8 @@
       "image": "/img/indian/indiancurry.jpg",
       "cookTime": "30 minutes",
       "prepTime": "10 minutes",
-      "upvotes": 0,
-      "downvotes": 0,
+      "upVotes": 0,
+      "downVotes": 0,
       "ingredients": [
         {
           "name": "snail",
@@ -3476,8 +3475,8 @@
       "image": "/img/indian/eggcurry.jpg",
       "cookTime": "30 minutes",
       "prepTime": "10 minutes",
-      "upvotes": 0,
-      "downvotes": 0,
+      "upVotes": 0,
+      "downVotes": 0,
       "ingredients": [
         {
           "name": "snail",
@@ -3546,8 +3545,8 @@
       "image": "/img/vietnamese/beefpho.jpg",
       "cookTime": "30 minutes",
       "prepTime": "10 minutes",
-      "upvotes": 0,
-      "downvotes": 0,
+      "upVotes": 0,
+      "downVotes": 0,
       "ingredients": [
         {
           "name": "snail",
@@ -3616,8 +3615,8 @@
       "image": "/img/vietnamese/lemonchicken.jpeg",
       "cookTime": "30 minutes",
       "prepTime": "10 minutes",
-      "upvotes": 0,
-      "downvotes": 0,
+      "upVotes": 0,
+      "downVotes": 0,
       "ingredients": [
         {
           "name": "snail",
@@ -3686,8 +3685,8 @@
       "image": "/img/vietnamese/caramelchicken.jpg",
       "cookTime": "30 minutes",
       "prepTime": "10 minutes",
-      "upvotes": 0,
-      "downvotes": 0,
+      "upVotes": 0,
+      "downVotes": 0,
       "ingredients": [
         {
           "name": "snail",
@@ -3756,8 +3755,8 @@
       "image": "/img/vietnamese/grilledpork.jpg",
       "cookTime": "30 minutes",
       "prepTime": "10 minutes",
-      "upvotes": 0,
-      "downvotes": 0,
+      "upVotes": 0,
+      "downVotes": 0,
       "ingredients": [
         {
           "name": "snail",
@@ -3826,8 +3825,8 @@
       "image": "/img/vietnamese/eggrolls.jpeg",
       "cookTime": "30 minutes",
       "prepTime": "10 minutes",
-      "upvotes": 0,
-      "downvotes": 0,
+      "upVotes": 0,
+      "downVotes": 0,
       "ingredients": [
         {
           "name": "snail",
@@ -3896,8 +3895,8 @@
       "image": "/img/portuguese/bakedoctopus.jpg",
       "cookTime": "30 minutes",
       "prepTime": "10 minutes",
-      "upvotes": 0,
-      "downvotes": 0,
+      "upVotes": 0,
+      "downVotes": 0,
       "ingredients": [
         {
           "name": "snail",
@@ -3966,8 +3965,8 @@
       "image": "/img/portuguese/caramelisedsalad.jpg",
       "cookTime": "30 minutes",
       "prepTime": "10 minutes",
-      "upvotes": 0,
-      "downvotes": 0,
+      "upVotes": 0,
+      "downVotes": 0,
       "ingredients": [
         {
           "name": "snail",
@@ -4036,8 +4035,8 @@
       "image": "/img/portuguese/grilledcxn.jpg",
       "cookTime": "30 minutes",
       "prepTime": "10 minutes",
-      "upvotes": 0,
-      "downvotes": 0,
+      "upVotes": 0,
+      "downVotes": 0,
       "ingredients": [
         {
           "name": "snail",
@@ -4106,8 +4105,8 @@
       "image": "/img/portuguese/seafoodstew.jpeg",
       "cookTime": "30 minutes",
       "prepTime": "10 minutes",
-      "upvotes": 0,
-      "downvotes": 0,
+      "upVotes": 0,
+      "downVotes": 0,
       "ingredients": [
         {
           "name": "snail",
@@ -4176,8 +4175,8 @@
       "image": "/img/portuguese/braisedbeef.jpg",
       "cookTime": "30 minutes",
       "prepTime": "10 minutes",
-      "upvotes": 0,
-      "downvotes": 0,
+      "upVotes": 0,
+      "downVotes": 0,
       "ingredients": [
         {
           "name": "snail",
