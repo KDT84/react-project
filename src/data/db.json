@@ -2075,8 +2075,8 @@
       "image": "/img/chinese/vegetable.jpg",
       "cookTime": "30 mins",
       "prepTime": "10 mins",
-      "upVotes": 0,
-      "downVotes": 0,
+      "upVotes": 2,
+      "downVotes": 1,
       "ingredients": [
         {
           "name": "snail",

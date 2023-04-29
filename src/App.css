@@ -96,10 +96,14 @@ body {
   width: 140px;
 }
 
+.recipe-back-button:hover {
+  background-color: rgba(128, 128, 128, 0.403);
+}
+
 /* ---------------------Start Cuisine Tile Component--------------------- */
 
 .cuisine-container {
-  background-color: purple;
+  background-color: rgba(255, 68, 0, 0.681);
   margin: 30px 0 10px 28px;
   display: inline-block;
   border-radius: 5px;
@@ -133,7 +137,7 @@ body {
 }
 
 .recipe-tile-button:hover {
-  background-color: rgba(255, 0, 0, 0.301);
+  background-color: grey;
 }
 
 .votes-btn {
@@ -236,6 +240,10 @@ body {
   width: 120px;
 }
 
+.cuisine-back-button:hover {
+  background-color: rgba(128, 128, 128, 0.367);
+}
+
 .cuisine-home-button {
   background-color: beige;
   font-family: sans-serif;
@@ -246,6 +254,9 @@ body {
   width: 120px;
 }
 
+.cuisine-home-button:hover {
+  background-color: rgba(128, 128, 128, 0.367);
+}
 
 /*------------------------- Start Grocery List-------------------------- */
 
