@@ -62,7 +62,7 @@ function App() {
   return (
     <> 
       <Routes>
-        <Route exact path="/" element={<Home categories={ categories } isLoading={isLoading} />} /> 
+        <Route exact path="/" element={<Home categories={ categories } isLoading={isLoading} foods={foods} />} /> 
         <Route path="/foodCategory/:category" element={<FoodCategory foods={ foods } isLoading={isLoading} upVote={upVote} downVote={downVote}  />} />
         <Route path="/foods/:id" element={<Cuisine foods={ foods } isLoading={isLoading} setGroceryList={setGroceryList}/>} />
         <Route path="/groceryList" element={<GroceryList groceryList={groceryList} setGroceryList={setGroceryList} />} />

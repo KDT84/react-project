@@ -1,14 +1,16 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Loading from './Loading';
+import Search from './Search';
 
-function Home ({ categories, isLoading })  {
+function Home ({ categories, isLoading, foods })  {
 
   return (
     <>
     { !isLoading ? 
       <>
-        <h1 className='header'>Cook Book 📖 </h1>
+        <Search foods={ foods } />
+        <h1 className='header'>Cook Book 📖 </h1> <br />
         <ul>
           { categories.map(category => 
             <li key={ category.name } className='list-home-categories'>
