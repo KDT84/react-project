@@ -28,7 +28,7 @@ function GroceryList({ groceryList, setGroceryList}) {
           onClick={() => window.print()}> 🖨️ Print
         </button>
 
-        <h1 className="grocery-list-header">Grocery List 📄</h1> <hr />
+        <h1 className="grocery-list-header">Grocery List</h1> <hr />
 
         <input 
           type="text" 
@@ -49,7 +49,7 @@ function GroceryList({ groceryList, setGroceryList}) {
             <input type="checkbox" value={item} /> 
             <span className="list-content">{item}</span>
           </div>
-        )}<br /> <hr />
+        )}<br /> 
       </div>
 
       <div className="home-btn-grocery">
