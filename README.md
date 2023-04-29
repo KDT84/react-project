@@ -5,7 +5,7 @@
 #PROJECT DESCRIPTION
 
 - This Project is inteded for school purposes only.
-- I made a simple version of Recipe Book. This App contains few cuisines from different countries. Each country has available decent amount of recipes. You can print the recipe if you wish using the "print" button and has an option to add it to your grocery list using the "add item" button. Once added to your grocery list, you can add new items in it using the input field. This also allows you to put a "check mark" if the list has been done and deletes an item if needed. A print option is also provided for this page if you wish to print a copy of your grocery list. You can leave a "like" or "unlike" if you feel like it. 
+- I made a simple version of Recipe Book. This App contains few recipes from different countries. To look for a recipe, you can either use the "search field" or click the image provided which redirects you to another page. Each country has available decent amount of recipes. You can print the recipe if you wish using the "print" button. It has also an option to add the ingredients to your grocery list using the "add item" button. Once added to your grocery list, you can add new items in it using the input field. This also allows you to put a "check mark" if the list has been done and deletes an item if needed. A print option is also provided for this page if you wish to print a copy of your grocery list. You can leave a "like" or "unlike" if you feel like it. 
 
 #AUTHOR
 
@@ -29,6 +29,7 @@
 HOME PAGE
    - header
    - displays Countries with recipes 
+   - search food option
   
 2. Second Page:
    

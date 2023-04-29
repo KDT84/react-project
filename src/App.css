@@ -27,21 +27,21 @@ body {
 .header {
   background-color: rgba(255, 235, 205, 0.567);
   border: 1px solid black;
-  margin: 20px 0px 10px 34%;
+  margin: 20px 0px 10px 5%;
   font-family: cursive;
   font-weight: bolder;
   border-radius: 10px;
-    text-align: center;
-  font-size: 35px;
+  text-align: center;
+  font-size: 25px;
   color:black;
-  width: 320px;
+  width: 250px;
 }
 
 .search-category {
   border-radius: 5px;
   display: flex;
   float: right;
-  width: 200px;
+  width: 220px;
   height: 26px;
   font-weight: bold;
 }
