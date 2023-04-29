@@ -1,70 +1,78 @@
-# Getting Started with Create React App
+#PROJECT NAME
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- CookBook Recipe App
 
-## Available Scripts
+#PROJECT DESCRIPTION
 
-In the project directory, you can run:
+- This Project is inteded for school purposes only.
+- I made a simple version of Recipe Book. This App contains few cuisines from different countries. Each country has available decent amount of recipes. You can print the recipe if you wish using the "print" button and has an option to add it to your grocery list using the "add item" button. Once added to your grocery list, you can add new items in it using the input field. This also allows you to put a "check mark" if the list has been done and deletes an item if needed. A print option is also provided for this page if you wish to print a copy of your grocery list. You can leave a "like" or "unlike" if you feel like it. 
 
-### `npm start`
+#AUTHOR
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Kathyrine Dela Torre
+  
+#TECHNOLOGIES
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+-JavaScript
+-JSX
+-React v6, React Router
+-CSS
 
-### `npm test`
+#CHALLENGES and FEATURES
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- I encountered few challenges while doing this project. The biggest one was handling route errors. I tried few different methods but some of them are either deprecated or not available for functional approach. There's few more features that i'd love to add to this App but I don't have the luxury of time. 
 
-### `npm run build`
+#TABLE OF CONTENTS
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. First Page:
+   
+HOME PAGE
+   - header
+   - displays Countries with recipes 
+  
+2. Second Page:
+   
+CATEGORY PAGE
+   - displays cuisines from a choosen country
+   - recipe option
+   - leave a like or unlike (optional)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. RECIPE PAGE:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+  - print option
+  - add grocery list option
+  
+4. GROCERY LIST PAGE:
+  - add new item option
+  - delete item option
+  - print option
 
-### `npm run eject`
+#HOW TO INSTALL AND RUN THE PROJECT
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- npm install (install node packages)
+- npm start (run react dev server)
+- npm run server (json server)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#HOW TO USE THE PROJECT
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- [video] on how to use the project
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+#ACKNOWLEDGEMENT
 
-## Learn More
+- Frae VAldueza, Academy Xi
+- Youtube
+- W3 Schools
+- MDN
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+#PROJECT STATUS
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Wanted to add more features but I ran out of time. 
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
