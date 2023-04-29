@@ -55,10 +55,10 @@
       "category": "French",
       "name": "Escargot",
       "image": "/img/french/escargo.jpg",
-      "cookTime": "30 minutes",
-      "prepTime": "10 minutes",
-      "upVotes": 9,
-      "downVotes": 8,
+      "cookTime": "30 mins",
+      "prepTime": "10 mins",
+      "upVotes": 12,
+      "downVotes": 12,
       "ingredients": [
         {
           "name": "snail",
@@ -116,7 +116,7 @@
         },
         {
           "title": "Step 5:",
-          "description": "Bake snails until butter is melted and sizzling, 4 to 6 minutes. Serve immediately."
+          "description": "Bake snails until butter is melted and sizzling, 4 to 6 mins. Serve immediately."
         }
       ]
     },
@@ -125,8 +125,8 @@
       "category": "French",
       "name": "French Baked Lamb",
       "image": "/img/french/bakedLamb.jpg",
-      "cookTime": "2 hours",
-      "prepTime": "15 minutes",
+      "cookTime": "2 hrs",
+      "prepTime": "15 mins",
       "upVotes": 3,
       "downVotes": 1,
       "ingredients": [
@@ -166,15 +166,15 @@
       "stepsToCook": [
         {
           "title": "Step 1",
-          "description": "Place potato in a saucepan of cold, salted water. Bring to the boil, then reduce heat to medium and cook for 5-10 minutes until par-cooked. Drain, cool and thinly slice."
+          "description": "Place potato in a saucepan of cold, salted water. Bring to the boil, then reduce heat to medium and cook for 5-10 mins until par-cooked. Drain, cool and thinly slice."
         },
         {
           "title": "Step 2",
-          "description": "Preheat oven to 190°C. Heat oil in a large fry pan over high heat. Season the lamb, then cook, turning, for 8-10 minutes until browned. Remove from pan and reduce heat to medium."
+          "description": "Preheat oven to 190°C. Heat oil in a large fry pan over high heat. Season the lamb, then cook, turning, for 8-10 mins until browned. Remove from pan and reduce heat to medium."
         },
         {
           "title": "Step 3",
-          "description": "Add the onion and carrot, then cook, stirring, for 4-5 minutes until softened. Add the rosemary and cook for a further 1 minute or until fragrant. Add the stock and pasta sauce, scraping the bottom of the pan with a wooden spoon. Bring to a simmer, then season and cook for 3-4 minutes until slightly reduced."
+          "description": "Add the onion and carrot, then cook, stirring, for 4-5 mins until softened. Add the rosemary and cook for a further 1 minute or until fragrant. Add the stock and pasta sauce, scraping the bottom of the pan with a wooden spoon. Bring to a simmer, then season and cook for 3-4 mins until slightly reduced."
         },
         {
           "title": "Step 4",
@@ -182,7 +182,7 @@
         },
         {
           "title": "Step 5",
-          "description": "Rest for 5 minutes, then serve garnished with extra rosemary sprigs."
+          "description": "Rest for 5 mins, then serve garnished with extra rosemary sprigs."
         }
       ]
     },
@@ -191,8 +191,8 @@
       "category": "French",
       "name": "Tartiflette",
       "image": "/img/french/tartiflette.jpg",
-      "cookTime": "1.5 hours",
-      "prepTime": "15 minutes",
+      "cookTime": "1.5 hrs",
+      "prepTime": "15 mins",
       "upVotes": 2,
       "downVotes": 2,
       "ingredients": [
@@ -236,15 +236,15 @@
       "stepsToCook": [
         {
           "title": "Step 1",
-          "description": "Place the potato in a pan of cold, salted water and bring to the boil, then reduce the heat to medium-low and cook for 20-25 minutes or until tender. Drain, then cool slightly and thickly slice."
+          "description": "Place the potato in a pan of cold, salted water and bring to the boil, then reduce the heat to medium-low and cook for 20-25 mins or until tender. Drain, then cool slightly and thickly slice."
         },
         {
           "title": "Step 2",
-          "description": "Meanwhile, preheat the oven to 190°C. Place speck in a frypan over medium heat and cook for 3 minutes or until the fat has rendered. Add the eschalot and cook, stirring, for 5 minutes or until softened."
+          "description": "Meanwhile, preheat the oven to 190°C. Place speck in a frypan over medium heat and cook for 3 mins or until the fat has rendered. Add the eschalot and cook, stirring, for 5 mins or until softened."
         },
         {
           "title": "Step 3",
-          "description": "Add the garlic and thyme to the pancetta mixture, then cook for 1 minute or until fragrant. Add the wine, then bring to a simmer and remove from the heat. Stir in the creme fraiche and parsley, then add the potato and gently stir to combine. Season, then transfer mixture to a 20cm x 30cm ovenproof dish. Cut the cheese in half horizontally to make 2 discs, then cut each disc in half to make 4 semi circles. Place cheese on top of the potato mixture, then bake for 25 minutes or until the cheese is melted. Serve immediately."
+          "description": "Add the garlic and thyme to the pancetta mixture, then cook for 1 minute or until fragrant. Add the wine, then bring to a simmer and remove from the heat. Stir in the creme fraiche and parsley, then add the potato and gently stir to combine. Season, then transfer mixture to a 20cm x 30cm ovenproof dish. Cut the cheese in half horizontally to make 2 discs, then cut each disc in half to make 4 semi circles. Place cheese on top of the potato mixture, then bake for 25 mins or until the cheese is melted. Serve immediately."
         }
       ]
     },
@@ -253,8 +253,8 @@
       "category": "French",
       "name": "French Duck Confit",
       "image": "/img/french/duckConfit.jpeg",
-      "cookTime": "45 minutes",
-      "prepTime": "25 minutes",
+      "cookTime": "45 mins",
+      "prepTime": "25 mins",
       "upVotes": 7,
       "downVotes": 1,
       "ingredients": [
@@ -298,15 +298,15 @@
       "stepsToCook": [
         {
           "title": "Step 1",
-          "description": "Preheat oven to 200°C. Line a baking tray with baking paper. Place potatoes in a pan of cold, salted water and bring to the boil over medium-high heat. Cook for 8-10 minutes until just tender. Drain well."
+          "description": "Preheat oven to 200°C. Line a baking tray with baking paper. Place potatoes in a pan of cold, salted water and bring to the boil over medium-high heat. Cook for 8-10 mins until just tender. Drain well."
         },
         {
           "title": "Step 2",
-          "description": "Scrape off excess fat from duck and set aside. Place 2 tablespoons duck fat in a baking dish and melt in the oven for 2 minutes. Toss potatoes in fat and season. Roast potatoes for 10 minutes. Place duck on lined tray and roast with the potatoes for a further 20 minutes, turning potatoes once, until duck and potatoes are crisp and golden."
+          "description": "Scrape off excess fat from duck and set aside. Place 2 tablespoons duck fat in a baking dish and melt in the oven for 2 mins. Toss potatoes in fat and season. Roast potatoes for 10 mins. Place duck on lined tray and roast with the potatoes for a further 20 mins, turning potatoes once, until duck and potatoes are crisp and golden."
         },
         {
           "title": "Step 3",
-          "description": "Meanwhile, heat 1 tablespoon reserved fat in a pan over a medium heat. Cook eschalot, stirring, for 1 minute until just starting to soften. Add wine and increase heat to high. Simmer for 8-10 minutes until reduced to about 2 tablespoons. Add stock and simmer for a further 6-8 minutes until reduced by half. Whisk in mustard and herbs, then season."
+          "description": "Meanwhile, heat 1 tablespoon reserved fat in a pan over a medium heat. Cook eschalot, stirring, for 1 minute until just starting to soften. Add wine and increase heat to high. Simmer for 8-10 mins until reduced to about 2 tablespoons. Add stock and simmer for a further 6-8 mins until reduced by half. Whisk in mustard and herbs, then season."
         },
         {
           "title": "Step 4",
@@ -319,8 +319,8 @@
       "category": "French",
       "name": "Salmon with Green Olive",
       "image": "/img/french/salmon.jpg",
-      "cookTime": "12 minutes",
-      "prepTime": "40 minutes",
+      "cookTime": "12 mins",
+      "prepTime": "40 mins",
       "upVotes": 11,
       "downVotes": 4,
       "ingredients": [
@@ -372,15 +372,15 @@
       "stepsToCook": [
         {
           "title": "Step 1",
-          "description": "Preheat oven to 200°C. Line a baking tray with baking paper. Place potatoes in a pan of cold, salted water and bring to the boil over medium-high heat. Cook for 8-10 minutes until just tender. Drain well."
+          "description": "Preheat oven to 200°C. Line a baking tray with baking paper. Place potatoes in a pan of cold, salted water and bring to the boil over medium-high heat. Cook for 8-10 mins until just tender. Drain well."
         },
         {
           "title": "Step 2",
-          "description": "Scrape off excess fat from duck and set aside. Place 2 tablespoons duck fat in a baking dish and melt in the oven for 2 minutes. Toss potatoes in fat and season. Roast potatoes for 10 minutes. Place duck on lined tray and roast with the potatoes for a further 20 minutes, turning potatoes once, until duck and potatoes are crisp and golden."
+          "description": "Scrape off excess fat from duck and set aside. Place 2 tablespoons duck fat in a baking dish and melt in the oven for 2 mins. Toss potatoes in fat and season. Roast potatoes for 10 mins. Place duck on lined tray and roast with the potatoes for a further 20 mins, turning potatoes once, until duck and potatoes are crisp and golden."
         },
         {
           "title": "Step 3",
-          "description": "Meanwhile, heat 1 tablespoon reserved fat in a pan over a medium heat. Cook eschalot, stirring, for 1 minute until just starting to soften. Add wine and increase heat to high. Simmer for 8-10 minutes until reduced to about 2 tablespoons. Add stock and simmer for a further 6-8 minutes until reduced by half. Whisk in mustard and herbs, then season."
+          "description": "Meanwhile, heat 1 tablespoon reserved fat in a pan over a medium heat. Cook eschalot, stirring, for 1 minute until just starting to soften. Add wine and increase heat to high. Simmer for 8-10 mins until reduced to about 2 tablespoons. Add stock and simmer for a further 6-8 mins until reduced by half. Whisk in mustard and herbs, then season."
         },
         {
           "title": "Step 4",
@@ -393,8 +393,8 @@
       "category": "Spanish",
       "name": "Seafood Paella",
       "image": "/img/spanish/paella.jpeg",
-      "cookTime": "30 minutes",
-      "prepTime": "10 minutes",
+      "cookTime": "30 mins",
+      "prepTime": "10 mins",
       "upVotes": 3,
       "downVotes": 2,
       "ingredients": [
@@ -454,7 +454,7 @@
         },
         {
           "title": "Step 5:",
-          "description": "Bake snails until butter is melted and sizzling, 4 to 6 minutes. Serve immediately."
+          "description": "Bake snails until butter is melted and sizzling, 4 to 6 mins. Serve immediately."
         }
       ]
     },
@@ -463,8 +463,8 @@
       "category": "Spanish",
       "name": "Tortilla",
       "image": "/img/spanish/tortilla.jpeg",
-      "cookTime": "30 minutes",
-      "prepTime": "10 minutes",
+      "cookTime": "30 mins",
+      "prepTime": "10 mins",
       "upVotes": 2,
       "downVotes": 1,
       "ingredients": [
@@ -524,7 +524,7 @@
         },
         {
           "title": "Step 5:",
-          "description": "Bake snails until butter is melted and sizzling, 4 to 6 minutes. Serve immediately."
+          "description": "Bake snails until butter is melted and sizzling, 4 to 6 mins. Serve immediately."
         }
       ]
     },
@@ -533,8 +533,8 @@
       "category": "Spanish",
       "name": "Arroz Al Horno",
       "image": "/img/spanish/arrozAlHorno.jpeg",
-      "cookTime": "30 minutes",
-      "prepTime": "10 minutes",
+      "cookTime": "30 mins",
+      "prepTime": "10 mins",
       "upVotes": 1,
       "downVotes": 1,
       "ingredients": [
@@ -594,7 +594,7 @@
         },
         {
           "title": "Step 5:",
-          "description": "Bake snails until butter is melted and sizzling, 4 to 6 minutes. Serve immediately."
+          "description": "Bake snails until butter is melted and sizzling, 4 to 6 mins. Serve immediately."
         }
       ]
     },
@@ -603,8 +603,8 @@
       "category": "Spanish",
       "name": "Spanish Chicken",
       "image": "/img/spanish/spanishChicken.jpeg",
-      "cookTime": "30 minutes",
-      "prepTime": "10 minutes",
+      "cookTime": "30 mins",
+      "prepTime": "10 mins",
       "upVotes": 1,
       "downVotes": 1,
       "ingredients": [
@@ -664,7 +664,7 @@
         },
         {
           "title": "Step 5:",
-          "description": "Bake snails until butter is melted and sizzling, 4 to 6 minutes. Serve immediately."
+          "description": "Bake snails until butter is melted and sizzling, 4 to 6 mins. Serve immediately."
         }
       ]
     },
@@ -673,8 +673,8 @@
       "category": "Spanish",
       "name": "Chorizo & chickpea Soup",
       "image": "/img/spanish/chorizo.jpeg",
-      "cookTime": "30 minutes",
-      "prepTime": "10 minutes",
+      "cookTime": "30 mins",
+      "prepTime": "10 mins",
       "upVotes": 1,
       "downVotes": 1,
       "ingredients": [
@@ -734,7 +734,7 @@
         },
         {
           "title": "Step 5:",
-          "description": "Bake snails until butter is melted and sizzling, 4 to 6 minutes. Serve immediately."
+          "description": "Bake snails until butter is melted and sizzling, 4 to 6 mins. Serve immediately."
         }
       ]
     },
@@ -743,10 +743,10 @@
       "category": "Italian",
       "name": "Papardelle",
       "image": "/img/italian/papardelle.jpeg",
-      "cookTime": "30 minutes",
-      "prepTime": "10 minutes",
-      "upVotes": 0,
-      "downVotes": 0,
+      "cookTime": "30 mins",
+      "prepTime": "10 mins",
+      "upVotes": 1,
+      "downVotes": 2,
       "ingredients": [
         {
           "name": "snail",
@@ -804,7 +804,7 @@
         },
         {
           "title": "Step 5:",
-          "description": "Bake snails until butter is melted and sizzling, 4 to 6 minutes. Serve immediately."
+          "description": "Bake snails until butter is melted and sizzling, 4 to 6 mins. Serve immediately."
         }
       ]
     },
@@ -813,10 +813,10 @@
       "category": "Italian",
       "name": "Spinach & Fetta ",
       "image": "/img/italian/spinach.jpeg",
-      "cookTime": "30 minutes",
-      "prepTime": "10 minutes",
-      "upVotes": 0,
-      "downVotes": 0,
+      "cookTime": "30 mins",
+      "prepTime": "10 mins",
+      "upVotes": 1,
+      "downVotes": 1,
       "ingredients": [
         {
           "name": "snail",
@@ -874,7 +874,7 @@
         },
         {
           "title": "Step 5:",
-          "description": "Bake snails until butter is melted and sizzling, 4 to 6 minutes. Serve immediately."
+          "description": "Bake snails until butter is melted and sizzling, 4 to 6 mins. Serve immediately."
         }
       ]
     },
@@ -883,10 +883,10 @@
       "category": "Italian",
       "name": "Creamy polenta",
       "image": "/img/italian/polenta.jpeg",
-      "cookTime": "30 minutes",
-      "prepTime": "10 minutes",
-      "upVotes": 0,
-      "downVotes": 0,
+      "cookTime": "30 mins",
+      "prepTime": "10 mins",
+      "upVotes": 1,
+      "downVotes": 1,
       "ingredients": [
         {
           "name": "snail",
@@ -944,7 +944,7 @@
         },
         {
           "title": "Step 5:",
-          "description": "Bake snails until butter is melted and sizzling, 4 to 6 minutes. Serve immediately."
+          "description": "Bake snails until butter is melted and sizzling, 4 to 6 mins. Serve immediately."
         }
       ]
     },
@@ -953,10 +953,10 @@
       "category": "Italian",
       "name": "aubergine traybake",
       "image": "/img/italian/traybake.jpeg",
-      "cookTime": "30 minutes",
-      "prepTime": "10 minutes",
-      "upVotes": 0,
-      "downVotes": 0,
+      "cookTime": "30 mins",
+      "prepTime": "10 mins",
+      "upVotes": 1,
+      "downVotes": 1,
       "ingredients": [
         {
           "name": "snail",
@@ -1014,7 +1014,7 @@
         },
         {
           "title": "Step 5:",
-          "description": "Bake snails until butter is melted and sizzling, 4 to 6 minutes. Serve immediately."
+          "description": "Bake snails until butter is melted and sizzling, 4 to 6 mins. Serve immediately."
         }
       ]
     },
@@ -1023,10 +1023,10 @@
       "category": "Italian",
       "name": "No Yeast Pizza",
       "image": "/img/italian/pizza.jpeg",
-      "cookTime": "30 minutes",
-      "prepTime": "10 minutes",
-      "upVotes": 0,
-      "downVotes": 0,
+      "cookTime": "30 mins",
+      "prepTime": "10 mins",
+      "upVotes": 1,
+      "downVotes": 1,
       "ingredients": [
         {
           "name": "snail",
@@ -1084,7 +1084,7 @@
         },
         {
           "title": "Step 5:",
-          "description": "Bake snails until butter is melted and sizzling, 4 to 6 minutes. Serve immediately."
+          "description": "Bake snails until butter is melted and sizzling, 4 to 6 mins. Serve immediately."
         }
       ]
     },
@@ -1093,8 +1093,8 @@
       "category": "Korean",
       "name": "Bibimbap",
       "image": "/img/korean/bibimbap.jpeg",
-      "cookTime": "30 minutes",
-      "prepTime": "10 minutes",
+      "cookTime": "30 mins",
+      "prepTime": "10 mins",
       "upVotes": 0,
       "downVotes": 0,
       "ingredients": [
@@ -1154,7 +1154,7 @@
         },
         {
           "title": "Step 5:",
-          "description": "Bake snails until butter is melted and sizzling, 4 to 6 minutes. Serve immediately."
+          "description": "Bake snails until butter is melted and sizzling, 4 to 6 mins. Serve immediately."
         }
       ]
     },
@@ -1163,8 +1163,8 @@
       "category": "Korean",
       "name": "Korean Spicy Chicken",
       "image": "/img/korean/koreanchicken.jpeg",
-      "cookTime": "30 minutes",
-      "prepTime": "10 minutes",
+      "cookTime": "30 mins",
+      "prepTime": "10 mins",
       "upVotes": 0,
       "downVotes": 0,
       "ingredients": [
@@ -1224,7 +1224,7 @@
         },
         {
           "title": "Step 5:",
-          "description": "Bake snails until butter is melted and sizzling, 4 to 6 minutes. Serve immediately."
+          "description": "Bake snails until butter is melted and sizzling, 4 to 6 mins. Serve immediately."
         }
       ]
     },
@@ -1233,8 +1233,8 @@
       "category": "Korean",
       "name": "Korean Beef",
       "image": "/img/korean/koreanbeef.jpeg",
-      "cookTime": "30 minutes",
-      "prepTime": "10 minutes",
+      "cookTime": "30 mins",
+      "prepTime": "10 mins",
       "upVotes": 0,
       "downVotes": 0,
       "ingredients": [
@@ -1294,7 +1294,7 @@
         },
         {
           "title": "Step 5:",
-          "description": "Bake snails until butter is melted and sizzling, 4 to 6 minutes. Serve immediately."
+          "description": "Bake snails until butter is melted and sizzling, 4 to 6 mins. Serve immediately."
         }
       ]
     },
@@ -1303,8 +1303,8 @@
       "category": "Korean",
       "name": "Vegan Tteokbokki",
       "image": "/img/korean/vegan-tteokbokki.jpeg",
-      "cookTime": "30 minutes",
-      "prepTime": "10 minutes",
+      "cookTime": "30 mins",
+      "prepTime": "10 mins",
       "upVotes": 0,
       "downVotes": 0,
       "ingredients": [
@@ -1364,7 +1364,7 @@
         },
         {
           "title": "Step 5:",
-          "description": "Bake snails until butter is melted and sizzling, 4 to 6 minutes. Serve immediately."
+          "description": "Bake snails until butter is melted and sizzling, 4 to 6 mins. Serve immediately."
         }
       ]
     },
@@ -1373,8 +1373,8 @@
       "category": "Korean",
       "name": "Spicy Eggplant",
       "image": "/img/korean/eggplant.jpeg",
-      "cookTime": "30 minutes",
-      "prepTime": "10 minutes",
+      "cookTime": "30 mins",
+      "prepTime": "10 mins",
       "upVotes": 0,
       "downVotes": 0,
       "ingredients": [
@@ -1434,7 +1434,7 @@
         },
         {
           "title": "Step 5:",
-          "description": "Bake snails until butter is melted and sizzling, 4 to 6 minutes. Serve immediately."
+          "description": "Bake snails until butter is melted and sizzling, 4 to 6 mins. Serve immediately."
         }
       ]
     },
@@ -1443,8 +1443,8 @@
       "category": "Japanese",
       "name": "Teriyaki Chicken",
       "image": "/img/japanese/teriyaki.jpg",
-      "cookTime": "30 minutes",
-      "prepTime": "10 minutes",
+      "cookTime": "30 mins",
+      "prepTime": "10 mins",
       "upVotes": 0,
       "downVotes": 0,
       "ingredients": [
@@ -1504,7 +1504,7 @@
         },
         {
           "title": "Step 5:",
-          "description": "Bake snails until butter is melted and sizzling, 4 to 6 minutes. Serve immediately."
+          "description": "Bake snails until butter is melted and sizzling, 4 to 6 mins. Serve immediately."
         }
       ]
     },
@@ -1513,8 +1513,8 @@
       "category": "Japanese",
       "name": "Chicken Karaage",
       "image": "/img/japanese/karage.jpg",
-      "cookTime": "30 minutes",
-      "prepTime": "10 minutes",
+      "cookTime": "30 mins",
+      "prepTime": "10 mins",
       "upVotes": 0,
       "downVotes": 0,
       "ingredients": [
@@ -1574,7 +1574,7 @@
         },
         {
           "title": "Step 5:",
-          "description": "Bake snails until butter is melted and sizzling, 4 to 6 minutes. Serve immediately."
+          "description": "Bake snails until butter is melted and sizzling, 4 to 6 mins. Serve immediately."
         }
       ]
     },
@@ -1583,8 +1583,8 @@
       "category": "Japanese",
       "name": "Oyakdon",
       "image": "/img/japanese/oyakdon.jpeg",
-      "cookTime": "30 minutes",
-      "prepTime": "10 minutes",
+      "cookTime": "30 mins",
+      "prepTime": "10 mins",
       "upVotes": 0,
       "downVotes": 0,
       "ingredients": [
@@ -1644,7 +1644,7 @@
         },
         {
           "title": "Step 5:",
-          "description": "Bake snails until butter is melted and sizzling, 4 to 6 minutes. Serve immediately."
+          "description": "Bake snails until butter is melted and sizzling, 4 to 6 mins. Serve immediately."
         }
       ]
     },
@@ -1653,8 +1653,8 @@
       "category": "Japanese",
       "name": "Chicken Katsu",
       "image": "/img/japanese/katsu.jpg",
-      "cookTime": "30 minutes",
-      "prepTime": "10 minutes",
+      "cookTime": "30 mins",
+      "prepTime": "10 mins",
       "upVotes": 0,
       "downVotes": 0,
       "ingredients": [
@@ -1714,7 +1714,7 @@
         },
         {
           "title": "Step 5:",
-          "description": "Bake snails until butter is melted and sizzling, 4 to 6 minutes. Serve immediately."
+          "description": "Bake snails until butter is melted and sizzling, 4 to 6 mins. Serve immediately."
         }
       ]
     },
@@ -1723,8 +1723,8 @@
       "category": "Japanese",
       "name": "Teriyaki Eel",
       "image": "/img/japanese/eel.jpeg",
-      "cookTime": "30 minutes",
-      "prepTime": "10 minutes",
+      "cookTime": "30 mins",
+      "prepTime": "10 mins",
       "upVotes": 0,
       "downVotes": 0,
       "ingredients": [
@@ -1784,7 +1784,7 @@
         },
         {
           "title": "Step 5:",
-          "description": "Bake snails until butter is melted and sizzling, 4 to 6 minutes. Serve immediately."
+          "description": "Bake snails until butter is melted and sizzling, 4 to 6 mins. Serve immediately."
         }
       ]
     },
@@ -1793,8 +1793,8 @@
       "category": "Chinese",
       "name": "Dumplings",
       "image": "/img/chinese/dumplings.jpg",
-      "cookTime": "30 minutes",
-      "prepTime": "10 minutes",
+      "cookTime": "30 mins",
+      "prepTime": "10 mins",
       "upVotes": 0,
       "downVotes": 0,
       "ingredients": [
@@ -1854,7 +1854,7 @@
         },
         {
           "title": "Step 5:",
-          "description": "Bake snails until butter is melted and sizzling, 4 to 6 minutes. Serve immediately."
+          "description": "Bake snails until butter is melted and sizzling, 4 to 6 mins. Serve immediately."
         }
       ]
     },
@@ -1863,8 +1863,8 @@
       "category": "Chinese",
       "name": "Beef Stir Fry",
       "image": "/img/chinese/beefstirfry.jpg",
-      "cookTime": "30 minutes",
-      "prepTime": "10 minutes",
+      "cookTime": "30 mins",
+      "prepTime": "10 mins",
       "upVotes": 0,
       "downVotes": 0,
       "ingredients": [
@@ -1924,7 +1924,7 @@
         },
         {
           "title": "Step 5:",
-          "description": "Bake snails until butter is melted and sizzling, 4 to 6 minutes. Serve immediately."
+          "description": "Bake snails until butter is melted and sizzling, 4 to 6 mins. Serve immediately."
         }
       ]
     },
@@ -1933,8 +1933,8 @@
       "category": "Chinese",
       "name": "Beef Stir Fry",
       "image": "/img/chinese/chinesenoodles.jpeg",
-      "cookTime": "30 minutes",
-      "prepTime": "10 minutes",
+      "cookTime": "30 mins",
+      "prepTime": "10 mins",
       "upVotes": 0,
       "downVotes": 0,
       "ingredients": [
@@ -1994,7 +1994,7 @@
         },
         {
           "title": "Step 5:",
-          "description": "Bake snails until butter is melted and sizzling, 4 to 6 minutes. Serve immediately."
+          "description": "Bake snails until butter is melted and sizzling, 4 to 6 mins. Serve immediately."
         }
       ]
     },
@@ -2003,8 +2003,8 @@
       "category": "Chinese",
       "name": "Sweet n Sour Pork",
       "image": "/img/chinese/sweetnsour.jpeg",
-      "cookTime": "30 minutes",
-      "prepTime": "10 minutes",
+      "cookTime": "30 mins",
+      "prepTime": "10 mins",
       "upVotes": 0,
       "downVotes": 0,
       "ingredients": [
@@ -2064,7 +2064,7 @@
         },
         {
           "title": "Step 5:",
-          "description": "Bake snails until butter is melted and sizzling, 4 to 6 minutes. Serve immediately."
+          "description": "Bake snails until butter is melted and sizzling, 4 to 6 mins. Serve immediately."
         }
       ]
     },
@@ -2073,8 +2073,8 @@
       "category": "Chinese",
       "name": "Vegetable Stir Fry",
       "image": "/img/chinese/vegetable.jpg",
-      "cookTime": "30 minutes",
-      "prepTime": "10 minutes",
+      "cookTime": "30 mins",
+      "prepTime": "10 mins",
       "upVotes": 0,
       "downVotes": 0,
       "ingredients": [
@@ -2134,7 +2134,7 @@
         },
         {
           "title": "Step 5:",
-          "description": "Bake snails until butter is melted and sizzling, 4 to 6 minutes. Serve immediately."
+          "description": "Bake snails until butter is melted and sizzling, 4 to 6 mins. Serve immediately."
         }
       ]
     },
@@ -2143,8 +2143,8 @@
       "category": "Filipino",
       "name": "Lechon",
       "image": "/img/filipino/lechon.jpeg",
-      "cookTime": "30 minutes",
-      "prepTime": "10 minutes",
+      "cookTime": "30 mins",
+      "prepTime": "10 mins",
       "upVotes": 0,
       "downVotes": 0,
       "ingredients": [
@@ -2204,7 +2204,7 @@
         },
         {
           "title": "Step 5:",
-          "description": "Bake snails until butter is melted and sizzling, 4 to 6 minutes. Serve immediately."
+          "description": "Bake snails until butter is melted and sizzling, 4 to 6 mins. Serve immediately."
         }
       ]
     },
@@ -2213,8 +2213,8 @@
       "category": "Filipino",
       "name": "Pochero",
       "image": "/img/filipino/pochero.jpg",
-      "cookTime": "30 minutes",
-      "prepTime": "10 minutes",
+      "cookTime": "30 mins",
+      "prepTime": "10 mins",
       "upVotes": 0,
       "downVotes": 0,
       "ingredients": [
@@ -2274,7 +2274,7 @@
         },
         {
           "title": "Step 5:",
-          "description": "Bake snails until butter is melted and sizzling, 4 to 6 minutes. Serve immediately."
+          "description": "Bake snails until butter is melted and sizzling, 4 to 6 mins. Serve immediately."
         }
       ]
     },
@@ -2283,8 +2283,8 @@
       "category": "Filipino",
       "name": "Caldereta",
       "image": "/img/filipino/caldereta.jpg",
-      "cookTime": "30 minutes",
-      "prepTime": "10 minutes",
+      "cookTime": "30 mins",
+      "prepTime": "10 mins",
       "upVotes": 0,
       "downVotes": 0,
       "ingredients": [
@@ -2344,7 +2344,7 @@
         },
         {
           "title": "Step 5:",
-          "description": "Bake snails until butter is melted and sizzling, 4 to 6 minutes. Serve immediately."
+          "description": "Bake snails until butter is melted and sizzling, 4 to 6 mins. Serve immediately."
         }
       ]
     },
@@ -2353,8 +2353,8 @@
       "category": "Filipino",
       "name": "Humba",
       "image": "/img/filipino/humba.jpg",
-      "cookTime": "30 minutes",
-      "prepTime": "10 minutes",
+      "cookTime": "30 mins",
+      "prepTime": "10 mins",
       "upVotes": 0,
       "downVotes": 0,
       "ingredients": [
@@ -2414,7 +2414,7 @@
         },
         {
           "title": "Step 5:",
-          "description": "Bake snails until butter is melted and sizzling, 4 to 6 minutes. Serve immediately."
+          "description": "Bake snails until butter is melted and sizzling, 4 to 6 mins. Serve immediately."
         }
       ]
     },
@@ -2423,8 +2423,8 @@
       "category": "Filipino",
       "name": "Fish Kinilaw",
       "image": "/img/filipino/kinilaw.jpg",
-      "cookTime": "30 minutes",
-      "prepTime": "10 minutes",
+      "cookTime": "30 mins",
+      "prepTime": "10 mins",
       "upVotes": 0,
       "downVotes": 0,
       "ingredients": [
@@ -2484,7 +2484,7 @@
         },
         {
           "title": "Step 5:",
-          "description": "Bake snails until butter is melted and sizzling, 4 to 6 minutes. Serve immediately."
+          "description": "Bake snails until butter is melted and sizzling, 4 to 6 mins. Serve immediately."
         }
       ]
     },
@@ -2493,8 +2493,8 @@
       "category": "Thai",
       "name": "Pad Thai",
       "image": "/img/thai/padthai.jpeg",
-      "cookTime": "30 minutes",
-      "prepTime": "10 minutes",
+      "cookTime": "30 mins",
+      "prepTime": "10 mins",
       "upVotes": 0,
       "downVotes": 0,
       "ingredients": [
@@ -2554,7 +2554,7 @@
         },
         {
           "title": "Step 5:",
-          "description": "Bake snails until butter is melted and sizzling, 4 to 6 minutes. Serve immediately."
+          "description": "Bake snails until butter is melted and sizzling, 4 to 6 mins. Serve immediately."
         }
       ]
     },
@@ -2563,8 +2563,8 @@
       "category": "Thai",
       "name": "Curry Chicken",
       "image": "/img/thai/curry.jpg",
-      "cookTime": "30 minutes",
-      "prepTime": "10 minutes",
+      "cookTime": "30 mins",
+      "prepTime": "10 mins",
       "upVotes": 0,
       "downVotes": 0,
       "ingredients": [
@@ -2624,7 +2624,7 @@
         },
         {
           "title": "Step 5:",
-          "description": "Bake snails until butter is melted and sizzling, 4 to 6 minutes. Serve immediately."
+          "description": "Bake snails until butter is melted and sizzling, 4 to 6 mins. Serve immediately."
         }
       ]
     },
@@ -2633,8 +2633,8 @@
       "category": "Thai",
       "name": "Tom Yum",
       "image": "/img/thai/tomyum.jpeg",
-      "cookTime": "30 minutes",
-      "prepTime": "10 minutes",
+      "cookTime": "30 mins",
+      "prepTime": "10 mins",
       "upVotes": 0,
       "downVotes": 0,
       "ingredients": [
@@ -2694,7 +2694,7 @@
         },
         {
           "title": "Step 5:",
-          "description": "Bake snails until butter is melted and sizzling, 4 to 6 minutes. Serve immediately."
+          "description": "Bake snails until butter is melted and sizzling, 4 to 6 mins. Serve immediately."
         }
       ]
     },
@@ -2703,8 +2703,8 @@
       "category": "Thai",
       "name": "Spring Roll",
       "image": "/img/thai/springroll.jpg",
-      "cookTime": "30 minutes",
-      "prepTime": "10 minutes",
+      "cookTime": "30 mins",
+      "prepTime": "10 mins",
       "upVotes": 0,
       "downVotes": 0,
       "ingredients": [
@@ -2764,7 +2764,7 @@
         },
         {
           "title": "Step 5:",
-          "description": "Bake snails until butter is melted and sizzling, 4 to 6 minutes. Serve immediately."
+          "description": "Bake snails until butter is melted and sizzling, 4 to 6 mins. Serve immediately."
         }
       ]
     },
@@ -2773,8 +2773,8 @@
       "category": "Thai",
       "name": "Chicken Wings",
       "image": "/img/thai/chicken.jpg",
-      "cookTime": "30 minutes",
-      "prepTime": "10 minutes",
+      "cookTime": "30 mins",
+      "prepTime": "10 mins",
       "upVotes": 0,
       "downVotes": 0,
       "ingredients": [
@@ -2834,7 +2834,7 @@
         },
         {
           "title": "Step 5:",
-          "description": "Bake snails until butter is melted and sizzling, 4 to 6 minutes. Serve immediately."
+          "description": "Bake snails until butter is melted and sizzling, 4 to 6 mins. Serve immediately."
         }
       ]
     },
@@ -2843,8 +2843,8 @@
       "category": "Lebanese",
       "name": "Chicken & Chickpeas",
       "image": "/img/lebanese/lebchick.jpg",
-      "cookTime": "30 minutes",
-      "prepTime": "10 minutes",
+      "cookTime": "30 mins",
+      "prepTime": "10 mins",
       "upVotes": 0,
       "downVotes": 0,
       "ingredients": [
@@ -2904,7 +2904,7 @@
         },
         {
           "title": "Step 5:",
-          "description": "Bake snails until butter is melted and sizzling, 4 to 6 minutes. Serve immediately."
+          "description": "Bake snails until butter is melted and sizzling, 4 to 6 mins. Serve immediately."
         }
       ]
     },
@@ -2913,8 +2913,8 @@
       "category": "Lebanese",
       "name": "Eggplant Fatteh",
       "image": "/img/lebanese/fatteh.jpeg",
-      "cookTime": "30 minutes",
-      "prepTime": "10 minutes",
+      "cookTime": "30 mins",
+      "prepTime": "10 mins",
       "upVotes": 0,
       "downVotes": 0,
       "ingredients": [
@@ -2974,7 +2974,7 @@
         },
         {
           "title": "Step 5:",
-          "description": "Bake snails until butter is melted and sizzling, 4 to 6 minutes. Serve immediately."
+          "description": "Bake snails until butter is melted and sizzling, 4 to 6 mins. Serve immediately."
         }
       ]
     },
@@ -2983,8 +2983,8 @@
       "category": "Lebanese",
       "name": "Sausage",
       "image": "/img/lebanese/sausage.jpg",
-      "cookTime": "30 minutes",
-      "prepTime": "10 minutes",
+      "cookTime": "30 mins",
+      "prepTime": "10 mins",
       "upVotes": 0,
       "downVotes": 0,
       "ingredients": [
@@ -3044,7 +3044,7 @@
         },
         {
           "title": "Step 5:",
-          "description": "Bake snails until butter is melted and sizzling, 4 to 6 minutes. Serve immediately."
+          "description": "Bake snails until butter is melted and sizzling, 4 to 6 mins. Serve immediately."
         }
       ]
     },
@@ -3053,8 +3053,8 @@
       "category": "Lebanese",
       "name": "Beef Skewer",
       "image": "/img/lebanese/beefskewer.jpg",
-      "cookTime": "30 minutes",
-      "prepTime": "10 minutes",
+      "cookTime": "30 mins",
+      "prepTime": "10 mins",
       "upVotes": 0,
       "downVotes": 0,
       "ingredients": [
@@ -3114,7 +3114,7 @@
         },
         {
           "title": "Step 5:",
-          "description": "Bake snails until butter is melted and sizzling, 4 to 6 minutes. Serve immediately."
+          "description": "Bake snails until butter is melted and sizzling, 4 to 6 mins. Serve immediately."
         }
       ]
     },
@@ -3122,9 +3122,9 @@
       "id": 45,
       "category": "Lebanese",
       "name": "Chicken Salad",
-      "image": "/img/lebanese/.jpg",
-      "cookTime": "30 minutes",
-      "prepTime": "10 minutes",
+      "image": "/img/lebanese/chickensalad.jpg",
+      "cookTime": "30 mins",
+      "prepTime": "10 mins",
       "upVotes": 0,
       "downVotes": 0,
       "ingredients": [
@@ -3184,7 +3184,7 @@
         },
         {
           "title": "Step 5:",
-          "description": "Bake snails until butter is melted and sizzling, 4 to 6 minutes. Serve immediately."
+          "description": "Bake snails until butter is melted and sizzling, 4 to 6 mins. Serve immediately."
         }
       ]
     },
@@ -3193,8 +3193,8 @@
       "category": "Indian",
       "name": "Egg Curry Rice",
       "image": "/img/indian/eggcurry.jpg",
-      "cookTime": "30 minutes",
-      "prepTime": "10 minutes",
+      "cookTime": "30 mins",
+      "prepTime": "10 mins",
       "upVotes": 0,
       "downVotes": 0,
       "ingredients": [
@@ -3254,7 +3254,7 @@
         },
         {
           "title": "Step 5:",
-          "description": "Bake snails until butter is melted and sizzling, 4 to 6 minutes. Serve immediately."
+          "description": "Bake snails until butter is melted and sizzling, 4 to 6 mins. Serve immediately."
         }
       ]
     },
@@ -3263,8 +3263,8 @@
       "category": "Indian",
       "name": "Chicken Saagwala",
       "image": "/img/indian/saagwala.jpg",
-      "cookTime": "30 minutes",
-      "prepTime": "10 minutes",
+      "cookTime": "30 mins",
+      "prepTime": "10 mins",
       "upVotes": 0,
       "downVotes": 0,
       "ingredients": [
@@ -3324,7 +3324,7 @@
         },
         {
           "title": "Step 5:",
-          "description": "Bake snails until butter is melted and sizzling, 4 to 6 minutes. Serve immediately."
+          "description": "Bake snails until butter is melted and sizzling, 4 to 6 mins. Serve immediately."
         }
       ]
     },
@@ -3333,8 +3333,8 @@
       "category": "Indian",
       "name": "Egg Curry Rice",
       "image": "/img/indian/eggcurry.jpg",
-      "cookTime": "30 minutes",
-      "prepTime": "10 minutes",
+      "cookTime": "30 mins",
+      "prepTime": "10 mins",
       "upVotes": 0,
       "downVotes": 0,
       "ingredients": [
@@ -3394,7 +3394,7 @@
         },
         {
           "title": "Step 5:",
-          "description": "Bake snails until butter is melted and sizzling, 4 to 6 minutes. Serve immediately."
+          "description": "Bake snails until butter is melted and sizzling, 4 to 6 mins. Serve immediately."
         }
       ]
     },
@@ -3403,8 +3403,8 @@
       "category": "Indian",
       "name": "Green Curry",
       "image": "/img/indian/indiancurry.jpg",
-      "cookTime": "30 minutes",
-      "prepTime": "10 minutes",
+      "cookTime": "30 mins",
+      "prepTime": "10 mins",
       "upVotes": 0,
       "downVotes": 0,
       "ingredients": [
@@ -3464,7 +3464,7 @@
         },
         {
           "title": "Step 5:",
-          "description": "Bake snails until butter is melted and sizzling, 4 to 6 minutes. Serve immediately."
+          "description": "Bake snails until butter is melted and sizzling, 4 to 6 mins. Serve immediately."
         }
       ]
     },
@@ -3473,8 +3473,8 @@
       "category": "Indian",
       "name": "Butternut Squash Curry",
       "image": "/img/indian/eggcurry.jpg",
-      "cookTime": "30 minutes",
-      "prepTime": "10 minutes",
+      "cookTime": "30 mins",
+      "prepTime": "10 mins",
       "upVotes": 0,
       "downVotes": 0,
       "ingredients": [
@@ -3534,7 +3534,7 @@
         },
         {
           "title": "Step 5:",
-          "description": "Bake snails until butter is melted and sizzling, 4 to 6 minutes. Serve immediately."
+          "description": "Bake snails until butter is melted and sizzling, 4 to 6 mins. Serve immediately."
         }
       ]
     },
@@ -3543,8 +3543,8 @@
       "category": "Vietnamese",
       "name": "Beef Pho",
       "image": "/img/vietnamese/beefpho.jpg",
-      "cookTime": "30 minutes",
-      "prepTime": "10 minutes",
+      "cookTime": "30 mins",
+      "prepTime": "10 mins",
       "upVotes": 0,
       "downVotes": 0,
       "ingredients": [
@@ -3604,7 +3604,7 @@
         },
         {
           "title": "Step 5:",
-          "description": "Bake snails until butter is melted and sizzling, 4 to 6 minutes. Serve immediately."
+          "description": "Bake snails until butter is melted and sizzling, 4 to 6 mins. Serve immediately."
         }
       ]
     },
@@ -3613,8 +3613,8 @@
       "category": "Vietnamese",
       "name": "Chicken Lemon Grass",
       "image": "/img/vietnamese/lemonchicken.jpeg",
-      "cookTime": "30 minutes",
-      "prepTime": "10 minutes",
+      "cookTime": "30 mins",
+      "prepTime": "10 mins",
       "upVotes": 0,
       "downVotes": 0,
       "ingredients": [
@@ -3674,7 +3674,7 @@
         },
         {
           "title": "Step 5:",
-          "description": "Bake snails until butter is melted and sizzling, 4 to 6 minutes. Serve immediately."
+          "description": "Bake snails until butter is melted and sizzling, 4 to 6 mins. Serve immediately."
         }
       ]
     },
@@ -3683,8 +3683,8 @@
       "category": "Vietnamese",
       "name": "Caramel Chicken",
       "image": "/img/vietnamese/caramelchicken.jpg",
-      "cookTime": "30 minutes",
-      "prepTime": "10 minutes",
+      "cookTime": "30 mins",
+      "prepTime": "10 mins",
       "upVotes": 0,
       "downVotes": 0,
       "ingredients": [
@@ -3744,7 +3744,7 @@
         },
         {
           "title": "Step 5:",
-          "description": "Bake snails until butter is melted and sizzling, 4 to 6 minutes. Serve immediately."
+          "description": "Bake snails until butter is melted and sizzling, 4 to 6 mins. Serve immediately."
         }
       ]
     },
@@ -3753,8 +3753,8 @@
       "category": "Vietnamese",
       "name": "Grilled Pork",
       "image": "/img/vietnamese/grilledpork.jpg",
-      "cookTime": "30 minutes",
-      "prepTime": "10 minutes",
+      "cookTime": "30 mins",
+      "prepTime": "10 mins",
       "upVotes": 0,
       "downVotes": 0,
       "ingredients": [
@@ -3814,7 +3814,7 @@
         },
         {
           "title": "Step 5:",
-          "description": "Bake snails until butter is melted and sizzling, 4 to 6 minutes. Serve immediately."
+          "description": "Bake snails until butter is melted and sizzling, 4 to 6 mins. Serve immediately."
         }
       ]
     },
@@ -3823,9 +3823,9 @@
       "category": "Vietnamese",
       "name": "Egg Rolls",
       "image": "/img/vietnamese/eggrolls.jpeg",
-      "cookTime": "30 minutes",
-      "prepTime": "10 minutes",
-      "upVotes": 0,
+      "cookTime": "30 mins",
+      "prepTime": "10 mins",
+      "upVotes": 1,
       "downVotes": 0,
       "ingredients": [
         {
@@ -3884,7 +3884,7 @@
         },
         {
           "title": "Step 5:",
-          "description": "Bake snails until butter is melted and sizzling, 4 to 6 minutes. Serve immediately."
+          "description": "Bake snails until butter is melted and sizzling, 4 to 6 mins. Serve immediately."
         }
       ]
     },
@@ -3893,10 +3893,10 @@
       "category": "Portuguese",
       "name": "Baked Octopus",
       "image": "/img/portuguese/bakedoctopus.jpg",
-      "cookTime": "30 minutes",
-      "prepTime": "10 minutes",
-      "upVotes": 0,
-      "downVotes": 0,
+      "cookTime": "30 mins",
+      "prepTime": "10 mins",
+      "upVotes": 4,
+      "downVotes": 2,
       "ingredients": [
         {
           "name": "snail",
@@ -3954,7 +3954,7 @@
         },
         {
           "title": "Step 5:",
-          "description": "Bake snails until butter is melted and sizzling, 4 to 6 minutes. Serve immediately."
+          "description": "Bake snails until butter is melted and sizzling, 4 to 6 mins. Serve immediately."
         }
       ]
     },
@@ -3963,10 +3963,10 @@
       "category": "Portuguese",
       "name": "Chicken Salad",
       "image": "/img/portuguese/caramelisedsalad.jpg",
-      "cookTime": "30 minutes",
-      "prepTime": "10 minutes",
-      "upVotes": 0,
-      "downVotes": 0,
+      "cookTime": "30 mins",
+      "prepTime": "10 mins",
+      "upVotes": 1,
+      "downVotes": 1,
       "ingredients": [
         {
           "name": "snail",
@@ -4024,7 +4024,7 @@
         },
         {
           "title": "Step 5:",
-          "description": "Bake snails until butter is melted and sizzling, 4 to 6 minutes. Serve immediately."
+          "description": "Bake snails until butter is melted and sizzling, 4 to 6 mins. Serve immediately."
         }
       ]
     },
@@ -4033,10 +4033,10 @@
       "category": "Portuguese",
       "name": "Grilled Chicken",
       "image": "/img/portuguese/grilledcxn.jpg",
-      "cookTime": "30 minutes",
-      "prepTime": "10 minutes",
-      "upVotes": 0,
-      "downVotes": 0,
+      "cookTime": "30 mins",
+      "prepTime": "10 mins",
+      "upVotes": 3,
+      "downVotes": 2,
       "ingredients": [
         {
           "name": "snail",
@@ -4094,7 +4094,7 @@
         },
         {
           "title": "Step 5:",
-          "description": "Bake snails until butter is melted and sizzling, 4 to 6 minutes. Serve immediately."
+          "description": "Bake snails until butter is melted and sizzling, 4 to 6 mins. Serve immediately."
         }
       ]
     },
@@ -4103,10 +4103,10 @@
       "category": "Portuguese",
       "name": "Seafood Stew",
       "image": "/img/portuguese/seafoodstew.jpeg",
-      "cookTime": "30 minutes",
-      "prepTime": "10 minutes",
-      "upVotes": 0,
-      "downVotes": 0,
+      "cookTime": "30 mins",
+      "prepTime": "10 mins",
+      "upVotes": 2,
+      "downVotes": 1,
       "ingredients": [
         {
           "name": "snail",
@@ -4164,7 +4164,7 @@
         },
         {
           "title": "Step 5:",
-          "description": "Bake snails until butter is melted and sizzling, 4 to 6 minutes. Serve immediately."
+          "description": "Bake snails until butter is melted and sizzling, 4 to 6 mins. Serve immediately."
         }
       ]
     },
@@ -4173,10 +4173,10 @@
       "category": "Portuguese",
       "name": "Braised Beef",
       "image": "/img/portuguese/braisedbeef.jpg",
-      "cookTime": "30 minutes",
-      "prepTime": "10 minutes",
-      "upVotes": 0,
-      "downVotes": 0,
+      "cookTime": "30 mins",
+      "prepTime": "10 mins",
+      "upVotes": 3,
+      "downVotes": 1,
       "ingredients": [
         {
           "name": "snail",
@@ -4234,7 +4234,7 @@
         },
         {
           "title": "Step 5:",
-          "description": "Bake snails until butter is melted and sizzling, 4 to 6 minutes. Serve immediately."
+          "description": "Bake snails until butter is melted and sizzling, 4 to 6 mins. Serve immediately."
         }
       ]
     }

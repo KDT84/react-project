@@ -4,26 +4,31 @@ import CuisineTile from "./CuisineTile";
 import Loading from "./Loading";
 
 function FoodCategory ({ foods, isLoading, upVote, downVote }) {
-  
-  const { category } = useParams() //destructure category. useParamas gets the category name of the 
-  const cuisines = foods.filter(food => food.category === category)
-  
-  const navigate = useNavigate()
+  const { category } = useParams(); //destructure category. useParamas gets the category name of the 
+  const cuisines = foods.filter(food => food.category === category);
+  const navigate = useNavigate();
+
   return (
     <>
      {!isLoading ? 
       <>
         <h1 className="category-title">{category} Cuisines</h1>
-
-        <div className="cuisines-main-container">
-        {cuisines.map(cuisine =>
-          <CuisineTile key={ cuisine.id } cuisine={ cuisine } upVote={upVote} downVote={downVote}/>
-        )}
+        <div className="cuisines-main-container"> {cuisines.map(cuisine =>
+          <CuisineTile 
+            key={ cuisine.id } 
+            cuisine={ cuisine } 
+            upVote={upVote} 
+            downVote={downVote}
+          /> )}
         </div>
-        <button className="ingredients-back-button" type="button" onClick={() => navigate(-1) } >Back</button>
+        <button 
+          className="recipe-back-button" 
+          type="button" 
+          onClick={() => navigate(-1) }>⬅️ Back
+        </button>
       </>
-     : <Loading />}
-      
+     : 
+     <Loading />}
     </>
   );
 }

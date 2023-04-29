@@ -13,7 +13,6 @@ function GroceryList({ groceryList, setGroceryList}) {
     setGroceryList([...new Set([...groceryList, newItem])])
   }
 
-
   function handleDelete(item) {
     
     return function () {
@@ -24,23 +23,37 @@ function GroceryList({ groceryList, setGroceryList}) {
   return (
     <>
       <div className="grocery-list-container">
-      <button className="print-list" onClick={() => window.print() }>🖨️ Print</button>
-        <h1 className="groceryList  ">Grocery List</h1>
-          <input type="text" value={newItem} onChange={handleNewItemChange} className="add-item"/>
-          <button onClick={handleAddItem} className="add-btn">+ Add Item</button>
-          
-          {groceryList.map(item => 
-            <div key={item} className="grocery-container">
-              <button onClick={handleDelete(item)} style={{width: "30px", height: "20px"}}>❎</button>
-              <input type="checkbox" value={item} style={{width: "40px", height: "15px"}}/> 
-              <span style={{"color": "black"}}>{item}</span>
-            </div>
-          )}
-          <br />
+        <button 
+          className="grocery-print-btn no-print" 
+          onClick={() => window.print()}> 🖨️ Print
+        </button>
+
+        <h1 className="grocery-list-header">Grocery List 📄</h1> <hr />
+
+        <input 
+          type="text" 
+          value={newItem} 
+          className="input-add-item no-print" 
+          placeholder="Enter Item..."
+          onChange={handleNewItemChange} 
+        />
+
+        <button 
+          className="grocery-add-btn no-print"
+          onClick={handleAddItem}> + Add Item
+        </button>
+
+        {groceryList.map(item => 
+          <div key={item} className="grocery-container">
+            <button onClick={handleDelete(item)}>❎</button>
+            <input type="checkbox" value={item} /> 
+            <span className="list-content">{item}</span>
+          </div>
+        )}<br /> <hr />
       </div>
 
       <div className="home-btn-grocery">
-          <button className="cuisine-home-button no-print" onClick={() => navigate("/") }>🏡 Home</button>
+          <button className="grocery-home-btn no-print" onClick={ () => navigate("/") }> 🏡 Home </button>
       </div>
     </>
   );
