@@ -6,7 +6,7 @@ import Cuisine from './components/Cuisine';
 import React, { useEffect, useState } from 'react';
 import GroceryList from './components/GroceryList';
 
-const baseUrl = 'http://localhost:3000'
+const baseUrl = process.env.REACT_APP_BASE_URL
 const foodsUrl = `${baseUrl}/foods`
 
 const categoriesUrl = `${baseUrl}/categories`
