@@ -7,7 +7,7 @@ function Search ({ foods }) {
   const [isFound, setIsFound] = useState()
 
   function findFood () {
-    const food = foods.find(food => food.name.toLowerCase().indexOf(searchFood.toLowerCase()) >= 0)
+    const food = foods.find(food => food.name.toLowerCase() === searchFood.toLowerCase())
     if (food) {
       navigate(`/foods/${ food.id }`)
     }

@@ -102,11 +102,11 @@ input.invalid {
 }
 
 .cuisines-main-container {
-  background-color: rgba(255, 99, 71, 0.317);
+  background-color: rgba(255, 99, 71, 0.576);
   margin-top: 20px;
   border-radius: 5px;
   margin-bottom: 10px;
-  height: 100vh;
+  height: 80vh;
 }
 
 .recipe-back-button {
