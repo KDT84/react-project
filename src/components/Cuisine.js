@@ -45,7 +45,6 @@ function Cuisine ({ foods, isLoading, setGroceryList }) {
               </ul>
               <h1 className="prep-cook-time"> Prep ⏰: { cuisine.prepTime } / Cook ⏰: { cuisine.cookTime } </h1>
             </div>
-
             <button className="cuisine-back-button no-print" onClick={() => navigate(-1) }>⬅️ Back</button>
             <button className="cuisine-home-button no-print" onClick={() => navigate("/") }>🏡 Home</button>
         </div>
