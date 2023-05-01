@@ -11,7 +11,7 @@ function Home ({ categories, isLoading, foods })  {
       <>
         <Search foods={ foods } />
         <h1 className='header'>Cook Book 📖 </h1> <br />
-        <ul>
+        <ul className='list-categories-container'>
           { categories.map(category => 
             <li key={ category.name } className='list-home-categories'>
               <Link className='category-name' to={ `/foodCategory/${ category.name }`}>
