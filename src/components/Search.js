@@ -3,8 +3,8 @@ import { useNavigate } from "react-router-dom";
 
 function Search ({ foods }) {
   const [searchFood, setSearchFood ] = useState("")
-  const navigate = useNavigate()
   const [isFound, setIsFound] = useState()
+  const navigate = useNavigate()
 
   function findFood () {
     const food = foods.find(food => food.name.toLowerCase() === searchFood.toLowerCase())
@@ -25,10 +25,10 @@ function Search ({ foods }) {
       <button className='search-btn' onClick={ findFood }>Search</button>
       <input 
         className={isFound === false ? 'search-category invalid' : 'search-category'}
+        onChange={ handleFind }
         type="text" 
         value={ searchFood } 
-        placeholder='Search Recipe' 
-        onChange={ handleFind }
+        placeholder='Enter Recipe Name' 
       />
     </>
    );

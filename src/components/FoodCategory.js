@@ -3,8 +3,8 @@ import { useParams, useNavigate } from "react-router-dom";
 import CuisineTile from "./CuisineTile";
 import Loading from "./Loading";
 
-function FoodCategory ({ foods, isLoading, upVote, downVote }) {
-  const { category } = useParams(); //destructure category. useParamas gets the category name of the 
+function FoodCategory ({ foods, isLoading, retrieveData }) {
+  const { category } = useParams(); 
   const cuisines = foods.filter(food => food.category === category);
   const navigate = useNavigate();
 
@@ -17,8 +17,7 @@ function FoodCategory ({ foods, isLoading, upVote, downVote }) {
           <CuisineTile 
             key={ cuisine.id } 
             cuisine={ cuisine } 
-            upVote={upVote} 
-            downVote={downVote}
+            retrieveData = {retrieveData }
           /> )}
         </div>
         <button 

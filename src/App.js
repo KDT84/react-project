@@ -1,70 +1,49 @@
 import './App.css';
 import { Routes, Route } from 'react-router-dom';
+import React, { useEffect, useState } from 'react';
 import Home from './components/Home';
 import FoodCategory from './components/FoodCategory';
 import Cuisine from './components/Cuisine';
-import React, { useEffect, useState } from 'react';
 import GroceryList from './components/GroceryList';
 
-const baseUrl = process.env.REACT_APP_BASE_URL
-const foodsUrl = `${baseUrl}/foods`
-
-const categoriesUrl = `${baseUrl}/categories`
+// urls
+const foodsUrl = "http://localhost:3000/foods"
+const categoriesUrl ="http://localhost:3000/categories"
 
 function App() {
-  const [categories, setCategories] = useState([])
-  const [foods, setFoods] = useState([])
-  const [isLoading, setIsLoading] = useState(true)
-  const [groceryList, setGroceryList] = useState([])
+  const [categories, setCategories] = useState([])  //sets categories_data
+  const [foods, setFoods] = useState([])  //sets foods_data
+  const [isLoading, setIsLoading] = useState(true)  //displays loading message when fetching
+  const [groceryList, setGroceryList] = useState([]) //sets the groceryLIst data
 
-  useEffect(() => {
+  useEffect(() => { 
     retrieveData()
-  }, [])
+  }, []) //we use an empty dependency array to make sure it only run once after the initial render.
 
+//fetches the foods and categories data
   function retrieveData() {
     return fetch(foodsUrl)
       .then(res => res.json())
-      .then(data => {
-        setFoods(data)
+      .then(foodData => {
+        setFoods(foodData) //sets the state to a new value(foods) from json data.
         
         fetch(categoriesUrl)
           .then(res => res.json())
-          .then(d => {
-            
-            setCategories(d)
+          .then(categoriesData=> {
+            setCategories(categoriesData) //sets the state to a new value(categories) from json data.
             setIsLoading(false)
           })
       })
   }
 
-  function upVote(cuisine) {
-    fetch(foodsUrl + "/" + cuisine.id, {
-      method: 'PATCH',
-      headers: {
-        "Content-Type": "application/json"
-      },
-      body: JSON.stringify({upVotes: cuisine.upVotes + 1})
-    })
-    .then(() => retrieveData())
-  }
-
-  function downVote(cuisine) {
-    fetch(foodsUrl + "/" + cuisine.id, {
-      method: 'PATCH',
-      headers: {
-        "Content-Type": "application/json"
-      },
-      body: JSON.stringify({downVotes: cuisine.downVotes + 1})
-    })
-    .then(() => retrieveData())
-  }
-
+  
+  //routes
   return (
     <> 
       <Routes>
-        <Route exact path="/" element={<Home categories={ categories } isLoading={isLoading} foods={foods} />} /> 
-        <Route path="/foodCategory/:category" element={<FoodCategory foods={ foods } isLoading={isLoading} upVote={upVote} downVote={downVote}  />} />
-        <Route path="/foods/:id" element={<Cuisine foods={ foods } isLoading={isLoading} setGroceryList={setGroceryList}/>} />
+        <Route exact path="/" element={<Home categories={categories} foods={foods} isLoading={isLoading}  />} /> 
+        <Route path="/foodCategory/:category" element={<FoodCategory foods={foods} isLoading={isLoading} retrieveData={ retrieveData }/>} />
+        <Route path="/foods/:id" element={<Cuisine foods={foods} setGroceryList={setGroceryList} isLoading={isLoading}/>} />
         <Route path="/groceryList" element={<GroceryList groceryList={groceryList} setGroceryList={setGroceryList} />} />
       </Routes>
     </>

@@ -1,12 +1,37 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 
-function CuisineTile ({ cuisine, upVote, downVote }) {
+const foodsUrl = "http://localhost:3000/foods"
+
+function CuisineTile ({ cuisine, retrieveData }) {
   const navigate = useNavigate()
   
   function handleIngredients() {
     navigate(`/foods/${cuisine.id}`)
   }
+
+    function upVote(food) {
+    fetch(foodsUrl + "/" + food.id, {
+      method: 'PATCH', 
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify({ upVotes: food.upVotes + 1 })
+    })
+    .then(() => retrieveData()) //retrievers the data back
+  }
+
+  function downVote(food) {
+    fetch(foodsUrl + "/" + food.id, {
+      method: 'PATCH',
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify({ downVotes: food.downVotes + 1} )
+    })
+    .then(() => retrieveData()) //retrievers the data back
+  }
+
 
   return (
     <>

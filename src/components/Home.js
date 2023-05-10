@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import Loading from './Loading';
 import Search from './Search';
 
-function Home ({ categories, isLoading, foods })  {
+function Home ({ categories, foods, isLoading })  {
 
   return (
     <>
