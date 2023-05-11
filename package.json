@@ -15,12 +15,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "dev-react-server": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "start": "node server.js",
-    "dev-json-server": "json-server --watch src/data/db.json"
+    "start": "react-scripts start",
+    "server": "json-server --watch src/data/db.json"
   },
   "eslintConfig": {
     "extends": [

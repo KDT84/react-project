@@ -10,7 +10,7 @@ function Home ({ categories, foods, isLoading })  {
     { !isLoading ? 
       <>
         <Search foods={ foods } />
-        <h1 className='header'>Cook Book 📖 </h1> <br />
+        <h1 className='header'>Recipe Book 📖 </h1> <br />
         <ul className='list-categories-container'>
           { categories.map(category => 
             <li key={ category.name } className='list-home-categories'>
