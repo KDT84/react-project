@@ -2,7 +2,7 @@ import React from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import Loading from "./Loading";
 
-function Cuisine ({ foods, isLoading, setGroceryList }) {
+function Recipe ({ foods, isLoading, setGroceryList }) {
   const { id } = useParams()
   const cuisine = foods.find(food => Number(food.id) === Number(id))
   const navigate = useNavigate()
@@ -56,4 +56,4 @@ function Cuisine ({ foods, isLoading, setGroceryList }) {
 );
 }
  
-export default Cuisine;
+export default Recipe;

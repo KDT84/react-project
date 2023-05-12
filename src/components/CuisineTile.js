@@ -6,7 +6,7 @@ const foodsUrl = "http://localhost:3000/foods"
 function CuisineTile ({ cuisine, retrieveData }) {
   const navigate = useNavigate()
   
-  function handleIngredients() {
+  function handleRecipe() {
     navigate(`/foods/${cuisine.id}`)
   }
 
@@ -38,7 +38,7 @@ function CuisineTile ({ cuisine, retrieveData }) {
       <div key={ cuisine.id } className="cuisine-container">
         <p className="cuisine-tile-name">{ cuisine.name }</p>
         <img className="cuisine-tile-image" src={ cuisine.image } alt={cuisine.name + cuisine.iamge}/> <br />
-        <button className="recipe-tile-button" onClick={ handleIngredients }>📕 Recipe</button>
+        <button className="recipe-tile-button" onClick={ handleRecipe }>📕 Recipe</button>
         <div>
           <button className="votes-btn" onClick={() => upVote(cuisine)} >{ cuisine.upVotes } 👍</button>
           <button className="votes-btn" onClick={() => downVote(cuisine) }>{ cuisine.downVotes } 👎</button>

@@ -53,7 +53,8 @@ function GroceryList({ groceryList, setGroceryList}) {
       </div>
 
       <div className="home-btn-grocery">
-          <button className="grocery-home-btn no-print" onClick={ () => navigate("/") }> 🏡 Home </button>
+        <button className="grocery-back-btn no-print" onClick={ () => navigate(-1) }> ⬅️ Back </button>
+        <button className="grocery-home-btn no-print" onClick={ () => navigate("/") }> 🏡 Home </button>
       </div>
     </>
   );
