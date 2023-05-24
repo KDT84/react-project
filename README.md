@@ -1,6 +1,6 @@
 #PROJECT NAME
 
-- CookBook Recipe App
+- Recipe App
 
 #PROJECT DESCRIPTION
 
