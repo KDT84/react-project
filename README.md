@@ -30,6 +30,20 @@ If you want to print another recipe you have click the home button and start all
 
 - I encountered few challenges while doing this project. The biggest one was handling route errors. I tried few different methods but some of them are either deprecated or not available for functional approach. There's few more features that i'd love to add to this App but I don't have the luxury of time. 
 
+#Component Map
+
+APP
+  - Home
+    - Loading
+    - Search
+  - Food Category
+    - Cuisine Tile
+    - Loading
+  - Recipe
+    - Loading
+  - Grocery List
+
+
 #TABLE OF CONTENTS
 
 1. First Page:
