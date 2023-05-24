@@ -3,11 +3,11 @@ import { useNavigate } from "react-router-dom";
 
 const foodsUrl = "http://localhost:3000/foods"
 
-function CuisineTile ({ cuisine, retrieveData }) {
+function FoodTile ({ food, retrieveData }) {
   const navigate = useNavigate()
 
   function handleRecipe() {
-    navigate(`/foods/${cuisine.id}`)
+    navigate(`/foods/${food.id}`)
   }
 
   function upVote(food) {
@@ -34,17 +34,17 @@ function CuisineTile ({ cuisine, retrieveData }) {
 
   return (
     <>
-      <div key={ cuisine.id } className="cuisine-container">
-        <p className="cuisine-tile-name">{ cuisine.name }</p>
-        <img className="cuisine-tile-image" src={ cuisine.image } alt={cuisine.name + cuisine.iamge}/> <br />
+      <div key={ food.id } className="food-container">
+        <p className="food-tile-name">{ food.name }</p>
+        <img className="food-tile-image" src={ food.image } alt={food.name + food.image}/> <br />
         <button className="recipe-tile-button" onClick={ handleRecipe }>📕 Recipe</button>
         <div>
-          <button className="votes-btn" onClick={() => upVote(cuisine)} >{ cuisine.upVotes } 👍</button>
-          <button className="votes-btn" onClick={() => downVote(cuisine) }>{ cuisine.downVotes } 👎</button>
+          <button className="votes-btn" onClick={() => upVote(food)} >{ food.upVotes } 👍</button>
+          <button className="votes-btn" onClick={() => downVote(food) }>{ food.downVotes } 👎</button>
         </div>
       </div>
     </>
   );
 }
  
-export default CuisineTile;
+export default FoodTile;

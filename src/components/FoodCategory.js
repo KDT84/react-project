@@ -1,22 +1,22 @@
 import React from "react";
 import { useParams, useNavigate } from "react-router-dom";
-import CuisineTile from "./CuisineTile";
+import FoodTile from "./FoodTile";
 import Loading from "./Loading";
 
 function FoodCategory ({ foods, isLoading, retrieveData }) {
   const { category } = useParams(); 
-  const cuisines = foods.filter(food => food.category.toLowerCase() === category.toLowerCase());
+  const filteredFoods = foods.filter(food => food.category.toLowerCase() === category.toLowerCase());
   const navigate = useNavigate();
 
   return (
     <>
      {!isLoading ? 
       <>
-        <h1 className="category-title">{category} Cuisines</h1>
-        <div className="cuisines-main-container"> {cuisines.map(cuisine =>
-          <CuisineTile 
-            key={ cuisine.id } 
-            cuisine={ cuisine } 
+        <h1 className="category-title">{category} Foods</h1>
+        <div className="foods-main-container"> {filteredFoods.map(food =>
+          <FoodTile 
+            key={ food.id } 
+            food={ food } 
             retrieveData = {retrieveData }
           /> )}
         </div>

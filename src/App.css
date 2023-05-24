@@ -101,7 +101,7 @@ body {
   font-size: 40px;
 }
 
-.cuisines-main-container {
+.foods-main-container {
   background-color: rgba(255, 99, 71, 0.576);
   margin-top: 20px;
   border-radius: 5px;
@@ -126,9 +126,9 @@ body {
   background-color: rgba(128, 128, 128, 0.403);
 }
 
-/* ---------------------Start Cuisine Tile Component--------------------- */
+/* ---------------------Start Food Tile Component--------------------- */
 
-.cuisine-container {
+.food-container {
   background-color: rgba(255, 68, 0, 0.681);
   margin: 30px 0 10px 40px;
   overflow: hidden;
@@ -138,7 +138,7 @@ body {
   height: 318px;
 }
 
-.cuisine-tile-name {
+.food-tile-name {
   text-align: center;
   font-family: cursive;
   font-weight: bold;
@@ -148,7 +148,7 @@ body {
 
 }
 
-.cuisine-tile-image {
+.food-tile-image {
   width: 240px;
   height: 200px;
   margin-left: 5px;
@@ -181,13 +181,13 @@ body {
   background-color: blanchedalmond;
 }
 
-/* -----------------------Start Cuisine Component---------------------- */
+/* -----------------------Start food Component---------------------- */
 
-.cuisine-recipe-main-container {
+.food-recipe-main-container {
   margin-top: 20px;
 }
 
-.cuisine-recipe-header {
+.food-recipe-header {
   font-family: cursive;
   text-align: center;
   font-weight: bold;
@@ -202,7 +202,7 @@ body {
   float: right;
 }
 
-.cuisine-print-btn, .cuisine-add-btn {
+.food-print-btn, .food-add-btn {
   background-color: white;
   border-radius: 5px;
   font-family:serif;
@@ -211,11 +211,11 @@ body {
   cursor: pointer;
 }
 
-.cuisine-print-btn:hover {
+.food-print-btn:hover {
   background-color: rgba(255, 235, 205, 0.755);
 }
 
-.cuisine-add-btn:hover {
+.food-add-btn:hover {
   background-color: rgba(255, 235, 205, 0.473);
 }
 
@@ -260,7 +260,7 @@ body {
   font-size: 20px;
 }
 
-.cuisine-back-button {
+.food-back-button {
   margin: 20px 10px 20px 41%;
   background-color: beige;
   font-family: sans-serif;
@@ -271,11 +271,11 @@ body {
   width: 120px;
 }
 
-.cuisine-back-button:hover {
+.food-back-button:hover {
   background-color: rgba(128, 128, 128, 0.367);
 }
 
-.cuisine-home-button {
+.food-home-button {
   background-color: beige;
   font-family: sans-serif;
   border-radius: 5px;
@@ -285,7 +285,7 @@ body {
   width: 120px;
 }
 
-.cuisine-home-button:hover {
+.food-home-button:hover {
   background-color: rgba(128, 128, 128, 0.367);
 }
 

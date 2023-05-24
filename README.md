@@ -42,7 +42,7 @@ HOME PAGE
 2. Second Page:
    
 CATEGORY PAGE
-   - displays cuisines from a choosen country
+   - displays foods from a choosen country
    - recipe option
    - leave a like or unlike (optional)
 
