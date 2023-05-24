@@ -5,12 +5,12 @@ const foodsUrl = "http://localhost:3000/foods"
 
 function CuisineTile ({ cuisine, retrieveData }) {
   const navigate = useNavigate()
-  
+
   function handleRecipe() {
     navigate(`/foods/${cuisine.id}`)
   }
 
-    function upVote(food) {
+  function upVote(food) {
     fetch(foodsUrl + "/" + food.id, {
       method: 'PATCH', 
       headers: {
@@ -18,7 +18,7 @@ function CuisineTile ({ cuisine, retrieveData }) {
       },
       body: JSON.stringify({ upVotes: food.upVotes + 1 })
     })
-    .then(() => retrieveData()) //retrievers the data back
+    .then(() => retrieveData()) 
   }
 
   function downVote(food) {
@@ -29,9 +29,8 @@ function CuisineTile ({ cuisine, retrieveData }) {
       },
       body: JSON.stringify({ downVotes: food.downVotes + 1} )
     })
-    .then(() => retrieveData()) //retrievers the data back
+    .then(() => retrieveData()) 
   }
-
 
   return (
     <>

@@ -5,7 +5,7 @@ import Loading from "./Loading";
 
 function FoodCategory ({ foods, isLoading, retrieveData }) {
   const { category } = useParams(); 
-  const cuisines = foods.filter(food => food.category === category);
+  const cuisines = foods.filter(food => food.category.toLowerCase() === category.toLowerCase());
   const navigate = useNavigate();
 
   return (

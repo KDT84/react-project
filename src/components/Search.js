@@ -16,7 +16,7 @@ function Search ({ foods }) {
     }
   }
 
-  function handleFind(e) {
+  function handleChange(e) {
     setSearchFood(e.target.value)
   }
   
@@ -25,7 +25,7 @@ function Search ({ foods }) {
       <button className='search-btn' onClick={ findFood }>Search</button>
       <input 
         className={isFound === false ? 'search-category invalid' : 'search-category'}
-        onChange={ handleFind }
+        onChange={ handleChange }
         type="text" 
         value={ searchFood } 
         placeholder='Enter Recipe Name' 
