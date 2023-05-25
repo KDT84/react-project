@@ -7,6 +7,8 @@ function FoodCategory ({ foods, isLoading, retrieveData }) {
   const { category } = useParams(); 
   const filteredFoods = foods.filter(food => food.category.toLowerCase() === category.toLowerCase());
   const navigate = useNavigate();
+  
+  console.log(filteredFoods)
 
   return (
     <>
@@ -20,12 +22,14 @@ function FoodCategory ({ foods, isLoading, retrieveData }) {
             retrieveData = {retrieveData }
           /> )}
         </div>
+        console.log(food)
         <button 
           className="recipe-back-button" 
           type="button" 
           onClick={() => navigate(-1) }>⬅️ Back
         </button>
       </>
+
      : 
      <Loading />}
     </>
