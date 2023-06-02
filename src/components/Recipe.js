@@ -2,21 +2,23 @@ import React from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import Loading from "./Loading";
 import Nopage from "./Nopage";
+import useLocaStorage from "./useLocalStorage";
 
-function Recipe ({ foods, isLoading, setGroceryList}) {
+function Recipe ({ foods, isLoading }) {
   const { id } = useParams()
+  const { set } = useLocaStorage('groceryList')
   const navigate = useNavigate()
   const food = foods.find(food => Number(food.id) === Number(id))
-// not found id
-if (!food) {
-  navigate('/notfound')
-}
-// -----
+  // not found id
+  if (!food) {
+    navigate('/notfound')
+  }
+  // -----
   
-function addGroceryListHandler() {
-  setGroceryList(food.ingredients.map(item => `${ item.name } - ${ item.amount }`))
-  navigate('/groceryList')
-}
+  function addGroceryListHandler() {
+    set(food.ingredients.map(item => `${ item.name } - ${ item.amount }`))
+    navigate('/groceryList')
+  }
 
   return (
     <>

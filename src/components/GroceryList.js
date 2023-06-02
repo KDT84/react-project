@@ -1,7 +1,10 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import useLocaStorage from "./useLocalStorage";
 
-function GroceryList({ groceryList, setGroceryList}) {
+function GroceryList() {
+  const { get, set } = useLocaStorage('groceryList')
+  const [groceryList, setGroceryList] = useState(get())
   const navigate = useNavigate()
   const [newItem, setNewItem] = useState("") 
 
@@ -10,14 +13,20 @@ function GroceryList({ groceryList, setGroceryList}) {
   }
 
   function handleAddItem() {
-    const set = new Set([...groceryList, newItem])
-    setGroceryList([...set])
+    const list = new Set([...groceryList, newItem])
+    const listArray = [...list]
+
+    setGroceryList(listArray)
+    set(listArray)
   }
 
   function handleDelete(item) {
     
     return function () {
-      setGroceryList(groceryList.filter(groceryItem => groceryItem !== item))
+      const filteredGroceryList = groceryList.filter(groceryItem => groceryItem !== item)
+      
+      setGroceryList(filteredGroceryList)
+      set(filteredGroceryList)
     }
   }
 

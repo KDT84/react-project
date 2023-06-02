@@ -15,7 +15,6 @@ function App() {
   const [categories, setCategories] = useState([])  
   const [foods, setFoods] = useState([])  
   const [isLoading, setIsLoading] = useState(true)  
-  const [groceryList, setGroceryList] = useState([]) 
 
   useEffect(() => { 
     retrieveData()
@@ -42,8 +41,8 @@ function App() {
       <Routes>
         <Route exact path="/" element={<Home categories={categories} foods={foods} isLoading={isLoading}/>} /> 
         <Route path="/foodCategory/:category" element={<FoodCategory categories={categories} foods={foods} isLoading={isLoading} retrieveData={ retrieveData }/>} />
-        <Route path="/foods/:id" element={<Recipe foods={foods} setGroceryList={setGroceryList} isLoading={isLoading} />} />
-        <Route path="/groceryList" element={<GroceryList groceryList={groceryList} setGroceryList={setGroceryList} />} />
+        <Route path="/foods/:id" element={<Recipe foods={foods} isLoading={isLoading} />} />
+        <Route path="/groceryList" element={<GroceryList />} />
         <Route path="*" element={<Nopage />}/>
       </Routes>
     </>

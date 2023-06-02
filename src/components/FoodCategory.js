@@ -6,14 +6,19 @@ import Loading from "./Loading";
 function FoodCategory ({ foods, categories, isLoading, retrieveData }) {
   const { category } = useParams(); 
   const navigate = useNavigate();
+  let filteredFoods = []
+  
+  // Not found category
+  if (!isLoading) {
 
-  // check that the categories exists in the categories array
-  const foundCategory = categories.find(c => c.name.toLowerCase() === category.toLowerCase())
-  if (!foundCategory) {
-    navigate('/notfound')
+    const foundCategory = categories.find(c => c.name.toLowerCase() === category.toLowerCase())
+    if (!foundCategory) {
+      navigate('/notfound')
+    }
+
+    filteredFoods = foods.filter(food => food.category.toLowerCase() === category.toLowerCase());
+
   }
-
-  const filteredFoods = foods.filter(food => food.category.toLowerCase() === category.toLowerCase());
 
   return (
     <>
