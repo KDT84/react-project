@@ -1,3 +1,4 @@
+// customed hook. we use setter and getter for our local storage.
 
 function useLocaStorage (key) {
 

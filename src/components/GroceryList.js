@@ -2,8 +2,13 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import useLocaStorage from "./useLocalStorage";
 
+// another bug: Ingredients disappeared when refreshed. 
+
 function GroceryList() {
-  const { get, set } = useLocaStorage('groceryList')
+  
+  // we import our set()and get() function from our local storage. 
+  const { get, set } = useLocaStorage('groceryList') 
+
   const [groceryList, setGroceryList] = useState(get())
   const navigate = useNavigate()
   const [newItem, setNewItem] = useState("") 
@@ -11,12 +16,13 @@ function GroceryList() {
   function handleNewItemChange(e){
     setNewItem(e.target.value)
   }
-
+ 
   function handleAddItem() {
+    // We use Set object to ensure our values are unique then we store the values in our list variable.
     const list = new Set([...groceryList, newItem])
     const listArray = [...list]
-
     setGroceryList(listArray)
+    // we use the set function to store the values into our local storage. 
     set(listArray)
   }
 

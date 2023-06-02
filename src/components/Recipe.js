@@ -6,16 +6,20 @@ import useLocaStorage from "./useLocalStorage";
 
 function Recipe ({ foods, isLoading }) {
   const { id } = useParams()
+  // we import the setter function from our useLocalStorage.
   const { set } = useLocaStorage('groceryList')
   const navigate = useNavigate()
   const food = foods.find(food => Number(food.id) === Number(id))
-  // not found id
+
+  // PREVIOUS BUG: if id not found!
   if (!food) {
     navigate('/notfound')
   }
   // -----
   
+  
   function addGroceryListHandler() {
+    // this is responsible for storing values into our storage using the set().
     set(food.ingredients.map(item => `${ item.name } - ${ item.amount }`))
     navigate('/groceryList')
   }

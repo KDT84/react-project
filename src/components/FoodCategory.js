@@ -8,10 +8,10 @@ function FoodCategory ({ foods, categories, isLoading, retrieveData }) {
   const navigate = useNavigate();
   let filteredFoods = []
   
-  // Not found category
+  
   if (!isLoading) {
-
     const foundCategory = categories.find(c => c.name.toLowerCase() === category.toLowerCase())
+    //PREVIOUS BUG:  If category not found!
     if (!foundCategory) {
       navigate('/notfound')
     }
