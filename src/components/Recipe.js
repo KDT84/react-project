@@ -1,17 +1,23 @@
 import React from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import Loading from "./Loading";
+import Nopage from "./Nopage";
 
-function Recipe ({ foods, isLoading, setGroceryList }) {
+function Recipe ({ foods, isLoading, setGroceryList}) {
   const { id } = useParams()
-  const food = foods.find(food => Number(food.id) === Number(id))
   const navigate = useNavigate()
-
-  function addGroceryListHandler() {
-    setGroceryList(food.ingredients.map(item => `${ item.name } - ${ item.amount }`))
-    navigate('/groceryList')
-  }
+  const food = foods.find(food => Number(food.id) === Number(id))
+// not found id
+if (!food) {
+  navigate('/notfound')
+}
+// -----
   
+function addGroceryListHandler() {
+  setGroceryList(food.ingredients.map(item => `${ item.name } - ${ item.amount }`))
+  navigate('/groceryList')
+}
+
   return (
     <>
       {

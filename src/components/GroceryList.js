@@ -46,9 +46,11 @@ function GroceryList({ groceryList, setGroceryList}) {
 
         {groceryList.map(item => 
           <div key={item} className="grocery-container">
-            <button className="x-btn" onClick={handleDelete(item)}>X</button>
-            <input className="checkbox" type="checkbox" value={item} /> 
+            
+            <input className="checkbox" type="checkbox" value={item} />
             <span className="list-content">{item}</span>
+            <button className="x-btn" onClick={handleDelete(item)}>X</button>
+
           </div>
         )}<br /> 
       </div>

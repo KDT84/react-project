@@ -42,7 +42,7 @@ function App() {
       <Routes>
         <Route exact path="/" element={<Home categories={categories} foods={foods} isLoading={isLoading}/>} /> 
         <Route path="/foodCategory/:category" element={<FoodCategory categories={categories} foods={foods} isLoading={isLoading} retrieveData={ retrieveData }/>} />
-        <Route path="/foods/:id" element={<Recipe foods={foods} setGroceryList={setGroceryList} isLoading={isLoading} categories={categories}/>} />
+        <Route path="/foods/:id" element={<Recipe foods={foods} setGroceryList={setGroceryList} isLoading={isLoading} />} />
         <Route path="/groceryList" element={<GroceryList groceryList={groceryList} setGroceryList={setGroceryList} />} />
         <Route path="*" element={<Nopage />}/>
       </Routes>

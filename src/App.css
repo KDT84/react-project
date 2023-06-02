@@ -344,6 +344,8 @@ body {
 .list-content {
   font-weight: bold;
   font-size: 22px;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
 .input-add-item {
@@ -401,9 +403,14 @@ body {
 }
 
 .checkbox {
-  margin-left: 20px;
+  margin-left: 30px;
+  margin-bottom: 10px;
 }
 
+.x-btn {
+  color: red;
+  margin-left: 10px;
+}
 
 /* ------------end-------------- */
 
