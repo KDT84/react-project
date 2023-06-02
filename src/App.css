@@ -30,6 +30,7 @@ body {
 .back-home {
   text-align: center;
   font-size: 35px;
+  margin-left: 45%;
 }
 
 
@@ -197,7 +198,7 @@ body {
   background-color: blanchedalmond;
 }
 
-/* -----------------------Start food Component---------------------- */
+/* -----------------------Start Recipe Component---------------------- */
 
 .food-recipe-main-container {
   margin-top: 20px;
