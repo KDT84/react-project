@@ -18,11 +18,27 @@ body {
   border-radius: 10px;
 }
 
+/*----------------- Page not found --------------- */
+
+.not-found {
+  text-align: center;
+  font-size: 50px;
+  color: red;
+  margin-bottom: 100px;
+}
+
+.back-home {
+  text-align: center;
+  font-size: 35px;
+}
+
+
 /*----------------- Start Homepage Component--------------- */
 
 .loading {
   color: blue;
 }
+
 
 .header {
   background-color: rgba(255, 235, 205, 0.567);
@@ -381,6 +397,10 @@ body {
 
 .grocery-add-btn:hover {
   background-color: rgba(255, 235, 205, 0.473);
+}
+
+.checkbox {
+  margin-left: 20px;
 }
 
 

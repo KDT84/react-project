@@ -10,7 +10,8 @@ function GroceryList({ groceryList, setGroceryList}) {
   }
 
   function handleAddItem() {
-    setGroceryList([...new Set([...groceryList, newItem])])
+    const set = new Set([...groceryList, newItem])
+    setGroceryList([...set])
   }
 
   function handleDelete(item) {
@@ -45,8 +46,8 @@ function GroceryList({ groceryList, setGroceryList}) {
 
         {groceryList.map(item => 
           <div key={item} className="grocery-container">
-            <button onClick={handleDelete(item)}>❎</button>
-            <input type="checkbox" value={item} /> 
+            <button className="x-btn" onClick={handleDelete(item)}>X</button>
+            <input className="checkbox" type="checkbox" value={item} /> 
             <span className="list-content">{item}</span>
           </div>
         )}<br /> 

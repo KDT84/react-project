@@ -14,8 +14,7 @@ function Home ({ categories, foods, isLoading })  {
         <ul className='list-categories-container'>
           { categories.map(category => 
             <li key={ category.name } className='list-home-categories'>
-              <Link className='category-name' to={ `/foodCategory/${ category.name }`}>
-                { category.name }
+              <Link className='category-name' to={ `/foodCategory/${ category.name }`}> { category.name }
                 <img className="category-main-image" src={ category.image } alt={ category.name + " food image" }/>
               </Link>
             </li>
